@@ -5,4 +5,4 @@
 {% endfor %} - [Students]({{ site.absoluteurl }}{{ site.baseurl }}/students)<input type="button" value="RANDOM DRAW" onclick="pickStudent(this.nextSibling);"/><select style="display:none">{% assign current_students = site.students | where: "status", "current" %}{% for student in current_students %}
 <option>{{ student.name }}</option>{% endfor %}
 </select>
- - [![Build Status](https://travis-ci.org/AIMS-Ghana{{ base_url }}.svg)](https://travis-ci.org/AIMS-Ghana{{ base_url }})
+ - [![Build Status](https://travis-ci.org/AIMS-Ghana{{ baseurl }}.svg)](https://travis-ci.org/AIMS-Ghana{{ baseurl }})
