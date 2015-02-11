@@ -4,6 +4,16 @@ repourl: 'https://raw.githubusercontent.com/AIMS-Ghana/seam/gh-pages/_includes/'
 markdown: kramdown
 css:
   active: "active"
+collections:
+  days:
+    output: true
+defaults:
+  -
+    scope:
+      path: ""
+      type: "days"
+    values:
+      layout: "section"
 exclude:
  - run.sh
  - Gemfile
