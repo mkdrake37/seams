@@ -1,0 +1,10 @@
+absoluteurl: http://AIMS-Ghana.github.io
+baseurl: '/seam'
+repourl: 'https://raw.githubusercontent.com/AIMS-Ghana/seam/gh-pages/_includes/'
+markdown: kramdown
+css:
+  active: "active"
+exclude:
+ - run.sh
+ - Gemfile
+ - README.md

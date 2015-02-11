@@ -1,0 +1,227 @@
+---
+---
+
+$absiconurl: url(/icon.png);
+
+$dark: #191970;
+$light: #FFF44F;
+$paledark: #313157;
+$palelight: #C5B358;
+
+$tonedark: #FFFFFF;
+$tonemid: #0A0A0A;
+$tonelight: #1A1A1A;
+
+html { margin:0; padding:0; }
+
+@mixin prefixed($name, $argument...) {
+  -webkit-#{$name}: #{$argument};
+  -ms-#{$name}: #{$argument};
+  -moz-#{$name}: #{$argument};
+  -o-#{$name}: #{$argument};
+  #{$name}: #{$argument};
+}
+
+@mixin prefixedargs($name, $same, $argument) {
+  #{$name}: $same, -webkit-#{$argument};
+  #{$name}: $same, -ms-#{$argument};
+  #{$name}: $same, -moz-#{$argument};
+  #{$name}: $same, -o-#{$argument};
+  #{$name}: $same, #{$argument};
+}
+
+@mixin prefixedargsnocomma($name, $argument) {
+  #{$name}: -webkit-#{$argument};
+  #{$name}: -ms-#{$argument};
+  #{$name}: -moz-#{$argument};
+  #{$name}: -o-#{$argument};
+  #{$name}: #{$argument};
+}
+
+$iconwid: 60px;
+$bodybdwid: 5px;
+
+@function lin_split($split, $leftcol:$paledark, $rightcol:$tonelight) {
+  @return linear-gradient(left, $leftcol 0, $leftcol $split, $rightcol $split, $rightcol 100%);
+}
+
+@function lin_decay($split, $leftcol:$paledark, $rightcol:$tonelight, $end:100%) {
+  @return linear-gradient(left, $leftcol 0, $leftcol $split, $leftcol $split, $rightcol $end);
+}
+
+$fadep:0.05;
+$endp:0.9;
+
+/* establish body box */
+body {
+  padding-left: $bodybdwid;
+  padding-top: $bodybdwid;
+  margin: 0;
+  @include prefixedargsnocomma(background-image, lin_decay($split:$fadep*($iconwid + 2*$bodybdwid), $end:$endp*($iconwid + 2*$bodybdwid)));
+  background-attachment: fixed;
+}
+
+$logowid: 143px + $bodybdwid;
+
+.nav {
+  /* creates a left-navigation bar that hides when
+     not hovering, sticks in position, and scrolls
+     when the nav elements are too many */
+  display: inline-block;
+  width: $iconwid + 2*$bodybdwid;
+  opacity: 0;
+  overflow-x: visible;
+  z-index: 10;
+
+  @include prefixed(transition, width 1s, opacity 0.2s);
+
+  &:hover {
+    width: auto;
+    padding-right: 3em;
+    opacity: 1;
+    @include prefixed(transition-delay, 0.5s);
+  }
+
+  text-align: left;
+  padding : 0em;
+  margin : 0em;
+  font-size: 1em;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  list-style-type: none;
+  @include prefixedargsnocomma(background-image, lin_decay($split:$logowid, $rightcol:transparent));
+  height: 100vh;
+  overflow-y: auto;
+
+  li {
+    white-space: nowrap;
+    margin : 0em;
+    color: $palelight;
+    border-radius: 0 $bodybdwid*2 $bodybdwid*2 0;
+    padding-left: $bodybdwid;
+    padding-right: 1em;
+
+    &:hover {
+      background-color: $light;
+      color : $dark;
+    }
+
+    &.active {
+      color : $light;
+      background-color: $dark;
+    }
+
+    a {
+	    text-decoration: none;
+	    color : inherit;
+	    padding : $bodybdwid/2 0;
+	    display : block;
+      img {
+        margin: $bodybdwid/2 0 0 0;
+      }
+    }
+
+    select, input {
+      font-size: inherit;
+    }
+
+  }
+
+}
+
+.content {
+  /* handles the left navigate offset */
+  width : auto;
+  padding : 1px 1px 1px 60px;
+  color : $tonedark;
+  background : $tonelight;
+  @include prefixedargs(background-image, $absiconurl, lin_decay( $split:$fadep*($iconwid + $bodybdwid), $end:$endp*($iconwid + $bodybdwid)));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: $bodybdwid $bodybdwid;
+
+}
+
+.content:after {
+  /* places text logo in navigation region;
+     visible while nav hidden. */
+  content: "AIMS GHANA";
+  position: fixed;
+  top: 50%;
+  left: -1.5*$iconwid;
+  font-size: 2*$iconwid/3;
+  font-weight: bold;
+  transform: rotate(90deg);
+  background: -webkit-linear-gradient(left, red 0%, red 33.3%, gold 33.3%, gold 66.6%, green 66.6%, green 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.content {
+
+  > * {
+    margin-left: 1%;
+  }
+
+  a {
+    color : inherit;
+    &:hover { background-color: $tonemid; }
+  }
+
+  .blurb {
+    text-align: left;
+    img {
+      margin-left: 1em;
+      margin-right: 1em;
+      margin-bottom: 1em;
+      margin-top: 0em;
+    }
+    &:nth-of-type(even) {
+      img {
+        float: right;
+      }
+    }
+    &:nth-of-type(odd) {
+      img {
+        float: left;
+      }
+    }
+
+  }
+
+  .blurb + hr {
+    clear: both;
+  }
+}
+
+body {
+  font-family: sans-serif;
+
+  .prevnext {
+    position: fixed;
+    left: 80%;
+    width: 20%;
+    background-color: rgba(0,0,0,0.5);
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+
+    a {
+      display: block;
+      color: white;
+      text-decoration: none;
+    }
+
+    .prev:before { content:"<- " }
+    .prev {
+      margin-left:1em;
+    }
+
+    .next:after { content:" ->" }
+    .next {
+      float:right;
+      margin-right:1em;
+    }
+
+  }
+}

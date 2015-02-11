@@ -1,0 +1,37 @@
+---
+layout: compress
+---
+<!doctype html>
+<html>
+<head>
+  <title>Intro to Scientific Computing with Python : {{ page.title }}</title>
+  {% include favicon.liquid %}
+  <link rel="stylesheet" type="text/css" href="{{ site.absoluteurl }}{{ site.baseurl }}/css/site.css">
+  <link rel="stylesheet" type="text/css" href="{{ site.absoluteurl }}{{ site.baseurl }}/css/python-highlight.css">
+{% if page.math %}
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] }
+  });
+  </script>
+  <script type="text/javascript"
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+{% endif %}
+  <script type="text/javascript"
+    src="{{ site.absoluteurl }}{{ site.baseurl }}/js/site.js">
+    </script>
+</head>
+<body>
+{% capture nav %}{% include nav.md %}{% endcapture %}{{ nav | markdownify }}
+{% if page.collection == "days" %}
+  <div class="prevnext">
+  {% include daynav.liquid %}
+  </div>
+{% endif %}
+<div class="content">
+{{ content }}
+{% if page.prep %}{% capture pp %}{% include prep.md %}{% endcapture %}{{ pp | markdownify }}{% endif %}
+</div>
+</body>
+</html>

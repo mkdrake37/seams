@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+  <title>{{ page.title }}</title>
+  {% include favicon.liquid %}
+  <link rel="stylesheet" type="text/css" href="{{ site.absoluteurl }}{{ site.baseurl }}/css/site.css">
+</head>
+<body>
+{% capture nav %}{% include nav.md %}{% endcapture %}{{ nav | markdownify }}
+<div class="prevnext">
+{% include studentnav.liquid %}
+</div>
+<div class="content">
+{{ content }}
+</div>
+</body>
+</html>
