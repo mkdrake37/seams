@@ -11,3 +11,5 @@ or **SEAM** for short.
 ## Workshop Description
 
 TODO: just taking up space now
+
+## TESTING TRAVIS SETUP
