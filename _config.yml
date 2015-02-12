@@ -1,5 +1,5 @@
 absoluteurl: http://AIMS-Ghana.github.io
-baseurl: '/seam'
+baseurl: '/seams'
 repourl: 'https://raw.githubusercontent.com/AIMS-Ghana/seam/gh-pages/_includes/'
 markdown: kramdown
 css:
