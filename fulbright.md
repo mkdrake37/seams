@@ -67,6 +67,25 @@ them
 
 > Workshop Impact on Host Institution (2,500 characters)
 
+AIMS, like any research and training organization, prospers according to its
+reputation.  That reputation is built by the accomplishments of the
+individuals that participate in its program.  Thus, the more high-quality work
+its students and researchers get out to the public in general, especially while
+participating in AIMS-based activities, the better faculty and students the
+institute will attract.
+
+The mission of AIMS is to develop mathematical talent, not produce programmers.
+However, important technical work often involves a substantial software component.
+Some students will naturally gravitate to this kind of work, and AIMS will benefit
+by helping those students get the best coaching and collaboration tailored to
+cultivating their interests as computational scientists and mathematicians.
+By adding an optional workshop to end of the formal curriculum, AIMS can best balance
+encouraging this subset of the cohort and meeting the needs of the whole student
+body.
+
+Offering an optional workshop after the formal program, however, will maximize
+the benefit to students for invested resources.
+
 Since the workshop is focused on translating research work, we anticipate that
 at least a few projects will eventually lead to publicly available products - e.g.
 software modules for open source languages such as R or Python, web-based applications
@@ -80,6 +99,20 @@ for working with international partners, prepares its members to go abroad and b
 immediately ready to engage with high profile, difficult work.
 - having the workshop as a regular (though optional, competitive) part of the
 program might encourage more / more diverse research proposals
+
+
+It is not generally useful to isolate the mathematical or scientific work and
+the software tasks, much like it is not desirable to completely separate field or laboratory
+work from theoretical development.  Both sides are impoverished.
+
+Some students will have a natural inclination towards this bridging work, and would benefit
+from perspective.
+
+Given the time available, the mission of AIMS, and the needs of different students relative to
+their backgrounds and the projects they select, the formal coursework at AIMS covers
+programming syntax and applications to specific problems, but does not specifically devote time to the complexities of integrating software into technical work.  This is the appropriate
+balance: without that foundation and the practical experience to expose them to
+real challenges of this kind of work
 
 ## Prompt 4:
 
