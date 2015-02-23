@@ -9,23 +9,25 @@ layout: section
 
 The *Software Engineering for Applied Mathematics and Sciences (SEAMS)* workshop
 will provide expert coaching for some of the best African mathematics students,
-so that those students can take their research projects to their next level, while
-learning how to be effective team members in complex technical collaborations.
+so that those students can take their research projects to the next level,
+while also gaining experience in the practices and tools used by effective
+international technical collaborations tackling complex challenges.
 
-The African Institute for Mathematical Sciences (AIMS) is a pan-African organization,
-with affiliate sites in several nations, including Ghana.  AIMS Ghana, like the
-other AIMS sites, focuses on developing the mathematical talent of promising African men and women
-via a collaboration of African researchers, students, and volunteer faculty from prominent
-institutions world-wide, including many in the US.  This is accomplished via their
-accelerated Masters program, which includes a few months of foundational coursework,
-followed by a few months of intensive electives, and finally a few months of student-driven
+The African Institute for Mathematical Sciences (AIMS) is a pan-African
+organization, with affiliate sites in several nations, including Ghana.  AIMS
+Ghana, like the other AIMS sites, focuses on developing the mathematical talent
+of promising African men and women via a collaboration of African researchers,
+students, and volunteer faculty from prominent institutions world-wide,
+including many in the US.  This is accomplished via their accelerated Masters
+program, which includes a few months of foundational coursework, followed by a
+few months of intensive electives, and finally a few months of student-driven
 research which is ultimately evaluated in a thesis defense.
 
-The focus for the program at AIMS goes beyond producing world-class researchers:
+The focus for AIMS program goes beyond producing world-class researchers:
 we seek to develop people who will apply their mathematical talents to the
 challenges facing Africa today.  This emphasis on applications of mathematical
 thinking - whether driving African advancement in the academy, public
-service, or private business - often lends itself to computational-based
+service, or private development - often lends itself to computational
 approaches.
 
 Given that, the program of study across all AIMS sites includes multiple courses
@@ -35,29 +37,48 @@ substantial amount of programming.  For students that find themselves drawn into
 more computational work - *e.g.*, modeling of large, complex public health
 challenges such as Ebola - this basic coursework and initial research form a
 solid foundation, and ideally positions them to take advantage of additional
-coaching, but currently AIMS Ghana is not positioned to leverage this opportunity.
+mentorship, but the core AIMS does not leverage this opportunity.
 
-This is what we are attempting to accomplish with the *SEAMS* workshop: to take those basic materials
-and weave them together into a finished garment.
+We would like to address this gap by piloting an optional workshop focused
+translating the student's research into high-quality programming products.  The
+translation work will be tailored to the student projects, but we expect that
+it will lead to publishable products, either in academic settings or as open
+source tools on the world wide web.  This translation work will also provide an
+opportunity for students to obtain expert training on the practices and tools
+used in complex research software projects, preparing them to work in the international
+collaborations in academia (e.g., groups like the ATLAS experiment, or the Human Genome project)
+or industry (e.g., big data technology companies like Google).
 
-In addition to learning programming language
-syntax and basic problem solving, they would also enormously benefit from mentorship
-on how to effectively integrate programming into their work.  Especially given the important differences in the computational "ecosystem" in Africa compared to where
-most software development instructional material is produced.
+TODO: note about particular tailoring to African setting?
 
 ## Prompt 1 (based on order provided):
 
 > Project/workshop description (2,500 characters): type and scope of work that specialists would engage in (specific activities they would be doing, the extent and level of activities and who activities would benefit)
 
 The workshop is intended to introduce students to the issues particular to research
-software, some perspectives and practices to overcome those issues, as well as
+software, some perspectives, best practices, and tools to overcome those issues, as well as
 to provide an opportunity to apply those to their thesis work with coaching
 from expert mentors.
 
-- discussion of software engineering concerns, how they apply acutely in African
-context
-- particular engagement with the student projects: review of that work leading
-up to workshop, tailored preparation of discussion sections
+We are requesting specialists that can perform the following:
+
+ - prepare and lead classroom discussions of several general topics for research software, including
+ short and long-form practical exercises to accompany those sessions.  Example
+ topics would include how to organize analysis pipelines, tradeoffs for various
+ data management options, developing test suites to verify and validate research
+ code, how to incorporate others research work and how to distribute their own
+ work, among others.
+ - the prepared materials should also be available
+ - review student projects leading up to the workshop to prepare appropriate
+ focus sessions.  Example focus topics might include using numerical methods libraries for
+ partial differential equations in various languages, integrating with geographic information systems,
+ bioinformatics tools, among others.
+ - work with local senior personnel to integrate them into the program, with the goal
+ of developing local expertise that can be called on throughout the AIMS semester,
+ as well as someone that understands the program and can help coordinate it longer
+ term.
+
+
 - preparation of open-source workshop materials - training discussions, practice
 work - post-discussions, highlight questions people had, and the discussions surrounding
 them
