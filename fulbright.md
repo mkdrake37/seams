@@ -67,22 +67,29 @@ We are requesting specialists that can perform the following:
  topics would include how to organize analysis pipelines, tradeoffs for various
  data management options, developing test suites to verify and validate research
  code, how to incorporate others research work and how to distribute their own
- work, among others.
- - the prepared materials should also be available
+ work, among others.  The prepared materials should also be organized into an
+ open-source, globally accessible repository, for reference to the students and
+ other potential workshops
  - review student projects leading up to the workshop to prepare appropriate
  focus sessions.  Example focus topics might include using numerical methods libraries for
  partial differential equations in various languages, integrating with geographic information systems,
  bioinformatics tools, among others.
- - work with local senior personnel to integrate them into the program, with the goal
+ - work with local senior personnel to integrate them into the workshop program, with the goal
  of developing local expertise that can be called on throughout the AIMS semester,
  as well as someone that understands the program and can help coordinate it longer
  term.
+ - where warranted, continue to collaborate with students after the workshop to
+ move projects to published products, or coordinate introductions between the
+ students and other collaborates interested in that translation work
 
-
-- preparation of open-source workshop materials - training discussions, practice
-work - post-discussions, highlight questions people had, and the discussions surrounding
-them
-- coaching students through process of delivering a scientific software product
+The principle beneficiaries of this work are the students themselves, by improving
+their skillsets and in some cases adding their work to the body of global research
+knowledge and tools.  The local senior personnel and specialists will also likely
+improve their skills as part of the workshop, and may be listed as co-authors on
+student publications.  Finally, the AIMS organization expects to benefit from
+the reputation that accrues from having students publish high-quality, complex
+technical work and from having the workshop as an incentive to attract high-quality
+students.
 
 ## Prompt 3:
 
@@ -138,6 +145,8 @@ real challenges of this kind of work
 ## Prompt 4:
 
 > Project Potential for Institutional Linkages (2,500 characters): for developing linkages between AIMS-Ghana and grantee's home institution....can be plans to expand and build on; new projects, mutual exchange of students/faculty; future collaborations on publications, etc between the institutions...
+
+We expect the specialists to come from the academy or advanced technical industry.
 
 software engineering intrinsically about how to collaborate on complex problems.
 even though we do not expect students to become professional software developers,
