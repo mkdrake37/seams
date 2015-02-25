@@ -18,7 +18,7 @@ organization, with affiliate sites in several nations, including Ghana.  AIMS
 Ghana, like the other AIMS sites, focuses on developing the mathematical talent
 of promising African men and women via a collaboration of African researchers,
 students, and volunteer faculty from prominent institutions world-wide,
-including many in the US.  This is accomplished via their accelerated Masters
+including many in the US.  This is accomplished via our accelerated Masters
 program, which includes a few months of foundational coursework, followed by a
 few months of intensive electives, and finally a few months of student-driven
 research which is ultimately evaluated in a thesis defense.
@@ -37,7 +37,7 @@ substantial amount of programming.  For students that find themselves drawn into
 more computational work - *e.g.*, modeling of large, complex public health
 challenges such as Ebola - this basic coursework and initial research form a
 solid foundation, and ideally positions them to take advantage of additional
-mentorship, but the core AIMS does not leverage this opportunity.
+mentorship, but the core AIMS curriculum does not leverage this opportunity.
 
 We would like to address this gap by piloting an optional workshop focused
 translating the student's research into high-quality programming products.  The
@@ -88,8 +88,8 @@ knowledge and tools.  The local senior personnel and specialists will also likel
 improve their skills as part of the workshop, and may be listed as co-authors on
 student publications.  Finally, the AIMS organization expects to benefit from
 the reputation that accrues from having students publish high-quality, complex
-technical work and from having the workshop as an incentive to attract high-quality
-students.
+technical work and from having the workshop as an incentive to attract the best
+possible students and proposals from African researchers.
 
 ## Prompt 3:
 
