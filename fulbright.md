@@ -99,8 +99,8 @@ AIMS, like any research and training organization, prospers according to its
 reputation.  That reputation is built by the accomplishments of the
 individuals that participate in its program.  Thus, the more high-quality work
 its students and researchers get out to the public in general, especially while
-participating in AIMS-based activities, the better faculty and students the
-institute will attract.
+participating in AIMS-based activities, the better faculty, students, and
+research proposals the institute will attract.
 
 The mission of AIMS is to develop mathematical talent, not produce programmers.
 However, important technical work often involves a substantial software component.
@@ -111,23 +111,28 @@ By adding an optional workshop to end of the formal curriculum, AIMS can best ba
 encouraging this subset of the cohort and meeting the needs of the whole student
 body.
 
-Offering an optional workshop after the formal program, however, will maximize
-the benefit to students for invested resources.
-
 Since the workshop is focused on translating research work, we anticipate that
 at least a few projects will eventually lead to publicly available products - e.g.
 software modules for open source languages such as R or Python, web-based applications
 making the research accessible to policy-makers.  All of these products would
-highlight AIMS as an organization that reflects the highest intellectual standards,
+highlight AIMS as an organization that reflects the highest intellectual standards
+with innovative research that is clearly communicated and easily replicable and extended,
 devotion to broad advancement of the African continent, and as place where students
 and researchers can develop meaningful talents.
 
-- makes it a better partner to african researchers, improves its competitiveness
-for working with international partners, prepares its members to go abroad and be
-immediately ready to engage with high profile, difficult work.
-- having the workshop as a regular (though optional, competitive) part of the
-program might encourage more / more diverse research proposals
+Including this workshop makes AIMS a better partner to the African researchers that
+propose student work, since they can expect that the research products will be
+packaged in a more organized, portable, and robust form, ready to apply to their
+other work or future endeavors.  It may also encourage more diverse proposals,
+as researchers encounter products that they might not have necessarily linked
+to mathematical research.
 
+Given the expanding role of mathematical and computational components across
+technical disciplines, this workshop will also improve AIM students'
+competitiveness for working internationally, since they will be prepared to go
+abroad and be immediately ready to engage with high profile, difficult work.
+
+DRAFT IDEAS BELOW
 
 It is not generally useful to isolate the mathematical or scientific work and
 the software tasks, much like it is not desirable to completely separate field or laboratory
