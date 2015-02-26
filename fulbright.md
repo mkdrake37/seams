@@ -151,7 +151,21 @@ real challenges of this kind of work
 
 > Project Potential for Institutional Linkages (2,500 characters): for developing linkages between AIMS-Ghana and grantee's home institution....can be plans to expand and build on; new projects, mutual exchange of students/faculty; future collaborations on publications, etc between the institutions...
 
-We expect the specialists to come from the academy or advanced technical industry.
+We anticipate the specialists will naturally be enthusiastic about the research
+that our students are doing, and fully support them working collaboratively
+with the students, other AIMS faculty, and African researchers that submitted
+the proposals to make that work into something that benefits Africa and the world.
+
+Because of the specialists will be coming from US universities or industry, we
+anticipate that they will be aware of mutually beneficial matches between our students
+and their home institutions, and that the skills developed in this course will
+help those potential collaborations whether realized locally or in person.
+
+Because of the nature of our research proposal system - where we solicit projects
+from researchers in Africa - we anticipate that the specialists may also end up
+connecting long term with those people.
+
+
 
 software engineering intrinsically about how to collaborate on complex problems.
 even though we do not expect students to become professional software developers,
