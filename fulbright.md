@@ -13,6 +13,8 @@ so that those students can take their research projects to the next level,
 while also gaining experience in the practices and tools used by effective
 international technical collaborations tackling complex challenges.
 
+> TJH note: more concrete on "the next level"
+
 The African Institute for Mathematical Sciences (AIMS) is a pan-African
 organization, with affiliate sites in several nations, including Ghana.  AIMS
 Ghana, like the other AIMS sites, focuses on developing the mathematical talent
@@ -23,24 +25,29 @@ program, which includes a few months of foundational coursework, followed by a
 few months of intensive electives, and finally a few months of student-driven
 research which is ultimately evaluated in a thesis defense.
 
+> TJH note: few months == roughly three months; or x months divided into
+three terms with the following focuses
+
+> MD note: alternative "talent"
+
 The focus for AIMS program goes beyond producing world-class researchers:
 we seek to develop people who will apply their mathematical talents to the
 challenges facing Africa today.  This emphasis on applications of mathematical
-thinking - whether driving African advancement in the academy, public
-service, or private development - often lends itself to computational
+thinking -- whether driving African advancement in the academy, public
+service, or private development -- often lends itself to computational
 approaches.
 
 Given that, the program of study across all AIMS sites includes multiple courses
 on programming.  When the students begin their thesis study, many of the
 projects involve at least some computational work, and some involve a
 substantial amount of programming.  For students that find themselves drawn into
-more computational work - *e.g.*, modeling of large, complex public health
-challenges such as Ebola - this basic coursework and initial research form a
+more computational work -- *e.g.*, modeling of large, complex public health
+challenges such as Ebola -- this basic coursework and initial research form a
 solid foundation, and ideally positions them to take advantage of additional
 mentorship, but the core AIMS curriculum does not leverage this opportunity.
 
 We would like to address this gap by piloting an optional workshop focused
-translating the student's research into high-quality programming products.  The
+translating the students' research into high-quality programming products.  The
 translation work will be tailored to the student projects, but we expect that
 it will lead to publishable products, either in academic settings or as open
 source tools on the world wide web.  This translation work will also provide an
@@ -48,6 +55,8 @@ opportunity for students to obtain expert training on the practices and tools
 used in complex research software projects, preparing them to work in the international
 collaborations in academia (e.g., groups like the ATLAS experiment, or the Human Genome project)
 or industry (e.g., big data technology companies like Google).
+
+> TJH note: "this translation work"x2
 
 TODO: note about particular tailoring to African setting?
 
@@ -62,14 +71,15 @@ from expert mentors.
 
 We are requesting specialists that can perform the following:
 
- - prepare and lead classroom discussions of several general topics for research software, including
+ - direct mentorship of students for blah, blah
+ - prepare and lead classroom discussions about developing research software, including
  short and long-form practical exercises to accompany those sessions.  Example
- topics would include how to organize analysis pipelines, tradeoffs for various
- data management options, developing test suites to verify and validate research
+ topics would include how to organize analysis pipelines, tradeoffs between various
+ data management approaches, developing test suites to verify and validate research
  code, how to incorporate others research work and how to distribute their own
  work, among others.  The prepared materials should also be organized into an
  open-source, globally accessible repository, for reference to the students and
- other potential workshops
+ other potential workshops.
  - review student projects leading up to the workshop to prepare appropriate
  focus sessions.  Example focus topics might include using numerical methods libraries for
  partial differential equations in various languages, integrating with geographic information systems,
@@ -78,9 +88,9 @@ We are requesting specialists that can perform the following:
  of developing local expertise that can be called on throughout the AIMS semester,
  as well as someone that understands the program and can help coordinate it longer
  term.
- - where warranted, continue to collaborate with students after the workshop to
+ - continue to collaborate with students after the workshop to
  move projects to published products, or coordinate introductions between the
- students and other collaborates interested in that translation work
+ students and other collaborates interested in that translation work.
 
 The principle beneficiaries of this work are the students themselves, by improving
 their skillsets and in some cases adding their work to the body of global research
@@ -95,7 +105,11 @@ possible students and proposals from African researchers.
 
 > Workshop Impact on Host Institution (2,500 characters)
 
-AIMS, like any research and training organization, prospers according to its
+> TJH, MD - less cynical / b-school wording?  more positive, currently too negatively frank
+
+> MD, emphasize international networking?
+
+AIMS, like any research and training organization, is its
 reputation.  That reputation is built by the accomplishments of the
 individuals that participate in its program.  Thus, the more high-quality work
 its students and researchers get out to the public in general, especially while
@@ -165,7 +179,9 @@ Because of the nature of our research proposal system - where we solicit project
 from researchers in Africa - we anticipate that the specialists may also end up
 connecting long term with those people.
 
+specialists recruiting potential faculty for AIMS
 
+emphasize AIMS network
 
 software engineering intrinsically about how to collaborate on complex problems.
 even though we do not expect students to become professional software developers,

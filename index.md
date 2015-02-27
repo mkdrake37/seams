@@ -13,3 +13,7 @@ or *SEAMS* for short.
 TODO: just taking up space now
 
 ## TESTING TRAVIS SETUP
+
+## Tentative General Topic Sessions
+
+ - 
