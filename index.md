@@ -14,6 +14,87 @@ TODO: just taking up space now
 
 ## TESTING TRAVIS SETUP
 
-## Tentative General Topic Sessions
+## Tentative Schedule
 
- - 
+Week 1, Monday, AM
+: Introduction / Icebreakers
+: Reviewing Fundamental Language Constructs
+
+PM
+: Review, part II
+: Long Exercise for Review
+
+Tuesday, AM
+: Overview of Workshop Goals
+: How to Define a Programming Project in Research
+
+PM
+: Long Exercise
+: Students Do Definition Work on their projects
+
+Wednesday, AM
+: Warmup
+: What to consider when organizing Your Code, Data, and Results + Tools to Help
+
+PM
+: Long Exercise
+: Students Do Layout Work on their projects
+
+Thursday, AM
+: Warmup
+: Organizational within Your Source - Best Practices, Separation of Concerns
+
+PM
+: Long Exercise
+: Students Do Layout Work within Source
+
+Friday, AM
+: Warmup
+: How to Verify and Validate Research as You Work
+
+PM
+: Long Exercise
+: Students prepare testing code for their project
+
+Saturday, Sunday
+: Continue Test Case Development
+: Workshop Trip
+
+Week 2, Monday, AM
+: Warmup
+: IO - Why, What, When, Where, and sometimes How
+
+PM
+: Long Exercise
+: Students organize Data Flows in their projects
+
+Tuesday, AM
+: Warmup
+: Interfaces
+
+PM
+: Long Exercise
+: Students organize / refactor the interfaces within / at the surface of their code
+
+Wednesday, AM
+: Warmup
+: Modeling in Code
+
+PM
+: Long Exercise
+: Free Mentored Student Work from here on
+
+Thursday, AM
+: Warmup
+: Optimization - When, Where, How
+
+PM
+: Long Exercise
+: Free Student work
+
+Friday, AM
+: Prepare for Demonstrations
+
+PM
+: Demonstrations
+: Workshop Wrap
