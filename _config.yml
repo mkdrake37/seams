@@ -7,6 +7,9 @@ css:
 collections:
   days:
     output: true
+  topics:
+    output: true
+    permalink: /topic/:name/
 defaults:
   -
     scope:

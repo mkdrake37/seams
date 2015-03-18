@@ -26,7 +26,7 @@ PM
 
 Tuesday, AM
 : Overview of Workshop Goals
-: How to Define a Programming Project in Research
+: [How to Define a Programming Project in Research](topic/defining-project/)
 
 PM
 : Long Exercise
@@ -34,7 +34,7 @@ PM
 
 Wednesday, AM
 : Warmup
-: What to consider when organizing Your Code, Data, and Results + Tools to Help
+: [What to consider when organizing Your Code, Data, and Results + Tools to Help](topic/organizing-outer/)
 
 PM
 : Long Exercise
@@ -42,7 +42,7 @@ PM
 
 Thursday, AM
 : Warmup
-: Organizational within Your Source - Best Practices, Separation of Concerns
+: [Organizing inside Your Source - Best Practices, Separation of Concerns](topic/organizing-inner/)
 
 PM
 : Long Exercise
@@ -50,7 +50,7 @@ PM
 
 Friday, AM
 : Warmup
-: How to Verify and Validate Research as You Work
+: [How to Verify and Validate Research Code as You Work](topic/testing/)
 
 PM
 : Long Exercise
@@ -62,7 +62,7 @@ Saturday, Sunday
 
 Week 2, Monday, AM
 : Warmup
-: IO - Why, What, When, Where, and sometimes How
+: [IO - Why, What, When, Where, and sometimes How](topic/io/)
 
 PM
 : Long Exercise
@@ -70,7 +70,7 @@ PM
 
 Tuesday, AM
 : Warmup
-: Interfaces
+: [Interfaces](topic/interfaces/)
 
 PM
 : Long Exercise
@@ -78,7 +78,7 @@ PM
 
 Wednesday, AM
 : Warmup
-: Modeling in Code
+: [Modeling in Code](topic/modeling/)
 
 PM
 : Long Exercise
@@ -86,7 +86,7 @@ PM
 
 Thursday, AM
 : Warmup
-: Optimization - When, Where, How
+: [Optimization - When, Where, How](topic/optimization/)
 
 PM
 : Long Exercise
