@@ -5,8 +5,9 @@ markdown: kramdown
 css:
   active: "active"
 collections:
-  days:
+  warmups:
     output: true
+    permalink: /warmup/:name/
   topics:
     output: true
     permalink: /topic/:name/
