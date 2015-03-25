@@ -5,96 +5,97 @@ layout: section
 
 ## Overview
 
-Home for the AIMS Ghana workshop *Software Engineering for Applied Mathematical Sciences*,
-or *SEAMS* for short.
+Home for the AIMS Ghana workshop *Computation in Applied Mathematical Sciences*,
+or *CAMS* for short.
 
 ## Workshop Description
 
 TODO: just taking up space now
 
-## TESTING TRAVIS SETUP
-
 ## Tentative Schedule
 
 Week 1, Monday, AM
-: Introduction / Icebreakers
-: Reviewing Fundamental Language Constructs
+: Introduction / Icebreakers [all instructors]
+: Reviewing Fundamental Language Constructs [all instructors]
 
 PM
-: Review, part II
-: Long Exercise for Review
+: Review, part II [all instructors]
+: Long Exercise for Review [all instructors]
 
 Tuesday, AM
-: Overview of Workshop Goals
-: [How to Define a Programming Project in Research](topic/defining-project/) UT folks
+: Overview of Workshop Goals [Carl]
+: [How to Define a Programming Project in Research](topic/defining-project/) [UT folks - TODO pick a lead]
 
 PM
-: Long Exercise
-: Students Do Definition Work on their projects
+: Introduction to Running Exercise Problem: Predicting (Association) Football Outcomes [Tom]
+: Students Do Definition Work on their projects [all instructors]
 
 Wednesday, AM
-: Warmup
-: [What to consider when organizing Your Code, Data, and Results + Tools to Help](topic/organizing-outer/) Carl
+: Warmup [not Carl]
+: [What to consider when organizing Your Code, Data, and Results + Tools to Help](topic/organizing-outer/) [Carl]
 
 PM
-: Long Exercise
-: Students Do Layout Work on their projects
+: Long Exercise [Carl]
+: Students Do Layout Work on their projects [all instructors]
 
 Thursday, AM
-: Warmup
-: [Organizing inside Your Source - Best Practices, Separation of Concerns](topic/organizing-inner/) Tom
+: Warmup [not Tom]
+: [Organizing inside Your Source - Best Practices, Separation of Concerns](topic/organizing-inner/) [Tom]
 
 PM
-: Long Exercise
-: Students Do Layout Work within Source
+: Long Exercise [Tom]
+: Students Do Layout Work within Source [all instructors]
 
 Friday, AM
-: Warmup
-: [How to Verify and Validate Research Code as You Work](topic/testing/) UT folks
+: Warmup [not lead]
+: [How to Verify and Validate Research Code as You Work](topic/testing/) [UT folks - TODO pick lead]
 
 PM
-: Long Exercise
-: Students prepare testing code for their project
+: Long Exercise [UT folks - TODO pick lead]
+: Students prepare testing code for their project [all instructors]
 
 Saturday, Sunday
 : Continue Test Case Development
 : Workshop Trip
 
 Week 2, Monday, AM
-: Warmup
-: [IO - Why, What, When, Where, and sometimes How](topic/io/) Tom
+: Warmup [not Tom]
+: [IO - Why, What, When, Where, and sometimes How](topic/io/) [Tom]
 
 PM
-: Long Exercise
-: Students organize Data Flows in their projects
+: Long Exercise [Tom]
+: Students organize Data Flows in their projects [all instructors]
 
 Tuesday, AM
-: Warmup
-: [Interfaces](topic/interfaces/) UT folks
+: Warmup [not lead]
+: [Interfaces](topic/interfaces/) [UT folks - TODO pick lead]
 
 PM
-: Long Exercise
+: Long Exercise [UT folks - TODO pick lead]
 : Students organize / refactor the interfaces within / at the surface of their code
 
 Wednesday, AM
-: Warmup
-: [Modeling in Code](topic/modeling/) UT folks
+: Warmup [not lead]
+: [Modeling in Code](topic/modeling/) [UT folks - TODO pick lead]
 
 PM
-: Long Exercise
+: Long Exercise [UT folks - TODO pick lead]
 : Free Mentored Student Work from here on
 
 Thursday, AM
-: Warmup
-: [Optimization - When, Where, How](topic/optimization/) UT folks
+: Warmup [not lead]
+: [Optimization - When, Where, How](topic/optimization/) [UT folks - TODO pick lead]
 
 PM
-: Long Exercise
+: Long Exercise [UT folks - TODO pick lead] TODO: have long exercise end here or before?
 : Free Student work
 
 Friday, AM
-: Prepare for Demonstrations
+: Prepare for Demonstrations [all instructors]
 
 PM
-: Demonstrations
+: Demonstrations [all instructors]
 : Workshop Wrap
+
+Saturday, AM
+: instructors depart
