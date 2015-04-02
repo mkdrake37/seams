@@ -7,18 +7,19 @@ HOWTO CAMS
  2. go to github.com/aims-ghana/seams
  3. use the "fork" button (top right-ish)
  4. ...wait til done
- 5. looking at fork, switch to gh-pages branch (selector box for branch)
- 6. navigate through files to target
+ 5. looking at fork, switch to gh-pages branch if not already there (selector box for branch)
+ 6. navigate through files to target (e.g., README.md in this case)
  7. when viewing target, click edit button (pencil, top left of view panel)
  8. ...make edits
  9. scroll down to bottom of screen
  10. enter useful headline for edits
  11. if more details useful, enter them as well in big text box
- 12. commit
- 13. pull request changes back to aims-ghana/seams
- 14. can continue to make updates while waiting for pull to be accepted, and all will be included
- 15. once pull accepted, trash fork
- 16. repeat as necessary
+ 12. commit (directly to gh-pages branch)
+ 13. click pull request (button to the side of resulting view below button for code (looks like "<>"))
+ 14. select gh-pages branch in aims-ghana and your repositories, then click buttons to proceed (there are a few, with different names, but all green)
+ 15. can continue to make updates while waiting for pull to be accepted, and all will be included
+ 16. once pull accepted, trash fork
+ 17. repeat as necessary
 
 ## More General Developing material
 
