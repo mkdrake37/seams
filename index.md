@@ -24,7 +24,7 @@ PM
 
 Tuesday, AM
 : Overview of Workshop Goals [Carl]
-: [How to Define a Programming Project in Research](topic/defining-project/) [UT folks - TODO pick a lead]
+: [How to Define a Programming Project in Research](topic/defining-project/) [UT folks - Marjie]
 
 PM
 : Introduction to Running Exercise Problem: Predicting (Association) Football Outcomes [Tom]
@@ -48,10 +48,10 @@ PM
 
 Friday, AM
 : Warmup [not lead]
-: [How to Verify and Validate Research Code as You Work](topic/testing/) [UT folks - TODO pick lead]
+: [How to Verify and Validate Research Code as You Work](topic/testing/) [UT folks - Nicky]
 
 PM
-: Long Exercise [UT folks - TODO pick lead]
+: Long Exercise: Provide Code for Correction/Improvement [UT folks - Nicky]
 : Students prepare testing code for their project [all instructors]
 
 Saturday, Sunday
@@ -68,26 +68,26 @@ PM
 
 Tuesday, AM
 : Warmup [not lead]
-: [Interfaces](topic/interfaces/) [UT folks - TODO pick lead]
+: [Interfaces](topic/interfaces/) [UT folks - Ethan]
 
 PM
-: Long Exercise [UT folks - TODO pick lead]
+: Long Exercise:  Have Code Interface with Other Programs [UT folks - Ethan]
 : Students organize / refactor the interfaces within / at the surface of their code
 
 Wednesday, AM
 : Warmup [not lead]
-: [Modeling in Code](topic/modeling/) [UT folks - TODO pick lead]
+: [Modeling in Code](topic/modeling/) [UT folks - Marjie]
 
 PM
-: Long Exercise [UT folks - TODO pick lead]
+: Long Exercise: Traveling Salesman [UT folks - Marjie]
 : Free Mentored Student Work from here on
 
 Thursday, AM
 : Warmup [not lead]
-: [Optimization - When, Where, How](topic/optimization/) [UT folks - TODO pick lead]
+: [Optimization - When, Where, How](topic/optimization/) [UT folks - Nicky]
 
 PM
-: Long Exercise [UT folks - TODO pick lead] TODO: have long exercise end here or before?
+: Long Exercise: Improve Traveling Salesman [UT folks - Nicky] TODO: have long exercise end here or before?
 : Free Student work
 
 Friday, AM
