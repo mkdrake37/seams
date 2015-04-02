@@ -21,6 +21,20 @@ HOWTO CAMS
  16. once pull accepted, trash fork
  17. repeat as necessary
 
+## Recipe for editing locally
+
+ 1. have github account
+ 2. have git (recommend github's client - right level of bells and whistles)
+ 3. have plain text editor (recommend atom, though sublimetext is also good, Notepad++ if stuck w/ windows environment)
+ 4. have jekyll installed (recommend using the ruby gem github-pages to accomplish this)
+ 5. fork repo online (see above), then clone your repo
+ 6. cd into clone (e.g., `$ cd ~/A_DIR_FOR_REPOS/seams`)
+ 7. open site in text editor (e.g., `$ atom .`)
+ 8. launch local copy of site (`$ ./run.sh` will fire it up on localhost:4000)
+ 9. ...make edits, review edits w/ browser...
+ 10. push changes to your repo
+ 11. pull request from your repo into aims-ghana/seams repo
+
 ## More General Developing material
 
  1. learn [git](http://git-scm.com/documentation "git docs"), [github](https://help.github.com/),
