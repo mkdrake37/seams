@@ -2,6 +2,7 @@ absoluteurl: http://AIMS-Ghana.github.io
 baseurl: '/seams'
 repourl: 'https://raw.githubusercontent.com/AIMS-Ghana/seam/gh-pages/_includes/'
 markdown: kramdown
+encoding: utf-8
 css:
   active: "active"
 collections:
@@ -11,6 +12,15 @@ collections:
   topics:
     output: true
     permalink: /topic/:name/
+  practice:
+    output: true
+    permalink: /practice/:name/
+  projects:
+    output: true
+    permalink: /project/:name/
+  sessions:
+    output: true
+    permalink: /session/:name/
 defaults:
   -
     scope:
