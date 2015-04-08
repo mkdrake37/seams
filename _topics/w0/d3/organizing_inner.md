@@ -3,6 +3,40 @@ layout: section
 title: Organizing inside Your Source - Best Practices, Separation of Concerns
 ---
 
+## What are coding conventions or best practices?
+ - just a conversation, not intended to be exhaustive
+
+## Value and burden of conventions
+ - faster development
+ - avoid decision fatigue
+ - encoded information for the human reader
+ - can be tedious/contentious/fail to be universally optimal
+
+## Some topics
+ - syntax
+    - capitalization vs CamelCase vs pothole_case
+    - whitespace
+ - naming
+    - get/set
+    - indicating type
+    - to reduce comment burden
+ - ordering
+    - function arguments
+    - variable declaration
+    - functions
+ - optimizations
+    - legibility (good first priority)
+    - maintainability (dry principle)
+    - algorithmic complexity (as needed)
+
+## OOP
+ - structure code the way people think
+ - separation of concerns
+    - clear interfaces
+    - agnostic internals
+
+
+## previous notes
 organizing by way of syntax choices: capitalization vs CamelCase vs pothole_case,
 indentation, arrangement of function arguments, etc.
 
