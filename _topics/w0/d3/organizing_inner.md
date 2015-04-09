@@ -35,6 +35,12 @@ title: Organizing inside Your Source - Best Practices, Separation of Concerns
     - clear interfaces
     - agnostic internals
 
+## Comments from 04/08/15
+ - conventions may be institutional or language specific
+ - NASA example
+ - math has its own set of conventions, that may compete with programmatic concerns
+ - best option tends to be audience-specific
+
 
 ## previous notes
 organizing by way of syntax choices: capitalization vs CamelCase vs pothole_case,
