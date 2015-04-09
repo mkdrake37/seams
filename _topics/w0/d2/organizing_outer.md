@@ -6,6 +6,8 @@ instructor: cabp
 
 ## Overview
 
+## Deal With the Fact That You Don't Know!
+
 ## Think in Terms of the **Product**
 
 motivate remaining points in terms of what a scientist wants, namely "software"
@@ -73,6 +75,7 @@ support:
    * higher level priorities: integration with other tools (*e.g.*, version control, worksheet mode / consoles / graphics display, library + package management)
  - compiler / interpreter
  - optional: build tools, dependency management
+ - static analysis tools: linters, code beautifiers, etc
 
 ## Publication
 
