@@ -1,3 +1,5 @@
+[actual site](http://aims-ghana.github.io/seams/)
+
 HOWTO CAMS
 ==========
 
