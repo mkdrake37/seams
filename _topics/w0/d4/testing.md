@@ -3,6 +3,27 @@ layout: section
 title: How to Verify and Validate Research Code as You Work
 ---
 
+
+Warmup discussion:
+
+Validation v. Verification
+How to test "correctness."
+Why allow user error v. Writing highly detailed API? 
+
+Testing
+
+Before you compile:
+
+
+
+
+
+
+
+
+
+
+
 Testing vs validation vs debugging.
 
 Testing as a way to translate "this code does..." into formal description.  Thinking
