@@ -24,7 +24,10 @@ title: How to Verify and Validate Research Code as You Work
  - Edge Cases
  - Devising Tests
 
-
+##Review Excercises
+ - Hand students code known to have flaws, ask them to find flaws
+ - Exchange code and test/debug
+ - Evaluate third party software
 
 
 
