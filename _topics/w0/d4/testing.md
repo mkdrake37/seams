@@ -4,15 +4,15 @@ title: How to Verify and Validate Research Code as You Work
 ---
 
 
-Warmup discussion:
+##Warmup discussion:
 
-Validation v. Verification
-How to test "correctness."
-Why allow user error v. Writing highly detailed API? 
+ - Validation v. Verification
+ - How to test "correctness."
+ - Why allow user error v. Writing highly detailed API? 
 
-Testing
+##Testing:
 
-Before you compile:
+##Before you compile:
 
 
 
