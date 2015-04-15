@@ -3,6 +3,7 @@ layout: section
 title: Organizing inside Your Source - Best Practices, Separation of Concerns
 ---
 
+
 organizing by way of syntax choices: capitalization vs CamelCase vs pothole_case,
 indentation, arrangement of function arguments, etc.
 
