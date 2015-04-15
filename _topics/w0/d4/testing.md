@@ -13,6 +13,16 @@ title: How to Verify and Validate Research Code as You Work
 ##Testing:
 
 ##Before you compile:
+ - Documentation within code
+ - Debugging with IDE
+ - Throwing exceptions
+ - Testing by hand
+ - Incorporating test code 
+ - Testing for codes involving random variables (e.g. Dependency injection, delegation)
+
+##After Compiling
+ - Edge Cases
+ - Devising Tests
 
 
 
@@ -20,7 +30,15 @@ title: How to Verify and Validate Research Code as You Work
 
 
 
-
+##
+##
+##
+##
+##
+##
+##
+##
+##
 
 
 
