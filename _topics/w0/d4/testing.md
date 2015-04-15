@@ -3,6 +3,48 @@ layout: section
 title: How to Verify and Validate Research Code as You Work
 ---
 
+
+##Warmup discussion:
+
+ - Validation v. Verification
+ - How to test "correctness."
+ - Why allow user error v. Writing highly detailed API? 
+
+##Testing:
+
+##Before you compile:
+ - Documentation within code
+ - Debugging with IDE
+ - Throwing exceptions
+ - Testing by hand
+ - Incorporating test code 
+ - Testing for codes involving random variables (e.g. Dependency injection, delegation)
+
+##After Compiling
+ - Edge Cases
+ - Devising Tests
+
+##Review Excercises
+ - Hand students code known to have flaws, ask them to find flaws
+ - Exchange code and test/debug
+ - Evaluate third party software
+
+
+
+
+
+##
+##
+##
+##
+##
+##
+##
+##
+##
+
+
+
 Testing vs validation vs debugging.
 
 Testing as a way to translate "this code does..." into formal description.  Thinking
