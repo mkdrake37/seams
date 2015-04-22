@@ -1,6 +1,14 @@
 ---
 layout: section
-title: What to consider when organizing Your Code, Data, and Results + Tools to Help
+title: Organizing Your Workspace
 ---
 
-IN CLASS STUB
+# What are your goals?
+
+# What does organization mean?
+
+
+
+# What tools do you have available?
+
+##
