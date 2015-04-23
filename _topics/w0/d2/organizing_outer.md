@@ -6,6 +6,12 @@ instructor: cabp
 
 ## Overview
 
+You have a [rough](topic/defining-project/) [project](session/defining-project/) [definition](project/defining-project/).  Now what?
+
+You don't know exactly what the final product looks like, or how you are going to get there, but like every good researcher you want to *follow the scientific method*, *accomplish research effectively*, and *share that work with the community*.
+
+You can help yourself and your collaborators meet these goals by choosing and organizing your tools and workspace effectively.
+
 ## Deal With the Fact That You Don't Know!
 
 ## Think in Terms of the **Product**
