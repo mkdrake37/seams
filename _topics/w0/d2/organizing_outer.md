@@ -40,6 +40,8 @@ support:
 
 ## Filesystem + Version Control
 
+The overall concern here is distinguishing between what you do and don't want or need to share, and how best to manage those needs and wants.
+
 ### Basic Layout
 
  - Follow a template
