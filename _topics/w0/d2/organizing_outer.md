@@ -40,6 +40,29 @@ support:
 
 ## Filesystem + Version Control
 
+### Basic Layout
+
+ - Follow a template
+
+### What to Do About Data?
+
+ - [Data Management Discussion](http://mariovalle.name/sdm/scientific-data-management.html)
+ - [Boston University Discussion](http://www.bu.edu/datamanagement/outline/elements/) - good surrounding context discussion as well
+ - [Discussion of Long vs Short Form Data](http://seananderson.ca/2013/10/19/reshape.html), and from `reshape2` package author
+ - [J. Stat. Soft. article discussing](http://www.jstatsoft.org/v21/i12)
+ - [SO: Why Use SQL Database?](http://stackoverflow.com/questions/2900324/why-use-sql-database)
+ - [UK Data Archive](http://www.data-archive.ac.uk/media/2894/managingsharing.pdf) - good general read, but certain specific sections pertinent to how to organize / save yours
+
+### Version Control
+
+ - [SO: Why Should I Use Version Control?](http://stackoverflow.com/questions/1408450/why-should-i-use-version-control) and [Academia SE: Why Use VC for Writing a Paper?](http://academia.stackexchange.com/questions/5277/why-use-version-control-systems-for-writing-a-paper)
+ - [Biomed Central Blog](http://blogs.biomedcentral.com/bmcblog/2013/02/28/version-control-for-scientific-research/) - several links to other publications on value of version control in science, including:
+ - [ArXiV description](http://arxiv.org/pdf/1210.0530.pdf)
+ - [PLoS Computational Biology](http://dx.doi.org/10.1371/journal.pcbi.1003285)
+ - [Assorted Reddit Discussions](http://www.reddit.com/r/programming/search?q=why+version+control&restrict_sr=on)
+
+
+
  - what kind of bits will be in a project?
    * data, possibly in several formats
    * analysis, possibly in several languages
@@ -73,6 +96,21 @@ support:
  - where do I find help / documentation?
 
 ## Coding Tools
+
+### Editors
+
+ - [Overview of Text Editors](http://en.wikipedia.org/wiki/Comparison_of_text_editors) - what comes across as important?
+ - Instructor Preferences:
+   * Carl: Atom, PyCharm, RStudio, Eclipse
+   * Ethan:
+   * Tom:
+   * Marjie:
+   * Nicky:
+
+### IDE Organization Tools
+
+ - [RStudio IDE Project](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects)
+ - [PyCharm IDE Project](https://www.jetbrains.com/pycharm/help/project.html)
 
  - editor
    * bare minimum: plain text
