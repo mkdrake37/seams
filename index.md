@@ -5,8 +5,7 @@ layout: section
 
 ## Overview
 
-Home for the AIMS Ghana workshop *Computation in Applied Mathematical Sciences*,
-or *CAMS* for short.
+Home for the AIMS Ghana workshop *Computation in Applied Mathematical Sciences*, or *CAMS* for short.
 
 ## Workshop Description
 
