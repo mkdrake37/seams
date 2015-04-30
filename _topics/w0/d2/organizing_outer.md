@@ -71,9 +71,11 @@ In some settings (*e.g.*, typical supercomputers) these tools are it, so they ar
 
 ## IDE Organization Tools
 
- - why use an IDE at all?
+ - [What is an IDE](http://en.wikipedia.org/wiki/Integrated_development_environment) and [why use one](http://programmers.stackexchange.com/questions/20950/what-justifies-the-use-of-an-ide-versus-a-standard-editor) [(or not)](http://blog.bittersweetryan.com/2012/02/great-ide-vs-text-editor-debate-why-i.html)?
+ - [Broad Comparison of IDE](http://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments) - what seems to be important?
  - [RStudio IDE Project](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects)
  - [PyCharm IDE Project](https://www.jetbrains.com/pycharm/help/project.html)
+
 
  - editor
   * bare minimum: plain text
@@ -156,3 +158,6 @@ The overall concern here is distinguishing between what you do and don't want or
 ### Basic Layout
 
  - Follow a template
+ - [Python Project Template Guide](http://learnpythonthehardway.org/book/ex46.html) - challenge: write a bash script to automate this approach
+ - [...or try any of several pre-packaged options](https://www.google.com/search?q=python%20package%20template)
+ - [General Discussion for R Packages](http://r-pkgs.had.co.nz/)
