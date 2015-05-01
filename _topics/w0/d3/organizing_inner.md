@@ -3,7 +3,7 @@ layout: section
 title: Organizing inside Your Source - Best Practices, Separation of Concerns
 ---
 
-## Guido's Style Guid for Python Code
+## Guido's Style Guide for Python Code
 https://www.python.org/dev/peps/pep-0008/
 
 ## Structuring Your Project
@@ -15,7 +15,7 @@ http://www.reddit.com/r/learnpython/comments/34dpn4/why_are_spaces_preferred_ove
 ## How can I implement classes in my code? (chess)
 http://www.reddit.com/r/learnpython/comments/34eos6/how_can_i_implement_classes_in_my_code_chess/
 
-## Function interface design 
+## Function interface design
 From http://www.greenteapress.com/thinkpython/html/thinkpython005.html
 ######################################################################
 4.6  Interface design
