@@ -52,6 +52,7 @@ repeat shuffle + answer new questions (20 min total?)
  - exercise: using pre-establish repositories + groups (need user names in advance)
  have group members change things in set way, figure out which changes broke something,
  unwind things
+ - alt: have people swap workstations, draw task from a hat, switch computers, perform task, switch back and figure out what other person's task was
  - requiz on `git` commands
 
 > mostly about how organization enables collaboration by providing rules

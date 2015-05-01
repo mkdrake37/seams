@@ -69,22 +69,18 @@ Unix-like systems provide various command line tools:
 
 In some settings (*e.g.*, typical supercomputers) these tools are it, so they are important to understand.  However, even where you can use fancier tools, these may do parts of the job better.
 
+## Basic Layout
+
+ - [Python Project Template Guide](http://learnpythonthehardway.org/book/ex46.html) - challenge: write a bash script to automate this approach
+ - [...or try any of several pre-packaged options](https://www.google.com/search?q=python%20package%20template)
+ - [General Discussion for R Packages](http://r-pkgs.had.co.nz/)
+
 ## IDE Organization Tools
 
  - [What is an IDE](http://en.wikipedia.org/wiki/Integrated_development_environment) and [why use one](http://programmers.stackexchange.com/questions/20950/what-justifies-the-use-of-an-ide-versus-a-standard-editor) [(or not)](http://blog.bittersweetryan.com/2012/02/great-ide-vs-text-editor-debate-why-i.html)?
  - [Broad Comparison of IDE](http://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments) - what seems to be important?
  - [RStudio IDE Project](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects)
  - [PyCharm IDE Project](https://www.jetbrains.com/pycharm/help/project.html)
-
-
- - editor
-  * bare minimum: plain text
-  * next priority: syntax highlighting
-  * next priority: syntax / logic / type checking (*i.e.*, static analysis)
-  * higher level priorities: integration with other tools (*e.g.*, version control, worksheet mode / consoles / graphics display, library + package management)
- - compiler / interpreter
- - optional: build tools, dependency management
- - static analysis tools: linters, code beautifiers, etc
 
 ## Collaboration & Configuration
 
@@ -154,10 +150,3 @@ support:
 ## Filesystem + Version Control
 
 The overall concern here is distinguishing between what you do and don't want or need to share, and how best to manage those needs and wants.
-
-### Basic Layout
-
- - Follow a template
- - [Python Project Template Guide](http://learnpythonthehardway.org/book/ex46.html) - challenge: write a bash script to automate this approach
- - [...or try any of several pre-packaged options](https://www.google.com/search?q=python%20package%20template)
- - [General Discussion for R Packages](http://r-pkgs.had.co.nz/)
