@@ -1,14 +1,14 @@
 {% capture refurl %}{% case page.collection %}
-{% when 'topics' %}{{ page.url | remove:'/topic/' }}
 {% when 'sessions' %}{{ page.url | remove:'/session/' }}
 {% when 'practice' %}{{ page.url | remove:'/practice/' }}
 {% when 'projects' %}{{ page.url | remove:'/project/' }}
+{% else %}{{ page.url }}
 {% endcase %}/{% endcapture %}
 {% capture items %}
 {% if page.collection == 'topics' %}
 TOPIC DISCUSSION
 {% else %}
-<a href="{{ refurl | strip_newlines }}topic/">TOPIC DISCUSSION</a>
+<a href="{{ refurl | strip_newlines }}">TOPIC DISCUSSION</a>
 {% endif %} -
  {% if page.collection == 'sessions' %}
 SESSION MATERIAL
