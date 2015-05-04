@@ -3,9 +3,7 @@ title: Organizing Your Workspace
 instructor: cabp
 ---
 
-## Overview
-
-You have a [rough](topic/defining-project/) [project](session/defining-project/) [definition](project/defining-project/).  Now what?
+You have a [rough](defining-project/) [project](defining-project/session/) [definition](defining-project/project/).  Now what?
 
 You don't know exactly what the final product looks like, or how you are going to get there, but like every good researcher you want to *follow the scientific method*, *accomplish research effectively*, and *share that work with the community*.
 
@@ -19,7 +17,7 @@ Another concerns how those results were achieved: *replicability*, *verifiabilit
 
 When there is a large software component to some research work, much like when there is a large empirical component either in laboratory experiment or field observation, *organization* can contribute to those aspects.  For particularly complex phenomena, a *lack* of organization can thwart any attempts at research.
 
-In the [classroom session](session/organizing-outer/) and [extended exercise](practice/organizing-outer/), we will try connect to how you can organize your **workspace** and **tools** in a way that improves your [project work](project/organizing-outer/) towards satisfying those concerns.
+In the [classroom session](organizing-outer/session/) and [extended exercise](organizing-outer/practice/), we will try connect to how you can organize your **workspace** and **tools** in a way that improves your [project work](organizing-outer/project/) towards satisfying those concerns.
 
 ## Caveat: Deal With the Fact That You Don't Know!
 
@@ -48,9 +46,9 @@ What follows are discussions about how to strike that balance.
 
  - [Overview of Text Editors](http://en.wikipedia.org/wiki/Comparison_of_text_editors) - what comes across as important?
  - Instructor Preferences:
-  * Carl: Atom, PyCharm, RStudio, Eclipse
+  * Carl: [atom](http://atom.io/), then GUI IDEs: PyCharm, RStudio, Eclipse
   * Ethan:
-  * Tom:
+  * Tom: vim
   * Marjie:
   * Nicky:
 
@@ -86,31 +84,22 @@ In some settings (*e.g.*, typical supercomputers) these tools are it, so they ar
 
 You and your collaborators (and more generally, any researchers engaging with your work) are going to be using different computers.  Sometimes those differences are trivial - for example, if you're all working on machines in a lab with the same computers and OS, doing research that doesn't require any particular libraries.  However, you and your collaborators may be using different operating systems, on a project that relies on a variety of different tools.
 
-These issues are important to keep in mind:
+What sort of problems does this create?  How can you address those challenges?  What are themes in:
 
- - what kind of particular bits need to be on the computer, but are not specifically part of the project?
-  * compilers / interpreters
-  * libraries (*e.g.*, `R` packages, `python` modules)
-  * support tools (*e.g.*, `git`)
- - which bits go in the repository?
-  * are there controls on the data (*e.g.*, is it human subjects data? private business data)?
-  * which outputs belong in the repository? intermediate vs. final steps.  artefacts that take substantial time to build
-  * what configuration files are local vs. general?
-  * how are dependencies handled?
- - how do you organize the pieces of the project in a way that addresses these needs and permits both collaborative + local work.  Always online is great (in principle) for collaboration, but can preclude work unless quality internet connection present.  Also
- trade off problems of making bad changes easily / with low visibility vs dealing with integrating local work
+ - packrat / drat for R
+ - python module dependency versioning
+ - make
+ - python environment control thing (systemenv?  don't recall otomh)
 
-## Coding Tools
+## Publish!
 
+The goal of our work as scientists is to create useful knowledge (*useful* may be defined on a very long time scale).  Knowledge doesn't exist if people don't have access to it, and it's not useful if they can't engage with it.
 
-## Publication
+There are a variety of tools that support co-mingling your code with the scientific report it supports:
 
- - goal of our work as scientists is to create useful knowledge (*useful* may be defined on a very long time scale).  knowledge doesn't exist if people don't have access to it,
- and it's not useful if they can't engage with it given access
- - one foundation of scientific way of knowing is replicability: I describe *recipe* that leads to *results*, you can follow recipe and attain the same results
- - sometimes that description is hard: *e.g.*, we forget to include items that seem trivial to us, but are critical to people new to this area
- - code details are often hard
-
+ - general discussion of literate programming
+ - rweave
+ - jupyter
 
 
 How to organize various parts of a project.

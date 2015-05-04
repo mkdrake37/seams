@@ -29,41 +29,41 @@ PM
 
 AM
 : Overview of Workshop Goals [Carl]
-: [How to Define a Programming Project in Research](topic/defining-project/) [Marjie]
+: [How to Define a Programming Project in Research](defining-project/) [Marjie]
 
 PM
-: [Introduction to Running Exercise Problem: Predicting (Association) Football Outcomes](practice/defining-project/) [Tom]
-: [Students Do Definition Work on their projects](project/defining-project/) [all instructors]
+: [Introduction to Running Exercise Problem: Predicting (Association) Football Outcomes](defining-project/practice/) [Tom]
+: [Students Do Definition Work on their projects](defining-project/project/) [all instructors]
 
 #### Wednesday
 
 AM
 : Warmup [not Carl]
-: [What to consider when organizing Your Code, Data, and Results + Tools to Help](topic/organizing-outer/) [Carl]
+: [What to consider when organizing Your Code, Data, and Results + Tools to Help](organizing-outer/) [Carl]
 
 PM
-: [Long Exercise](practice/organizing-outer/) [Carl]
-: [Students Do Layout Work on their projects](project/organizing-outer/) [all instructors]
+: [Long Exercise](organizing-outer/practice/) [Carl]
+: [Students Do Layout Work on their projects](organizing-outer/project/) [all instructors]
 
 #### Thursday
 
 AM
 : Warmup [not Tom]
-: [Organizing inside Your Source - Best Practices, Separation of Concerns](topic/organizing-inner/) [Tom]
+: [Organizing inside Your Source - Best Practices, Separation of Concerns](organizing-inner/) [Tom]
 
 PM
-: [Long Exercise](practice/organizing-inner/) [Tom]
-: [Students Do Layout Work within Source](project/organizing-inner/) [all instructors]
+: [Long Exercise](organizing-inner/practice/) [Tom]
+: [Students Do Layout Work within Source](organizing-inner/project/) [all instructors]
 
 #### Friday
 
 AM
 : Warmup [not Nicky]
-: [How to Verify and Validate Research Code as You Work](topic/testing/) [Nicky]
+: [How to Verify and Validate Research Code as You Work](testing/) [Nicky]
 
 PM
-: [Long Exercise: Provide Code for Correction/Improvement](practice/testing/) [Nicky]
-: [Students prepare testing code for their project](project/testing/) [all instructors]
+: [Long Exercise: Provide Code for Correction/Improvement](testing/practice/) [Nicky]
+: [Students prepare testing code for their project](testing/project/) [all instructors]
 
 Saturday, Sunday
 : Continue Test Case Development
@@ -75,40 +75,40 @@ Saturday, Sunday
 
 AM
 : SQL Warmup [not Tom]
-: [IO - Why, What, When, Where, and sometimes How](topic/io/) [Tom]
+: [IO - Why, What, When, Where, and sometimes How](io/) [Tom]
 
 PM
-: [Long Exercise](practice/io/) [Tom]
-: [Students organize Data Flows in their projects](project/io/) [all instructors]
+: [Long Exercise](io/practice/) [Tom]
+: [Students organize Data Flows in their projects](io/project/) [all instructors]
 
 #### Tuesday
 
 AM
 : Warmup [not lead]
-: [Interfaces](topic/interfaces/) [Ethan]
+: [Interfaces](interfaces/) [Ethan]
 
 PM
-: [Long Exercise:  Have Code Interface with Other Programs](practice/interfaces/) [Ethan]
-: [Students organize / refactor the interfaces within / at the surface of their code](project/interfaces/)
+: [Long Exercise:  Have Code Interface with Other Programs](interfaces/practice/) [Ethan]
+: [Students organize / refactor the interfaces within / at the surface of their code](interfaces/project/)
 
 #### Wednesday
 
 AM
 : Warmup [not lead]
-: [Modeling in Code](topic/modeling/) [Marjie]
+: [Modeling in Code](modeling/) [Marjie]
 
 PM
-: [Long Exercise: Traveling Salesman](practice/modeling/) [Marjie]
+: [Long Exercise: Traveling Salesman](modeling/practice/) [Marjie]
 : Free Mentored Student Work from here on
 
 #### Thursday
 
 AM
 : Warmup [not lead]
-: [Optimization - When, Where, How](topic/optimization/) [Nicky]
+: [Optimization - When, Where, How](optimization/) [Nicky]
 
 PM
-: [Long Exercise: Improve Traveling Salesman](practice/optimization/) [Nicky]
+: [Long Exercise: Improve Traveling Salesman](optimization/practice/) [Nicky]
 : Free Student work
 
 #### Friday
