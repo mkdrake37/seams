@@ -1,6 +1,5 @@
 ---
-layout: section
-title: Optimization - When, Where, How
+title: Performance, in Practice
 ---
 
 ##Opening Discussion Topics:
@@ -29,7 +28,7 @@ title: Optimization - When, Where, How
  - probabilistic techniques (math examples, e.g. IsPrime())
  - Some deterministic optimization techniques (e.g. Numerical matrix methods, matlab Magic)
  - Language dependent optimization techniques, low versus high level languages
- - Hardware dependent techniques, using all your resources. 
+ - Hardware dependent techniques, using all your resources.
  - Parallel v. Serial
 
 ##Has optimization worked?

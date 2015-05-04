@@ -1,6 +1,5 @@
 ---
-layout: section
-title: Interfaces
+title: Performance, in Theory
 ---
 
 How to have an "interface" to your code.
