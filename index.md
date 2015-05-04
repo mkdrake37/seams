@@ -85,11 +85,11 @@ PM
 
 AM
 : Warmup [not lead]
-: [Interfaces](interfaces/) [Ethan]
+: [Performance, in Theory](performance-theory/) [Ethan]
 
 PM
-: [Long Exercise:  Have Code Interface with Other Programs](interfaces/practice/) [Ethan]
-: [Students organize / refactor the interfaces within / at the surface of their code](interfaces/project/)
+: [Long Exercise: ???](performance-theory/practice/) [Ethan]
+: [???](performance-theory/project/)
 
 #### Wednesday
 
@@ -105,10 +105,10 @@ PM
 
 AM
 : Warmup [not lead]
-: [Optimization - When, Where, How](optimization/) [Nicky]
+: [Performance, in Practice](performance-practice/) [Nicky]
 
 PM
-: [Long Exercise: Improve Traveling Salesman](optimization/practice/) [Nicky]
+: [Long Exercise: Improve Traveling Salesman](performance-practice/practice/) [Nicky]
 : Free Student work
 
 #### Friday

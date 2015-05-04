@@ -1,6 +1,5 @@
 ---
-layout: section
-title: Interfaces
+title: Performance, in Theory
 ---
 
 ~Challenge students to modify interface.
