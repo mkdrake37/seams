@@ -3,8 +3,6 @@ title: Organizing Your Workspace
 instructor: cabp
 ---
 
-## Overview
-
 You have a [rough](defining-project/) [project](defining-project/session/) [definition](defining-project/project/).  Now what?
 
 You don't know exactly what the final product looks like, or how you are going to get there, but like every good researcher you want to *follow the scientific method*, *accomplish research effectively*, and *share that work with the community*.
