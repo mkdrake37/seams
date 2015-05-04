@@ -11,22 +11,27 @@ collections:
     permalink: /warmup/:name/
   topics:
     output: true
-    permalink: /topic/:name/
+    permalink: /:name/topic/
   practice:
     output: true
-    permalink: /practice/:name/
+    permalink: /:name/practice/
   projects:
     output: true
-    permalink: /project/:name/
+    permalink: /:name/project/
   sessions:
     output: true
-    permalink: /session/:name/
+    permalink: /:name/session/
 defaults:
   -
     scope:
       path: ""
     values:
       layout: "section"
+  -
+    scope:
+      type: "topics"
+    values:
+      area: "topic"
 exclude:
  - run.sh
  - Gemfile
