@@ -38,6 +38,18 @@ html { margin:0; padding:0; }
   #{$name}: #{$argument};
 }
 
+@function top_fade($split, $r, $g, $b, $from:"to bottom") {
+  @return linear-gradient(#{$from}, rgba($r,$g,$b,1) 0%, rgba($r,$g,$b,1) $split, rgba($r,$g,$b,0.1) 100%)
+}
+
+@mixin bgfade($topfade: top_fade(75%, 0, 0, 0, "top")) {
+  background: -moz-#{$topfade};
+  background: -webkit-#{$topfade};
+  background: -o-#{$topfade};
+  background: -ms-#{$topfade};
+  background: top_fade(75%, 0, 0, 0);
+}
+
 $iconwid: 60px;
 $bodybdwid: 5px;
 
@@ -160,8 +172,22 @@ $logowid: 143px + $bodybdwid;
 
 .content {
 
+  > p:first-of-type {
+    margin-top: 2em;
+  }
+
   > * {
     margin-left: 1%;
+  }
+
+  .topnav {
+    color : $tonedark;
+    @include bgfade();
+    width: 100%;
+    padding: 0.5em;
+    margin: 0 auto 0 auto;
+    position: fixed;
+    top: 0em;
   }
 
   a {

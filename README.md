@@ -1,3 +1,5 @@
+[actual site](http://aims-ghana.github.io/seams/)
+
 HOWTO CAMS
 ==========
 
@@ -34,6 +36,8 @@ HOWTO CAMS
  9. ...make edits, review edits w/ browser...
  10. push changes to your repo
  11. pull request from your repo into aims-ghana/seams repo
+ 12. to continue using your repo, use `$ ./rebase.sh` (may need to rearrange your `.git/config` so that aims-ghana/seams is `upstream` remote)
+ 13. other, trash repo + fork and clone per step 5
 
 ## More General Developing material
 

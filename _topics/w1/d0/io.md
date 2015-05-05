@@ -3,18 +3,35 @@ layout: section
 title: IO - Why, What, When, Where, and sometimes How
 ---
 
-Making choices about input formats: raw text, structured text (e.g., csv),
-binary, databases.
+## Parse, search and manipulated formatted text like HTML and XML
+http://www.crummy.com/software/BeautifulSoup/ 
 
-What should be input?  Obviously empirical data - slightly less obvious
-simulation parameters, even less obvious analysis configuration parameters.
-However, often very valuable to be able to have configuration of setup / results
-as an input.  Importance of random seed as input.
+## Web scraping with Beautiful Soup
+http://www.pythonforbeginners.com/beautifulsoup/web-scraping-with-beautifulsoup
 
-Making choices about output.  Checkpointing.  Value of checkpointing to debugging,
-but also scaling up to supercomputer approaches, use in alternative analysis /
-visualization streams or handing off to other researchers.  What to save as
-interim results.
+## How can I write/edit a csv file based on conditions
+http://www.reddit.com/r/learnpython/comments/34g4yo/how_can_i_writeedit_a_csv_file_based_on_conditions/
 
-What to save as "final" results, and how to save it.  Value of having simulation
-outputs AND separate visualization, not just final plots.
+## How do I handle passwords?
+http://www.reddit.com/r/learnpython/comments/32kinl/how_do_i_handle_passwords/
+
+## Reading and Writing Files
+http://automatetheboringstuff.com/chapter8/
+
+## Organizing Files
+http://automatetheboringstuff.com/chapter9/
+
+## Web Scraping
+http://automatetheboringstuff.com/chapter11/
+
+## Working with Excel Spreadsheets
+http://automatetheboringstuff.com/chapter12/
+
+## Working with PDF and Word Documents
+http://automatetheboringstuff.com/chapter13/
+
+## Working with CSV Files and JSON Data
+http://automatetheboringstuff.com/chapter14/
+
+## Sending Email and Text Messages
+http://automatetheboringstuff.com/chapter16/
