@@ -1,8 +1,8 @@
 {% capture refurl %}{% case page.collection %}
-{% when 'sessions' %}{{ page.url | remove:'/session/' }}
-{% when 'practice' %}{{ page.url | remove:'/practice/' }}
-{% when 'projects' %}{{ page.url | remove:'/project/' }}
-{% else %}{{ page.url }}
+{% when 'sessions' %}{{ baseurl }}{{ page.url | remove:'/session/' }}
+{% when 'practice' %}{{ baseurl }}{{ page.url | remove:'/practice/' }}
+{% when 'projects' %}{{ baseurl }}{{ page.url | remove:'/project/' }}
+{% else %}{{ baseurl }}{{ page.url }}
 {% endcase %}{% endcapture %}
 {% capture items %}
 {% if page.collection == 'topics' %}
