@@ -1,6 +1,5 @@
 ---
 title: Workshop Overview
-layout: section
 ---
 
 ## Overview
