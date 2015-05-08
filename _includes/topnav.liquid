@@ -3,7 +3,7 @@
 {% when 'practice' %}{{ page.url | remove:'/practice/' }}
 {% when 'projects' %}{{ page.url | remove:'/project/' }}
 {% else %}{{ page.url }}
-{% endcase %}/{% endcapture %}
+{% endcase %}{% endcapture %}
 {% capture items %}
 {% if page.collection == 'topics' %}
 TOPIC DISCUSSION
@@ -25,6 +25,8 @@ GUIDED PROJECT WORK
 {% else %}
 <a href="{{ refurl | strip_newlines }}project/">GUIDED PROJECT WORK</a>
 {% endif %}
+ <a href="{{ page.url }}">page</a>
+ <a href="{{ refurl | strip_newlines }}">page</a>
 {% endcapture %}
 <div class="topnav">
 {{ items | strip_newlines }}
