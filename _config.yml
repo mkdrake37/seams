@@ -8,19 +8,19 @@ css:
 collections:
   warmups:
     output: true
-    permalink: /warmup/:name/
+    permalink: warmup/:name/
   topics:
     output: true
-    permalink: /:name/
+    permalink: :name/
   practice:
     output: true
-    permalink: /:name/practice/
+    permalink: :name/practice/
   projects:
     output: true
-    permalink: /:name/project/
+    permalink: :name/project/
   sessions:
     output: true
-    permalink: /:name/session/
+    permalink: :name/session/
 defaults:
   -
     scope:
@@ -32,6 +32,21 @@ defaults:
       type: "topics"
     values:
       area: "topic"
+  -
+    scope:
+      type: "sessions"
+    values:
+      area: "session"
+  -
+    scope:
+      type: "projects"
+    values:
+      area: "project"
+  -
+    scope:
+      type: "practice"
+    values:
+      area: "practice"
 exclude:
  - run.sh
  - Gemfile

@@ -1,19 +1,19 @@
 {% capture refurl %}{% case page.collection %}
-{% when 'sessions' %}{{ baseurl }}{{ page.url | remove:'/session/' }}
-{% when 'practice' %}{{ baseurl }}{{ page.url | remove:'/practice/' }}
-{% when 'projects' %}{{ baseurl }}{{ page.url | remove:'/project/' }}
-{% else %}{{ baseurl }}{{ page.url }}
+{% when 'sessions' %}{{ page.url | remove:'/session/' }}
+{% when 'practice' %}{{ page.url | remove:'/practice/' }}
+{% when 'projects' %}{{ page.url | remove:'/project/' }}
+{% else %}{{ page.url }}
 {% endcase %}{% endcapture %}
 {% capture items %}
 {% if page.collection == 'topics' %}
 TOPIC DISCUSSION
 {% else %}
-<a href="{{ refurl | strip_newlines }}">TOPIC DISCUSSION</a>
+<a href="">TOPIC DISCUSSION</a>
 {% endif %} -
  {% if page.collection == 'sessions' %}
 SESSION MATERIAL
 {% else %}
-<a href="{{ refurl | strip_newlines }}session/">SESSION MATERIAL</a>
+<a href="session/">SESSION MATERIAL</a>
 {% endif %} -
  {% if page.collection == 'practice' %}
 IN-DEPTH EXERCISE
@@ -25,8 +25,6 @@ GUIDED PROJECT WORK
 {% else %}
 <a href="{{ refurl | strip_newlines }}project/">GUIDED PROJECT WORK</a>
 {% endif %}
- <a href="{{ page.url }}">page</a>
- <a href="{{ refurl | strip_newlines }}">page</a>
 {% endcapture %}
 <div class="topnav">
 {{ items | strip_newlines }}
