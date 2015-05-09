@@ -1,9 +1,4 @@
-{% capture refurl %}{% case page.collection %}
-{% when 'sessions' %}{{ page.url | remove:'/session/' }}
-{% when 'practice' %}{{ page.url | remove:'/practice/' }}
-{% when 'projects' %}{{ page.url | remove:'/project/' }}
-{% else %}{{ page.url }}
-{% endcase %}{% endcapture %}
+
 {% capture items %}
 {% if page.collection == 'topics' %}
 TOPIC DISCUSSION
@@ -18,12 +13,12 @@ SESSION MATERIAL
  {% if page.collection == 'practice' %}
 IN-DEPTH EXERCISE
 {% else %}
-<a href="{{ refurl | strip_newlines }}practice/">IN-DEPTH EXERCISE</a>
+<a href="practice/">IN-DEPTH EXERCISE</a>
 {% endif %} -
  {% if page.collection == 'projects' %}
 GUIDED PROJECT WORK
 {% else %}
-<a href="{{ refurl | strip_newlines }}project/">GUIDED PROJECT WORK</a>
+<a href="project/">GUIDED PROJECT WORK</a>
 {% endif %}
 {% endcapture %}
 <div class="topnav">
