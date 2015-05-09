@@ -1,24 +1,24 @@
 
 {% capture items %}
 {% if page.collection == 'topics' %}
-TOPIC DISCUSSION
+TOPIC DISCUSSION - <a href="session/">SESSION MATERIAL</a> - <a href="practice/">IN-DEPTH EXERCISE</a> - <a href="project/">GUIDED PROJECT WORK</a>
 {% else %}
-<a href="">TOPIC DISCUSSION</a>
-{% endif %} -
+<a href="{{ page.url | replace:'/session/','/' | replace:'/practice/','/' | replace:'/project/','/' }}">TOPIC DISCUSSION</a> -
  {% if page.collection == 'sessions' %}
 SESSION MATERIAL
 {% else %}
-<a href="session/">SESSION MATERIAL</a>
+<a href="{{ page.url | replace:'/practice/','/session/' | replace:'/project/','/session/' }}">SESSION MATERIAL</a>
 {% endif %} -
  {% if page.collection == 'practice' %}
 IN-DEPTH EXERCISE
 {% else %}
-<a href="practice/">IN-DEPTH EXERCISE</a>
+<a href="{{ page.url | replace:'/session/','/practice/' | replace:'/project/','/practice/' }}">IN-DEPTH EXERCISE</a>
 {% endif %} -
  {% if page.collection == 'projects' %}
 GUIDED PROJECT WORK
 {% else %}
-<a href="project/">GUIDED PROJECT WORK</a>
+<a href="{{ page.url | replace:'/practice/','/project/' | replace:'/session/','/project/' }}">GUIDED PROJECT WORK</a>
+{% endif %}
 {% endif %}
 {% endcapture %}
 <div class="topnav">
