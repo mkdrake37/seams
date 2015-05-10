@@ -1,24 +1,24 @@
 
-{% capture ref %}{{ site.absoluteurl }}{{ site.baseurl }}{{ page.url | remove:'/project/' | remove:'/session/' | remove:'/practice/' }}/{% endcapture %}
+{% capture ref %}{{ site.absoluteurl }}{{ site.baseurl }}{{ page.url | remove:'/project/' | remove:'/session/' | remove:'/practice/' }}{% endcapture %}
 {% capture items %}
 {% if page.collection == 'topics' %}
 TOPIC DISCUSSION - <a href="{{ ref }}session/">SESSION MATERIAL</a> - <a href="{{ ref }}practice/">IN-DEPTH EXERCISE</a> - <a href="{{ ref }}project/">GUIDED PROJECT WORK</a>
 {% else %}
-<a href="{{ ref }}">TOPIC DISCUSSION</a> -
+<a href="{{ ref }}/">TOPIC DISCUSSION</a> -
  {% if page.collection == 'sessions' %}
 SESSION MATERIAL
 {% else %}
-<a href="{{ ref }}session/">SESSION MATERIAL</a>
+<a href="{{ ref }}/session/">SESSION MATERIAL</a>
 {% endif %} -
  {% if page.collection == 'practice' %}
 IN-DEPTH EXERCISE
 {% else %}
-<a href="{{ ref }}practice/">IN-DEPTH EXERCISE</a>
+<a href="{{ ref }}/practice/">IN-DEPTH EXERCISE</a>
 {% endif %} -
  {% if page.collection == 'projects' %}
 GUIDED PROJECT WORK
 {% else %}
-<a href="{{ ref }}project/">GUIDED PROJECT WORK</a>
+<a href="{{ ref }}/project/">GUIDED PROJECT WORK</a>
 {% endif %}
 {% endif %}
 {% endcapture %}
