@@ -1,29 +1,25 @@
-{% capture refurl %}{% case page.collection %}
-{% when 'sessions' %}{{ page.url | remove:'/session/' }}
-{% when 'practice' %}{{ page.url | remove:'/practice/' }}
-{% when 'projects' %}{{ page.url | remove:'/project/' }}
-{% else %}{{ page.url }}
-{% endcase %}/{% endcapture %}
+
+{% capture ref %}{{ site.absoluteurl }}{{ site.baseurl }}{{ page.url | remove:'/project/' | remove:'/session/' | remove:'/practice/' }}{% endcapture %}
 {% capture items %}
 {% if page.collection == 'topics' %}
-TOPIC DISCUSSION
+TOPIC DISCUSSION - <a href="{{ ref }}session/">SESSION MATERIAL</a> - <a href="{{ ref }}practice/">IN-DEPTH EXERCISE</a> - <a href="{{ ref }}project/">GUIDED PROJECT WORK</a>
 {% else %}
-<a href="{{ refurl | strip_newlines }}">TOPIC DISCUSSION</a>
-{% endif %} -
+<a href="{{ ref }}/">TOPIC DISCUSSION</a> -
  {% if page.collection == 'sessions' %}
 SESSION MATERIAL
 {% else %}
-<a href="{{ refurl | strip_newlines }}session/">SESSION MATERIAL</a>
+<a href="{{ ref }}/session/">SESSION MATERIAL</a>
 {% endif %} -
  {% if page.collection == 'practice' %}
 IN-DEPTH EXERCISE
 {% else %}
-<a href="{{ refurl | strip_newlines }}practice/">IN-DEPTH EXERCISE</a>
+<a href="{{ ref }}/practice/">IN-DEPTH EXERCISE</a>
 {% endif %} -
  {% if page.collection == 'projects' %}
 GUIDED PROJECT WORK
 {% else %}
-<a href="{{ refurl | strip_newlines }}project/">GUIDED PROJECT WORK</a>
+<a href="{{ ref }}/project/">GUIDED PROJECT WORK</a>
+{% endif %}
 {% endif %}
 {% endcapture %}
 <div class="topnav">
