@@ -2,7 +2,8 @@
 title: Performance, in Theory
 ---
 
-# Overall question: Which problems are difficult to solve and which are easy.
+# Overall question: 
+Which problems are difficult to solve and which are easy.
 This concept is above hardware: Moore’s law does not make difficult problems easy. Rather, some problems are intrinsically more difficult (probably).
 
 Growth: Any problem is easy on a small scale. The issue is how the problem scales.
@@ -23,10 +24,13 @@ Another example: Sorting, improvement from O(n^2) to O(n log n). But different s
 
 Search another important example: Symbol tables, Binary search tree, hash tables, etc.
 
-# Graph Problems: Many problems show up as graph problems. Finding minimum spanning trees, max flow/ min cut, shortest paths. Some important algorithms: Depth first and breadth first search, Prim, Dijkstra, Kruskal, Prim, Bellman-Ford.
+# Graph Problems: 
+Many problems show up as graph problems. Finding minimum spanning trees, max flow/ min cut, shortest paths. Some important algorithms: Depth first and breadth first search, Prim, Dijkstra, Kruskal, Prim, Bellman-Ford.
 
-# RegExp: Important for webcrawling and searching through text is regular expressions: What type of strings can and cant be found by regular expressions / nondeterministic finite automaton.
+# RegExp: 
+Important for webcrawling and searching through text is regular expressions: What type of strings can and cant be found by regular expressions / nondeterministic finite automaton.
 
-# Random algorithms: Overview of some probabilistic methods. Monte Carlo, IsPrime, Quick sort, verifying some output by random selection.
+# Random algorithms: 
+Overview of some probabilistic methods. Monte Carlo, IsPrime, Quick sort, verifying some output by random selection.
 
 
