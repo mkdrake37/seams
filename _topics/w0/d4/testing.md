@@ -25,6 +25,16 @@ title: How to Verify and Validate Research Code as You Work
  - Edge Cases
  - Devising Tests
 
+
+##Test driven development
+ - Core principles: only write code if it is used to pass previously failed test, eliminate duplication
+ - how to "black box" components of code, while still compiling 
+ - how to phrase a coding project as a series of tests
+ - coding cycle: devise test, write code to pass test, clean up, repeat
+ - Kent beck reference
+
+
+
 ##Review Excercises
  - Hand students code known to have flaws, ask them to find flaws
  - Exchange code and test/debug
