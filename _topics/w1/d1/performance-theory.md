@@ -20,7 +20,8 @@ P problems are often considered ‘doable problems,’ but improvements of a pro
 
 Another example: Sorting, improvement from O(n^2) to O(n log n). But different sorting techniques are useful in different contexts. i.e. Mergesort when memory is not an issue and can parallelize, quicksort when do not care about stability.
 
-# Data structures: Key to fast code , pick right data structure to suit purposes. Example: For a set of objects, do we want a linked list, a dynamic array? What operations will we need to be done quickly.
+# Data structures: 
+Pick right data structure to suit purposes. Example: For a set of objects, do we want a linked list, a dynamic array? What operations will we need to be done quickly.
 
 Search another important example: Symbol tables, Binary search tree, hash tables, etc.
 
