@@ -95,13 +95,13 @@ Frequent causes of software project failure have to do with requirements problem
 
 ######More
 *Ask good questions! Translate your researchers' questions into questions you can answer and they want answered.*
-1. Initially research questions do not have "obvious" solutions. Requirements in a scientific setting...
-2. SCOPE, REQUIRED INTERFACES: Also deal with questions of what scope to address -- namely, what parts does your
+1.  Initially research questions do not have "obvious" solutions. Requirements in a scientific setting...
+2.  SCOPE, REQUIRED INTERFACES: Also deal with questions of what scope to address -- namely, what parts does your
 code do explicitly, what parts do you with system tools or libraries.
-3. What will the code be used for? Deal with addressing different parts of project with different tools (e.g.,
+3.  What will the code be used for? Deal with addressing different parts of project with different tools (e.g.,
 munging raw data w/ Python, doing simulation in C++, visualizing output with R).
 Talk about thinking in terms of pipeline.
-4. Publication? "Publication" programming - having an approach that you can describe in a publication
+4.  Publication? "Publication" programming - having an approach that you can describe in a publication
 that someone else can review / publish.
 
 Paragraphs taken from:
