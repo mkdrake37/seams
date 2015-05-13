@@ -3,7 +3,14 @@ layout: section
 title: Modeling in Code
 ---
 
-Simulation and Modeling
+##Simulation and Modeling
+#### Linear Algebra
+- Solving Systems of Linear Equations
+- Matrix Factorizations
+- Linearizing ODE/PDE's
+- Combinatorics/Adjacency Matrices
+- Image Compression (Bases)
+- Modeling Physical Phenomena Discetely
 
 Data Preparation/Interface
 
