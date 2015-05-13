@@ -5,28 +5,49 @@ markdown: kramdown
 encoding: utf-8
 css:
   active: "active"
+aimsghurl: "http://www.aims.edu.gh/"
 collections:
   warmups:
     output: true
-    permalink: /warmup/:name/
+    permalink: warmup/:name/
   topics:
     output: true
-    permalink: /topic/:name/
+    permalink: :name/
   practice:
     output: true
-    permalink: /practice/:name/
+    permalink: :name/practice/
   projects:
     output: true
-    permalink: /project/:name/
+    permalink: :name/project/
   sessions:
     output: true
-    permalink: /session/:name/
+    permalink: :name/session/
 defaults:
   -
     scope:
       path: ""
     values:
       layout: "section"
+  -
+    scope:
+      type: "topics"
+    values:
+      area: "topic"
+  -
+    scope:
+      type: "sessions"
+    values:
+      area: "session"
+  -
+    scope:
+      type: "projects"
+    values:
+      area: "project"
+  -
+    scope:
+      type: "practice"
+    values:
+      area: "practice"
 exclude:
  - run.sh
  - Gemfile
