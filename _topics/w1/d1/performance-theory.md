@@ -2,29 +2,36 @@
 title: Performance, in Theory
 ---
 
-How to have an "interface" to your code.
+# Overall question: 
+Which problems are difficult to solve and which are easy.
+This concept is above hardware: Moore’s law does not make difficult problems easy. Rather, some problems are intrinsically more difficult (probably).
 
-Making your code a library / package / command line tool / etc.
+Growth: Any problem is easy on a small scale. The issue is how the problem scales.
 
-What makes a good interface?  A bad interface?
+Class P (polynomial time): An algorithm is solvable in polynomial time if the number of steps require to complete algorithm for a given input is bounded by n^k for some integer k, where n is the amount of input.
 
-## Definition/Reason
+Class NP (nondeterministic polynomial time): Set of decision problems where the affirmative answers have polynomial time verifiable proofs.
 
-Interfaces: Contracts between two objects, whether between two chunks of codes or between a user and software.
-Analogy: If a software project were an organism and libraries/packages are organs, then an interface would be how different organs interact with each other. "To get blood, call ReceiveBlood()."
+Example:  Does a set of numbers have a subset which sums to zero? For the set {-3,7,10,-4,1}, it is easy to check that {-3,7,4} works, but finding this set is thought to be hard. This is an NP problem, and shown just to be as hard as any other NP problem (called NP-Hard). This is thought not to be a P problem.
 
-Some specifics: Difference from abstract class: Abstract class is a block of code that implements these functions and then has a contract for how other code will interact. Interfaces are contracts that any block of code can satisfy. Analogy: An abstract class would be a heart. But anything that pumps blood is an interface.
-In Python, these are not seperated. Anything that pumps blood is a heart.
+Important, difficult problems: Are all NP problems actually in P?
 
-Interfaces are necessary to create modular code.
+P problems are often considered ‘doable problems,’ but improvements of a problem within P are very important. Poster child example: Fast Fourier Transform, used to quickly multiply polynomials, improves O(n^2) to O(n log n). "the most important numerical algorithm of our lifetime.”
 
-## Good vs. Bad
+Another example: Sorting, improvement from O(n^2) to O(n log n). But different sorting techniques are useful in different contexts. i.e. Mergesort when memory is not an issue and can parallelize, quicksort when do not care about stability.
 
-Good qualities:
--Obscure intracacies of code
--Provide clear limitations (input/output)
--Bug-free
-Bad qualities:
--Overly detailed
--Unclear
--Crashes/Slow
+# Data structures: 
+Pick right data structure to suit purposes. Example: For a set of objects, do we want a linked list, a dynamic array? What operations will we need to be done quickly.
+
+Search another important example: Symbol tables, Binary search tree, hash tables, etc.
+
+# Graph Problems: 
+Many problems show up as graph problems. Finding minimum spanning trees, max flow/ min cut, shortest paths. Some important algorithms: Depth first and breadth first search, Prim, Dijkstra, Kruskal, Prim, Bellman-Ford.
+
+# RegExp: 
+Important for webcrawling and searching through text is regular expressions: What type of strings can and cant be found by regular expressions / nondeterministic finite automaton.
+
+# Random algorithms: 
+Overview of some probabilistic methods. Monte Carlo, IsPrime, Quick sort, verifying some output by random selection.
+
+
