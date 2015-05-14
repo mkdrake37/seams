@@ -4,7 +4,7 @@ title: Workshop Overview
 
 Welcome to the *Computation in Applied Mathematical Sciences* (*CAMS* for short)
 workshop. *CAMS* is made possible by a partnership between
-[AIMS Ghana]({{aimsghurl}}) and the US Office of Naval Research, Global Division.
+[AIMS Ghana]({{site.aimsghurl}}) and the US Office of Naval Research, Global Division.
 
 During the workshop, participants will develop or apply mathematical scientific
 research using computational tools.  That work will be guided by a curriculum
