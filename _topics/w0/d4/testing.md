@@ -15,7 +15,6 @@ title: How to Verify and Validate Research Code as You Work
 ##Before you compile:
  - Documentation within code
  - Debugging with IDE
- - Test driven development: how do we "black box" a component of our code?
  - Throwing exceptions
  - Testing by hand
  - Incorporating test code 
