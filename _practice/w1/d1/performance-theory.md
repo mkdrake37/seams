@@ -6,6 +6,7 @@ title: Performance, in Theory
 2. Complexity sorting worksheet: Look at this algorithm/data structure.  How fast does it run
 3. Reduction exercise: Barber of Accra
 4. ProjectEuler Optimization Problems
+5. More stuff
 
 http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.204.5875&rep=rep1&type=pdf
 http://stackoverflow.com/questions/8024911/project-euler-5-in-python-how-can-i-optimize-my-solution
