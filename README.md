@@ -36,7 +36,13 @@ HOWTO CAMS
  9. ...make edits, review edits w/ browser...
  10. push changes to your repo
  11. pull request from your repo into aims-ghana/seams repo
- 12. to continue using your repo, use `$ ./rebase.sh` (may need to rearrange your `.git/config` so that aims-ghana/seams is `upstream` remote)
+ 12. to continue using your repo, use `$ ./rebase.sh`.  You may need include the following your `.git/config` so that aims-ghana/seams is `upstream` remote:
+
+    ```
+    [remote "upstream"]
+        url = https://github.com/AIMS-Ghana/seams.git
+        fetch = +refs/heads/*:refs/remotes/AIMS-Ghana/*
+    ```
  13. other, trash repo + fork and clone per step 5
 
 ## More General Developing material
