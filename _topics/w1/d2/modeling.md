@@ -99,11 +99,11 @@ Other: http://pycx.sourceforge.net/ (review: http://www.casmodeling.com/content/
 
 
 
-OLDER:
+##OLDER:
 
 
-###Simulation and Modeling
-#### Linear Algebra
+####Simulation and Modeling
+##### Linear Algebra
 - Solving Systems of Linear Equations
 - Matrix Factorizations
 - Linearizing ODE/PDE's
