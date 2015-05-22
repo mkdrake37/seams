@@ -6,6 +6,17 @@ title: Performance, in Theory
 
 For this session, students (perhaps in small groups) will research an algorithm or a particular implementation of an abstract data type. The students will then implement the algorithm in code and then present a short presentation on the algorithm.
 
+# Goals for Presentation 
+
+Some important parts of the presentation that should be addressed:
+
+1. For algorithms, clearly state the input and output. For an ADT, explcitly state the API.
+2. If applicable, mention the naive algorithm/implementation, and how yours improves.
+3. Mention any relevant classifications: Recursive? Parallelizable? Greedy? Deterministic?
+4. Go through the algorithm/construction. Cut some corners if yours is very involved.
+5. At the end, provide a toy problem (ex. a graph with 7 vertices, 2x2 matrix, a few calls to your API) and let us go through the example on our own.
+6. Mention some important applications.
+
 # Example selection
 
 The following is a modest collection of algorithms and some data types (but no reference, part of the exercise is finding the relevent information on the internet). Because of their wide spread importance, they are undoubtably in some Python library and perhaps in the Standard Python Library. Nevertheless, this exercise will be good practice for when you come across an algorithm in a scientific paper that does not provide code, and will also give insight to the uses and limitations.
@@ -45,16 +56,7 @@ Do not feel limited to the following examples. If your personal research has led
 4. Diffie-Hellman key exchange
 5. Karatsuba and other fast multiplicatoin algorithms
 
-# Goals for Presentation 
 
-Some important parts of the presentation that should be addressed:
-
-1. For algorithms, clearly state the input and output. For an ADT, explcitly state the API.
-2. If applicable, mention the naive algorithm/implementation, and how yours improves.
-3. Mention any relevant classifications: Recursive? Parallelizable? Greedy? Deterministic?
-4. Go through the algorithm/construction. Cut some corners if yours is very involved.
-5. At the end, provide a toy problem (ex. a graph with 7 vertices, 2x2 matrix, a few calls to your API) and let us go through the example on our own.
-6. Mention some important applications.
 
 
 ## Older:
