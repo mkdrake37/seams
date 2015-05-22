@@ -86,7 +86,7 @@ https://docs.python.org/2/library/re.html
 https://projecteuler.net/problem=89
 
 # Parallelizing
-Some problems can take advantage of multiple processors. Although distinct from the idea of P vs NP, this concept can quickly make a problem more manageable. We will throughout keep an eye on when to paralleization is possible.
+Some problems can take advantage of multiple processors. Although distinct from the idea of P vs NP, this concept can quickly make a problem more manageable. Throughout we will keep an eye on when parallelization is possible, and bring up some very important instances.
 
 Resources:
 http://scottsievert.github.io/blog/2014/07/30/simple-python-parallelism/
