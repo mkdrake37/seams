@@ -1,8 +1,6 @@
 ---
-layout: section
 title: How to Verify and Validate Research Code as You Work
 ---
-
 
 ##Warmup discussion:
 
@@ -10,19 +8,37 @@ title: How to Verify and Validate Research Code as You Work
  - How to test "correctness."
  - Why allow user error v. Writing highly detailed API?
 
+##Exercise: Debugging the national team's football game
+ - Ghana lost: What went wrong?
+ - List possible reasons for failure
+ - What are some test scenarios/cases to confirm above reasons?
+
 ##Testing:
 
 ##Before you compile:
  - Documentation within code
- - Debugging with IDE
  - Throwing exceptions
  - Testing by hand
  - Incorporating test code
  - Testing for codes involving random variables (e.g. Dependency injection, delegation)
 
+##Debugging with an IDE
+##Break points
+ - Types of break point (regular, conditional, temporary) and when to use
+ - Identifying suspects in misbehaving code (where to add break points)
+ - What are some flaws with the break point system?
+ - (Some break point drills)
+
+##Other IDE techniques
+ - Using incremental evaluation to look inside variables
+ - Query based debugging: https://www.cs.ucsb.edu/~urs/oocsb/papers/oopsla97.pdf
+ - Dynamic Query based debugging: https://www.cs.purdue.edu/homes/xyzhang/fall07/Papers/query-debugging.pdf
+
 ##After Compiling
  - Edge Cases
  - Devising Tests
+ - exercises 1 and 2 below
+
 
 ##Test driven development
  - Core principles: only write code if it is used to pass previously failed test, eliminate duplication
@@ -31,6 +47,12 @@ title: How to Verify and Validate Research Code as You Work
  - coding cycle: devise test, write code to pass test, clean up, repeat
  - Kent beck reference
 
+## Developing tests/test driven development Problem (project Euler problem 4):
+ - Read/understand problem 4 (palindromic numbers)
+ - Identify problems this code will need to solve
+ - Develop test for each function involved.
+ - Scenario: you are a teacher. your students have been assigned to write code that can solve all of the above problems listed (everything necessary for problem 4)
+ - over 100 students in class. Write code to grade their assignments.
 
 
 ##Review Excercises
@@ -55,18 +77,3 @@ title: How to Verify and Validate Research Code as You Work
 
 
 ##Ex. 3 Students given code with bugs and apply new debugging techniques
-
-Testing vs validation vs debugging.
-
-Testing as a way to translate "this code does..." into formal description.  Thinking
-with the end product in mind.
-
-Debugging approaches.  Particularly, using IDE in browse mode.
-
-Validating inputs - again, as a way of describe what code does.  Validation can
-be thought of as documenting input parameters for a function.
-
-How to have testing code integrated in source and not interfere w/ running.
-
-All this in research setting, when outcomes often not explicitly specified.  How
-to do testing given stochastic components.
