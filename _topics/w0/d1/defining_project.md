@@ -3,7 +3,7 @@ title: How to Define a Programming Project in Research
 ---
 ##Part 1: Research and the Research Problem
 
-Students Review https://www.nyu.edu/classes/bkg/methods/010072.pdf (We should copy and truncate (remove the answers from) this PDF.)
+Students Review https://www.nyu.edu/classes/bkg/methods/010072.pdf (We should copy and truncate (remove the answers from) this PDF.)  This is from *Your Research Project: Designing and Planning Your Work* by Nicholas Walliman.  An alternate version is available through his publisher, Sage, but I don't like it as much.
 
 - Ex 1.3 (adapted): Is this a research problem?  If not, can you turn it into a research problem?  What sort of data would you expect to use?  What subproblems might arise?  How could you appropriately limit the scope of the problem?
 
