@@ -25,6 +25,25 @@ Do not feel limited to the following examples. If your personal research has led
 
 ## Some ADT Implementations
 
+1. Stack/Queue LinkedList and variants (*)
+2. Disjoint-set forests (**)
+3. Hash Table + Collision resolution (Separate chaining, Open addressing, etc.) (***)
+4. Priority Queue heap (heap, Fibonacci heap, etc.) (****)
+
+## Some Algorithms
+
+1. Dijkstra (*)
+2. Primality Testing (*)
+3. A* (**)
+4. Knuth-Morris-Pratt (search for a word in a string) (**)
+5. Newton's Method (**)
+6. Needleman–Wunsch algorithm (***)
+7. PageRank (How Google determines the most important page) (****)
+
+# Older:
+
+## Some ADT Implementations
+
 1. Balanced Binary Search Trees (2-3 Trees, Red-Black, Splay, etc.)
 2. Hash Table Collision resolution (Separate chaining, Open addressing, etc.)
 3. Priority Queue heap (heap, Fibonacci heap, etc.)
@@ -56,10 +75,6 @@ Do not feel limited to the following examples. If your personal research has led
 4. Diffie-Hellman key exchange
 5. Karatsuba and other fast multiplicatoin algorithms
 
-
-
-
-## Older:
 
 1. Students research and implement algorithms relevent to their research, conduct short presentation
 2. Complexity sorting worksheet: Look at this algorithm/data structure.  How fast does it run
