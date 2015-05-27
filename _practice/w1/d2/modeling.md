@@ -4,18 +4,15 @@ title: Mathematical Modeling
 ---
 ##Interview us to compete/submit bid for one of the following
 
-1. We are owners of soccer teams, want to optimize ticket pricing
-- Use previous data: how priced, date, weather, opponent
-
-2. We are managers for a soccer team (find best fantasy team)
-- Use individual stats [here](http://www.whoscored.com/Statistics)
-
-3. We own sports news websites, want to rank teams based on some metric.  Include team stats. Include individual stats?
-
-4. We own a stadium, want to know how to optimize revenue with advertisements
-- Consider demographics of crowd
-- Ticket costs
-- Impact of opposing team
+- We are owners of soccer teams, want to optimize ticket pricing
+-- Use previous data: how priced, date, weather, opponent
+- We are managers for a soccer team (find best fantasy team)
+-- Use individual stats [here](http://www.whoscored.com/Statistics)
+- We own sports news websites, want to rank teams based on some metric.  Include team stats. Include individual stats?
+- We own a stadium, want to know how to optimize revenue with advertisements
+-- Consider demographics of crowd
+-- Ticket costs
+-- Impact of opposing team
 
 
 
