@@ -1,38 +1,15 @@
 ---
-layout: section
 title: How to Verify and Validate Research Code as You Work
 ---
 
-##Ex.1 Hand off codes with model bug, they write tests
-(Potential contest: which team can find flaw first)
+LONG EXERCISE STUB
 
--(easy) weather calculations:
-Solution: pV  = nRT, code not prepared for T = 0
+For this exercise we would like you to use test driven development with PyUnit to create a program that can search a database of player statistics. You will need to:
 
--(hard)"elevator" problem phrased as bus route problem (delivering fans to stadiums):
-Solution: not all bus stops are actually reachable in given model
+ - Complie the data from a site such as: http://www.whoscored.com/Regions/252/Tournaments/2/Seasons/3853/Stages/7794/PlayerStatistics/England-Premier-League-2013-2014
+into a useable, searchable database. (Your input will most likely be a long string of html code).
+ - Write a program which can search this database across all parameters, and return as many results as fit the search criterion. For example, the user should be able to instantly find all players with number 10, or all players on Manchester united
 
--more examples (e.g. Taylor series not converging on given input):
-http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.204.5875&rep=rep1&type=pdf
+You will work on this project in two groups: One team will write the "web-crawler" to convert online data to a useable database, and the other will write the code for the search program.
 
-##Ex. 2 Students exchange code and write tests
--students may hand off any of their previous work for testing, as long as it is reasonably sophisticated. 
--students take ~15 minutes to write good APIs as needed. No verbal discussion with tester allowed
--tester writes code for testing and writes short report
-
-##Ex. 3 Students given code with bugs and apply new debugging techniques 
-
-
-
-
-
-
-
-Assess how effective code is.  Specifically:
-~Edge Cases
-~Unexpected inputs (i.e. prob>1, prob<0)
-~Actual results (comparison)
-~Error stats
-~Proper use of exceptions
-
-Two tasks: (1) Have students assess and correct provided code.  (2) Students have already created code which performs specific tasks.  We'll ask them to test the quality of this code by testing edge cases (e.g. Manchester United defeats Ghana) and comparing to (newly provided) data.
+After writing the two programs separately the teams should exchange their codes and rigorously test the other team's work.
