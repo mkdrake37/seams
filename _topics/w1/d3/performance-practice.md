@@ -4,18 +4,18 @@ title: Performance, in Practice
 ##Review
 1. Big O analysis
 2. Motivating example: Search techniques
-  1. Linear Search O(1) to O(n)
-  2. Binary Search O(1) to O(logn)
-  3. Quick Sort O(nlogn) to O(n^2)
-  4. Merge Sort O(nlogn)
-  5. Selection Sort O(n^2)
-  6. Insertion Sort O(n) to O(n^2)
+  - Linear Search O(1) to O(n)
+  - Binary Search O(1) to O(logn)
+  - Quick Sort O(nlogn) to O(n^2)
+  - Merge Sort O(nlogn)
+  - Selection Sort O(n^2)
+  - Insertion Sort O(n) to O(n^2)
 
 ##New Topics:
 
--Linear Algebra in Programming
--Having C interact with Python
--Parallelizing an algorithm
+- Linear Algebra in Programming
+- Having C interact with Python
+- Parallelizing an algorithm
 
 
 
