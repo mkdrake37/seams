@@ -14,7 +14,7 @@ title: Mathematical Modeling
   2. Ticket costs
   3. Impact of opposing team
 
-###Group Work 
+###Group Work
 
 In interviewing us, students should determine answers to some of the questions covered in the morning session, including:
  - What specific problem should be solved by the model?
