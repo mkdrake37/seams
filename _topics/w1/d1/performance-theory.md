@@ -79,6 +79,12 @@ Many problems show up as graph problems. Finding minimum spanning trees, max flo
 # RegExp: 
 Important for webcrawling and searching through text is regular expressions: What type of strings can and cant be found by regular expressions / nondeterministic finite automaton. We will go over some uses.
 
+http://infolab.stanford.edu/~ullman/focs/ch10.pdf
+
+Good overview of theory, last bit about NFA: https://courses.engr.illinois.edu/cs373/fa2010/lectures/lect06.pdf
+
+optimizing: http://blog.codinghorror.com/regex-performance/
+
 https://docs.python.org/2/howto/regex.html#regex-howto
 
 https://docs.python.org/2/library/re.html
