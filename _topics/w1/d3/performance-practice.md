@@ -1,20 +1,23 @@
 ---
 title: Performance, in Practice
 ---
-
-##Opening Discussion Topics:
-
- - What is an algorithm?
- - What is optimization? Types of optimization?  (Computational steps v. Memory usage)
- - Why optimize?
- - Why not always optimize?
- - When do you *need* to optimize?
- - Is optimization always possible?
-
 ##Review
+1. Big O analysis
+2. Motivating example: Search techniques
+  1. Linear Search O(1) to O(n)
+  2. Binary Search O(1) to O(logn)
+  3. Quick Sort O(nlogn) to O(n^2)
+  4. Merge Sort O(nlogn)
+  5. Selection Sort O(n^2)
+  6. Insertion Sort O(n) to O(n^2)
 
- - Big O analysis
- - motivating example: Search techniques
+##New Topics:
+
+-Linear Algebra in Programming
+-Having C interact with Python
+-Parallelizing an algorithm
+
+
 
 ##Techniques I
 
