@@ -1,5 +1,4 @@
 ---
-layout: section
 title: Organizing inside Your Source - Best Practices, Separation of Concerns
 ---
 
@@ -19,4 +18,3 @@ LONG EXERCISE STUB
     - refactor into one or more classes
     - swap code, add functionality
     - discuss
-    

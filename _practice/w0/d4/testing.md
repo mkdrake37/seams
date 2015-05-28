@@ -2,8 +2,6 @@
 title: How to Verify and Validate Research Code as You Work
 ---
 
-LONG EXERCISE STUB
-
 For this exercise we would like you to use test driven development with PyUnit to create a program that can search a database of player statistics. You will need to:
 
  - Complie the data from a site such as: http://www.whoscored.com/Regions/252/Tournaments/2/Seasons/3853/Stages/7794/PlayerStatistics/England-Premier-League-2013-2014

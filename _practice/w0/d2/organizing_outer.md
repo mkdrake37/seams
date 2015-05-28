@@ -1,5 +1,4 @@
 ---
-layout: section
 title: Prepping Your Workspace for Football Predictions
 ---
 

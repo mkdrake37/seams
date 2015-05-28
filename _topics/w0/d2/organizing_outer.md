@@ -15,7 +15,7 @@ What makes science *good*?  One aspect concerns characteristics of results: *nov
 
 Another concerns how those results were achieved: *replicability*, *verifiability*, *validity*, *credibility*, *etc*.
 
-When there is a large software component to some research work, much like when there is a large empirical component either in laboratory experiment or field observation, *organization* can contribute to those aspects.  For particularly complex phenomena, a *lack* of organization can thwart any attempts at research.
+When there is a large software component to some research work, much like when there is a large empirical component either in laboratory experiment or field observation, *organization* can contribute to those aspects.  For particularly complex phenomena, a *lack* of organization can thwart even getting results, let alone providing solid provenance for those results.
 
 In the [classroom session](organizing-outer/session/) and [extended exercise](organizing-outer/practice/), we will try connect to how you can organize your **workspace** and **tools** in a way that improves your [project work](organizing-outer/project/) towards satisfying those concerns.
 
@@ -48,9 +48,9 @@ What follows are discussions about how to strike that balance.
  - Instructor Preferences:
   * Carl: [atom](http://atom.io/), then GUI IDEs: PyCharm, RStudio, Eclipse
   * Ethan:
-  * Tom: vim
   * Marjie:
   * Nicky:
+  * Tom: vim
 
 ## System Tools
 
@@ -65,7 +65,7 @@ Unix-like systems provide various command line tools:
  - command line scripts (*e.g.*, `bash`)
  - scripts for other tools (*e.g.*, pbs)
 
-In some settings (*e.g.*, typical supercomputers) these tools are it, so they are important to understand.  However, even where you can use fancier tools, these may do parts of the job better.
+In some settings (*e.g.*, typical supercomputers) these tools are it, so they are important to understand.  However, even where you can use fancier tools, [these may do parts of the job better](http://superuser.com/questions/414965/when-to-use-bash-and-when-to-use-perl-python-ruby).
 
 ## Basic Layout
 

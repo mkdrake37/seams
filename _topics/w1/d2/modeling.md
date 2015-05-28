@@ -1,11 +1,10 @@
 ---
-layout: section
 title: Modeling in Code
 ---
 ##Choosing the Right Model - General Questions
 1.	What specific problem should be solved by the model?
 2.	What specific questions should the model answer?  (How do we want to visualize the results?)
-3.	What data set(s) will be used by the model? 
+3.	What data set(s) will be used by the model?
 - Characteristics of the Model
 4.	Is it linear?
 5.	Static or dynamic?
@@ -27,14 +26,14 @@ Design a method to compute and display all the intersections of a plane and a he
 (A segment of the helix may represent, for example, a helicoidal suspension spring or a piece of tubing in a chemical or medical apparatus. The need for some theoretical justification of the proposed algorithm arises from the necessity of verifying the solution from several points of view. This can be done through mathematical proofs of parts of the algorithm and through tests of the final program with known examples. Such documentation and tests will be required by government agencies for medical use.)
 
 
-- Problem 2: 
+- Problem 2:
 
 An environmentally conscious institutional cafeteria is recycling customers' uneaten food into compost by means of microorganisms. Each day, the cafeteria blends the leftover food into a slurry, mixes the slurry with crisp salad wastes from the kitchen and a small amount of shredded newspaper, and feeds the resulting mixture to a culture of fungi and soil bacteria, which digest slurry, greens, and paper into usable compost. The crisp greens provide pockets of oxygen for the fungi culture, and the paper absorbs excess humidity. At times, however, the fungi culture appears unable to digest as much of the leftovers as customers leave. Also, the cafeteria has received offers for the purchase of large quantities of its compost. Therefore, the cafeteria is investigating ways to increase its production of compost. Since it cannot yet afford to build a new composting facility, the cafeteria seeks methods to accelerate the fungi culture's activity, for instance, by optimizing the fungi culture's environment (currently held at about 120 degrees F and 100% humidity), or by optimizing the composition of the mixture fed to the fungi culture, or both.
 
 Determine whether any relation exists between the proportions of slurry, greens, and paper in the mixture fed to the fungi culture, and the rate at which the fungi culture composts the mixture. If no relation exists, state so. Otherwise, determine what proportions would accelerate the fungi culture's activity.
 
 Table 1 shows the composition of various mixtures in pounds of each ingredient kept in separate bins, and the time that it took the fungi culture to compost the mixtures, from the date fed to the date completely composted.
- 
+
 
 - Problem 3
 
@@ -45,15 +44,15 @@ Assume that 100 percent of the water in Lake Ontario comes from Lake Erie. It ha
 Model this process in order to determine the Total amount of pollution in Lake Ontario. Does this model also predict the long-term behavior of this system?  Can you recommend pollutant policy changes based on this model?
 
 
-- Problem 4: 
+- Problem 4:
 
-The solid lines of the map represent paved two-lane county roads in a snow-removal district. The broken lines are state highways. After a snowfall, two plow-trucks are dispatched from a garage that is about 4 miles west of each of the two points (*) marked on the map. Find an efficient way to use two trucks to sweep snow from the county roads. The trucks may use the state highways to access the county roads. 
+The solid lines of the map represent paved two-lane county roads in a snow-removal district. The broken lines are state highways. After a snowfall, two plow-trucks are dispatched from a garage that is about 4 miles west of each of the two points (*) marked on the map. Find an efficient way to use two trucks to sweep snow from the county roads. The trucks may use the state highways to access the county roads.
 
 Assume that the trucks neither break down nor get stuck and that the road intersections require no special plowing techniques. Can you generalize this to any map?
- 
+
 ##Part B: Important Examples
 
-(a) Agent Based Models 
+(a) Agent Based Models
 
 (Required reading in advance: http://www.palgrave-journals.com/jos/journal/v4/n3/full/jos20103a.html)
 
@@ -72,7 +71,7 @@ Two companies provided electricity to consumers and businesses until 1997 when l
 7.	How might you validate the model, especially the agent behaviors?
 Review: What software/programming language is best for Agent Based Models?  What are the advantages/disadvantages of your choice?
 
-(b) Compartmental Models and Mathematical Epidemiology 
+(b) Compartmental Models and Mathematical Epidemiology
 
 (http://www.springer.com/cda/content/document/cda_downloaddocument/9783540789109-c1.pdf?SGWID=0-0-45-532715-p173817706)
 
@@ -95,7 +94,7 @@ Other: http://pycx.sourceforge.net/ (review: http://www.casmodeling.com/content/
 8. evolution and spread of resistance
 9. role of host genetic factors
 10. role and identification of infection reservoirs
- 
+
 
 
 
@@ -117,14 +116,14 @@ Type (Stochastic vs. deterministic, continuous vs. discrete, etc.)
 
 Visualization of Data, Results
 
-Examples – differential equations, stochastic processes, statistical predictions, 
+Examples – differential equations, stochastic processes, statistical predictions,
 
 Verification and validation of code → Reliability
 
 Reproducability of Results
 
 Error (Sensivity analysis) – impact of uncertainty in input on output
- 
+
 - How to have choices made in the code communicate what *you*, scientist, are
 thinking.
 
