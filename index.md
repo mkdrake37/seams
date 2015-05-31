@@ -33,6 +33,7 @@ world.
 | Wed |   O(n) analysis   |        [Performance, in Theory](performance-theory/){:.ethan}         |       [perf theory practical](performance-theory/practice)       |   [identify performance opportunities](performance-theory/project)    |
 | Thu |                   |      [Performance, in Practice](performance-practice/){:.nicky}       |     [perf practice practical](performance-practice/practice)     |  [implement performance opportunities](performance-practice/project)  |
 | Fri |     Demo Prep     |                               Demo Prep                               |                          Demonstrations                          |                            Demonstrations                             |
+{:.schedule}
 
 We will take meals and coffee as a group at regular intervals.  Evenings will be
 free, though we will have optional mentored lab sessions every evenings, as well
