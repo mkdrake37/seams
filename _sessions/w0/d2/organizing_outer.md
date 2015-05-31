@@ -1,5 +1,5 @@
 ---
-title: Organizing Your Workspace
+title: Organizing Your (Code) Laboratory
 instructor: cabp
 ---
 

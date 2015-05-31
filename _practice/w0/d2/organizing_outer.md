@@ -1,6 +1,15 @@
 ---
-title: Prepping Your Workspace for Football Predictions
+title: Prepping Workspace for Football Exercises
 ---
+
+In this exercise, we will apply ideas from the morning discussing to setting up a workspace.  Particularly, we will create workspaces for the rest of the afternoon exercises by:
+
+1. creating places for them in the filesystem,
+2. creating repositories for each of them,
+3. attaching the repositories to the filesystem, and
+4. stubbing out files / templates for those exercises
+
+
 
 ## Rough Outline for Long Exercise
 
