@@ -19,20 +19,18 @@ world.
 
 ## Schedule
 
-|     |  Morning Warmup   |                          Morning Discussion                           |                       Afternoon Practical                        |                        Afternoon Project Work                         |
-|----:|:-----------------:|:---------------------------------------------------------------------:|:----------------------------------------------------------------:|:---------------------------------------------------------------------:|
-| Mon |    Icebreakers    |                           Language Review I                           |                        Language Review II                        |                       In-Depth Syntax Exercise                        |
-| Tue | Workshop Overview |           [Defining a Project](defining-project/){:.marjie}           |     [Computational for Football](defining-project/practice)      |    [Initial Research Project Definition](defining-project/project)    |
-| Wed |     Git Bingo     | [Setting Up Your (Programming) Laboratory](organizing-outer/){:.carl} | [Tools for Winning Football Analysis](organizing-outer/practice) |          [Set Up Research Project](organizing-outer/project)          |
-| Thu |     Puzzlers      |        [Organizing Within Your Code](organizing-inner/){:.tom}        |    [Re-arrange Your (Code) Roster](organizing-inner/practice)    | [Turn Project Definition Into Code Outline](organizing-inner/project) |
-| Fri |                   |             [Verifying and Validating](testing/){:.nicky}             |              [Testing Your Team](testing/practice)               |     [Produce Test Requirements for Your Outline](testing/project)     |
-| Sat |                   |                                                                       |                                                                  |                                                                       |
-| Sun |                   |                                                                       |                                                                  |                                                                       |
-| Mon |        SQL        |                           [IO](io/){:.tom}                            |               [Football Sabermetrics](io/practice)               |             [Connect Data Flows For Project](io/project)              |
-| Tue |                   |                    [Modeling](modeling/){:.marjie}                    |               [model practical](modeling/practice)               |           [Implement Models For Project](modeling/project)            |
-| Wed |   O(n) analysis   |        [Performance, in Theory](performance-theory/){:.ethan}         |       [perf theory practical](performance-theory/practice)       |   [identify performance opportunities](performance-theory/project)    |
-| Thu |                   |      [Performance, in Practice](performance-practice/){:.nicky}       |     [perf practice practical](performance-practice/practice)     |  [implement performance opportunities](performance-practice/project)  |
-| Fri |     Demo Prep     |                               Demo Prep                               |                          Demonstrations                          |                            Demonstrations                             |
+| Day |                          Morning Warmup                          |         Morning Discussion         |                       Afternoon Practical                        |                        Afternoon Project Work                         |
+|----:|:----------------------------------------------------------------:|:----------------------------------:|:----------------------------------------------------------------:|:---------------------------------------------------------------------:|
+| Mon | [Icebreakers](warmup/icebreakers/) + [Review Overview](reviews/) |  [Language Review I](reviews/AM/)  |                [Language Review II](reviews/PM/)                 |                [Language Exercise](reviews/exercise/)                 |
+| Tue |              [Workshop Overview](warmpup/overview/)              | {% include sess_link.md which=0 %} |     [Computational for Football](defining-project/practice)      |    [Initial Research Project Definition](defining-project/project)    |
+| Wed |                            Git Bingo                             | {% include sess_link.md which=1 %} | [Tools for Winning Football Analysis](organizing-outer/practice) |          [Set Up Research Project](organizing-outer/project)          |
+| Thu |                             Puzzlers                             | {% include sess_link.md which=2 %} |    [Re-arrange Your (Code) Roster](organizing-inner/practice)    | [Turn Project Definition Into Code Outline](organizing-inner/project) |
+| Fri |                                                                  | {% include sess_link.md which=3 %} |              [Testing Your Team](testing/practice)               |     [Produce Test Requirements for Your Outline](testing/project)     |
+| Mon |                               SQL                                | {% include sess_link.md which=4 %} |               [Football Sabermetrics](io/practice)               |             [Connect Data Flows For Project](io/project)              |
+| Tue |                                                                  | {% include sess_link.md which=5 %} |               [model practical](modeling/practice)               |           [Implement Models For Project](modeling/project)            |
+| Wed |                          O(n) analysis                           | {% include sess_link.md which=6 %} |       [perf theory practical](performance-theory/practice)       |   [identify performance opportunities](performance-theory/project)    |
+| Thu |                                                                  | {% include sess_link.md which=7 %} |     [perf practice practical](performance-practice/practice)     |  [implement performance opportunities](performance-practice/project)  |
+| Fri |                            Demo Prep                             |             Demo Prep              |                          Demonstrations                          |                            Demonstrations                             |
 {:.schedule}
 
 We will take meals and coffee as a group at regular intervals.  Evenings will be
