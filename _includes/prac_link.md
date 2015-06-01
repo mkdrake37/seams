@@ -1,0 +1,1 @@
+[{{ site.practice[include.which].title }}]({{ site.practice[include.which].url }}){:.{{ site.practice[include.which].instructor}} }

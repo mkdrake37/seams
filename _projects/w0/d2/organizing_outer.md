@@ -1,6 +1,8 @@
 ---
-title: Setting up Workspace for Your Project
+title: Prepping Workspace for Your Project
 ---
+
+
 
 Tasks:
 
