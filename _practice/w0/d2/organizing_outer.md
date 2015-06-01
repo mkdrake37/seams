@@ -9,7 +9,7 @@ In this exercise, we will apply ideas from the morning discussing to setting up 
 3. attaching the repositories to the filesystem, and
 4. stubbing out files / templates for those exercises
 
-
+For each step, first think a moment about what we discussed in the morning.
 
 ## Rough Outline for Long Exercise
 
