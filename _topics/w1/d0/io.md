@@ -1,10 +1,9 @@
 ---
-layout: section
 title: IO - Why, What, When, Where, and sometimes How
 ---
 
 ## Parse, search and manipulated formatted text like HTML and XML
-http://www.crummy.com/software/BeautifulSoup/ 
+http://www.crummy.com/software/BeautifulSoup/
 
 ## Web scraping with Beautiful Soup
 http://www.pythonforbeginners.com/beautifulsoup/web-scraping-with-beautifulsoup

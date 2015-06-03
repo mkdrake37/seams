@@ -1,5 +1,4 @@
 ---
-layout: section
 title: Undirected Work
 ---
 

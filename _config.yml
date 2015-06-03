@@ -6,6 +6,10 @@ encoding: utf-8
 css:
   active: "active"
 aimsghurl: "http://www.aims.edu.gh/"
+render:
+  - sessions
+  - practice
+  - projects
 collections:
   warmups:
     output: true
