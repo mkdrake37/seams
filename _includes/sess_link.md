@@ -1,1 +1,1 @@
-[{{ site.sessions[include.which].title }}]({{ site.absoluteurl }}{{ site.baseurl }}/{{ site.sessions[include.which].url }}){:.{{ site.sessions[include.which].instructor}} }
+[{{ site.sessions[include.which].title }}]({{ site.absoluteurl }}{{ site.baseurl }}{{ site.sessions[include.which].url }}){:.{{ site.sessions[include.which].instructor}} }
