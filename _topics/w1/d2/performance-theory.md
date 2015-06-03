@@ -20,6 +20,7 @@ This is the overarching question to what problems can be solved quickly: P probl
 
 Another example: Sorting, improvement from O(n^2) to O(n log n). But different sorting techniques are useful in different contexts. i.e. Mergesort when memory is not an issue and can parallelize, quicksort when do not care about stability.
 
+More specifically, we will consider instances when one problem reduces to another, how this gives upper/lower bounds on each problem, how that helps our designing of algorithms, and generally how we classify problems.
 
 
 # Data structures: 
@@ -32,9 +33,7 @@ Picking the right data structure to suit purposes. During the day, we will focus
 5. Priority Queue
 6. Set/Multiset
 
-Some resources:
-
-https://wiki.python.org/moin/TimeComplexity
+Resources: https://wiki.python.org/moin/TimeComplexity
 
 http://bigocheatsheet.com/
 
@@ -42,11 +41,7 @@ https://docs.python.org/2/tutorial/datastructures.html
 
 https://wiki.python.org/moin/TimeComplexity
 
-http://dtkachenko.blogspot.com/2011/11/data-structures-and-algorithms-when-to.html
 
-http://www.idevelopment.info/data/Programming/data_structures/overview/Data_Structures_Algorithms_Introduction.shtml
-
-http://www.careerride.com/Data-Structure-Interview-Questions.aspx
 
 # Dynamic Programming/ Memoization
 
@@ -54,52 +49,34 @@ Essentially 'divide-and-conquer' strategies to problems. Simple but very powerfu
 
 Ex. Tower of Hanoi Puzzle: http://en.wikipedia.org/wiki/Tower_of_Hanoi
 
-Resources
-
-https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/
+Resources: https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/
 
 http://www.codechef.com/wiki/tutorial-dynamic-programming
 
-A sample problem: https://projecteuler.net/problem=81
-
 # Sorting
 
-Sorting is important problem both as a key part to other algorithms and an important standalone question. We will review some sorting algorithms (Quicksort, Mergesort, etc.) and work example problems where they play a key part.
+Sorting is important problem both as a key part to other algorithms and an important standalone question. We will review some sorting algorithms (Quicksort, Mergesort, etc.) and work example problems where they play a key part. Try to know the main sorting algorithms and their specifications by learning the algorithm. We will consider what each sorting algorithm brings to the table, and when sorting is used as a sub-problem.
 
 Ex. Given a set of numbers, can you find a pair that sums to 0? Naive is O(n^2), with sorting O(n log(n))
 
 Ex. Given a set of numbers, can you find a triples that sums to 0? Naive is O(N^3), with sorting O(n^2 log(n))
 
-Resources: 
-https://www.cs.cmu.edu/~adamchik/15-121/lectures/Sorting%20Algorithms/sorting.html
+Resources: https://www.cs.cmu.edu/~adamchik/15-121/lectures/Sorting%20Algorithms/sorting.html
+
+http://www.sorting-algorithms.com/
 
 # Graph Problems: 
-Many problems show up as graph problems. Finding minimum spanning trees, max flow / min cut, shortest paths. Some important algorithms, some of which we will go over: Depth first and breadth first search, Prim, Dijkstra, Kruskal, Prim, Bellman-Ford. During the day we will go through some interesting problems with graph representations and use some of the above algorithms to solve them. Some examples might be: Seam Carving pictures for photo editing, finding the your way out of a maze, etc.
+Many problems show up as graph problems. Finding minimum spanning trees, max flow / min cut, shortest paths. Some important algorithms, some of which we will go over: Depth first and breadth first search, Prim, Dijkstra, Kruskal, Bellman-Ford. During the day we will go through some interesting problems with graph representations and use some of the above algorithms to solve them. Some examples might be: Seam Carving pictures for photo editing, finding the your way out of a maze, etc.
 
 # RegExp: 
 Important for webcrawling and searching through text is regular expressions: What type of strings can and cant be found by regular expressions / nondeterministic finite automaton. We will go over some uses.
 
-http://infolab.stanford.edu/~ullman/focs/ch10.pdf
-
-Good overview of theory, last bit about NFA: https://courses.engr.illinois.edu/cs373/fa2010/lectures/lect06.pdf
-
-optimizing: http://blog.codinghorror.com/regex-performance/
-
-https://docs.python.org/2/howto/regex.html#regex-howto
-
-https://docs.python.org/2/library/re.html
-
-https://projecteuler.net/problem=89
+You should have some fimiliarity with RE first, before thinking about them theoretically: http://www.python-course.eu/re.php
 
 # Parallelizing
 Some problems can take advantage of multiple processors. Although distinct from the idea of P vs NP, this concept can quickly make a problem more manageable. Throughout we will keep an eye on when parallelization is possible, and bring up some very important instances.
 
-Resources:
-http://scottsievert.github.io/blog/2014/07/30/simple-python-parallelism/
-
-https://www.binpress.com/tutorial/simple-python-parallelism/121
-
 # Random algorithms: 
-Overview of some probabilistic methods. Monte Carlo, IsPrime, Quick sort, verifying some output by random selection.
+We will go over some probabilistic methods. Monte Carlo, IsPrime, Quick sort, verifying some output by random selection.
 
 
