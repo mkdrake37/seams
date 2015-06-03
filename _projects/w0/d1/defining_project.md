@@ -2,7 +2,7 @@
 title: How to Define a Programming Project in Research
 ---
 
-#No coding#
+*No coding*
 
 Form groups with only one student with a "well-curated project."  This student should guide and mentor the others, but also should be honest about how he would do the project differently after completing his research.  He is expected to create a new proposal based on his research.  He should also be open to feedback and constructive criticism.
 
