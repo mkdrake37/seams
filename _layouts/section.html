@@ -7,8 +7,8 @@ layout: compress
   <meta charset="utf-8">
   <title>CAMS {{ page.area | capitalize }}: {{ page.title }}</title>
   {% include favicon.liquid %}
-  <link rel="stylesheet" type="text/css" href="{{ site.absoluteurl }}{{ site.baseurl }}/css/site.css">
-  <link rel="stylesheet" type="text/css" href="{{ site.absoluteurl }}{{ site.baseurl }}/css/python-highlight.css">
+  <link rel="stylesheet" type="text/css" href="{% include url.lq %}/css/site.css">
+  <link rel="stylesheet" type="text/css" href="{% include url.lq %}/css/python-highlight.css">
 {% if page.math %}
   <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
@@ -20,7 +20,7 @@ layout: compress
   </script>
 {% endif %}
   <script type="text/javascript"
-    src="{{ site.absoluteurl }}{{ site.baseurl }}/js/site.js">
+    src="{% include url.lq %}/js/site.js">
     </script>
 </head>
 <body>
