@@ -11,8 +11,10 @@ Dictate a strategy for your Goalie and Kicker.  Each can "learn" from the oppone
 2. As the Kicker, you can shoot (kick the ball) L/R and POWER/CURVE (where POWER is the more accurate option with less reward).
 
 K   G   | CATCH L | DEFLECT L | CATCH R | DEFLECT R
-POWER L | ------- | --------- | ------- | ----------
-CURVE L |
-POWER R |
-CURVE R |
+------- | ------- | --------- | ------- | ----------
+POWER L | a11/b11 | a12/b12   | a13/b13 | a14/b14
+CURVE L | a21/b21 | a22/b22   | a23/b23 | a24/b24
+POWER R | a31/b31 | a32/b32   | a33/b33 | a34/b34
+CURVE R | a41/b41 | a42/b42   | a43/b43 | a44/b44
 
+Each team should submit a KEEPER object which inherits from the KEEPER class
