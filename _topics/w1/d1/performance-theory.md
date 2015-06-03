@@ -32,9 +32,7 @@ Picking the right data structure to suit purposes. During the day, we will focus
 5. Priority Queue
 6. Set/Multiset
 
-Some resources:
-
-https://wiki.python.org/moin/TimeComplexity
+Resources: https://wiki.python.org/moin/TimeComplexity
 
 http://bigocheatsheet.com/
 
@@ -50,9 +48,7 @@ Essentially 'divide-and-conquer' strategies to problems. Simple but very powerfu
 
 Ex. Tower of Hanoi Puzzle: http://en.wikipedia.org/wiki/Tower_of_Hanoi
 
-Resources
-
-https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/
+Resources: https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/
 
 http://www.codechef.com/wiki/tutorial-dynamic-programming
 
@@ -64,8 +60,7 @@ Ex. Given a set of numbers, can you find a pair that sums to 0? Naive is O(n^2),
 
 Ex. Given a set of numbers, can you find a triples that sums to 0? Naive is O(N^3), with sorting O(n^2 log(n))
 
-Resources: 
-https://www.cs.cmu.edu/~adamchik/15-121/lectures/Sorting%20Algorithms/sorting.html
+Resources: https://www.cs.cmu.edu/~adamchik/15-121/lectures/Sorting%20Algorithms/sorting.html
 
 http://www.sorting-algorithms.com/
 
@@ -81,6 +76,6 @@ You should have some fimiliarity with RE first, before thinking about them theor
 Some problems can take advantage of multiple processors. Although distinct from the idea of P vs NP, this concept can quickly make a problem more manageable. Throughout we will keep an eye on when parallelization is possible, and bring up some very important instances.
 
 # Random algorithms: 
-Overview of some probabilistic methods. Monte Carlo, IsPrime, Quick sort, verifying some output by random selection.
+We will go over some probabilistic methods. Monte Carlo, IsPrime, Quick sort, verifying some output by random selection.
 
 
