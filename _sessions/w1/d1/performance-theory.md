@@ -1,6 +1,13 @@
 ---
 title: Performance, in Theory
 ---
+
+# P vs. NP Stuff
+
+Discuss reductions/ intractability, good examples: 
+
+http://www.cs.princeton.edu/courses/archive/spring15/cos226/lectures/65Reductions-2x2.pdf
+
 # Data Structures
 
 Will take some examples from  
