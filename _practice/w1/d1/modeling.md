@@ -17,4 +17,4 @@ CURVE L | a21/b21 | a22/b22   | a23/b23 | a24/b24
 POWER R | a31/b31 | a32/b32   | a33/b33 | a34/b34
 CURVE R | a41/b41 | a42/b42   | a43/b43 | a44/b44
 
-Each team should submit a KEEPER object which inherits from the KEEPER class
+Each team should submit a KEEPER object...
