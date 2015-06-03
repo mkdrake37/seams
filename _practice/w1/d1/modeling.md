@@ -1,49 +1,22 @@
 ---
 title: Mathematical Modeling
 ---
-## Interview us to compete/submit bid for one of the following
+## GameBot
 
-1. We are owners of soccer teams, want to optimize ticket pricing
+Each team will create a Keeper and Kicker Bot, and each team will play every other team in a game once.  In the game, Team A's Kicker plays Team B's Keeper 100 times (resulting in a score A1-B1), and Team B's Kicker plays Team A's Keeper 100 times (resulting in a score A2-B2).  The winner of this game will be the greater score (A1+A2 or B1+B2), with a tie possible.  The winner of the tournament will win the greatest number of games (or have the best record W-L-T).  
 
-  - Use previous data: how priced, date, weather, opponent
+Dictate a strategy for your Goalie and Kicker.  Each can "learn" from the opponent during the game (remembers the history up the the 100th kick), but enters each new game unaware of the new teams history. 
 
-2. We are managers for a soccer team (find best fantasy team)
-  - Use individual stats [here](http://www.whoscored.com/Statistics)
+1. As the Goalie you can move L/R and try to CATCH/DEFLECT - with the assumption that CATCHing (or obtaining possession of the ball) is both riskier than DEFLECTing (the kicker is more likely to score) and better for your team (once you have possession, your team scores).
+2. As the Kicker, you can shoot (kick the ball) L/R and POWER/CURVE (where POWER is the more accurate option with less reward).
 
-3. We own sports news websites, want to rank teams based on some metric.  Include team stats. Include individual stats?
-4. We own a stadium, want to know how to optimize revenue with advertisements
+K   G   | CATCH L | DEFLECT L | CATCH R | DEFLECT R
+------- | ------- | --------- | ------- | ----------
+POWER L | a11/b11 | a12/b12   | a13/b13 | a14/b14
+CURVE L | a21/b21 | a22/b22   | a23/b23 | a24/b24
+POWER R | a31/b31 | a32/b32   | a33/b33 | a34/b34
+CURVE R | a41/b41 | a42/b42   | a43/b43 | a44/b44
 
-  - Consider demographics of crowd
-  - Ticket costs
-  - Impact of opposing team
+Each team should submit a KEEPER object...
 
-### Group Work
-
-In interviewing us, students should determine answers to some of the questions covered in the morning session, including:
-
- - What specific problem should be solved by the model?
- - What specific questions should the model answer?
-
-They should propose answers to the questions:
-
- - How do we want to visualize the results?
- - What data sets will be used by the model? What characteristics will the model have? (linear? static vs. dynamic? deterministic vs. stochastic?)
- - How do we validate the model?
-
-Then they will write pseudocode to solve the problem they’ve identified. They should be very specific about what data the model will use, the impact of uncertainty in input on uncertainty in output, expected accuracy, problems they anticipate needing to resolve (and resolutions, if known).
-
-For ideas for data available, see:
-
- - (http://fivethirtyeight.com/features/what-analytics-can-teach-us-about-the-beautiful-game/)
- - (http://espn.go.com/soccer/worldcup/news/_/id/4504383/faq)
- - (http://www.whoscored.com/Statistics)
- - (http://www.zonalmarking.net/2012/05/04/the-relationship-between-possession-and-shots/)
-
-
-####OLDER
-
-- Students write new code to determine the best travel schedule for Ghana
-- Students use skills developed in SEAMS up to this point
-- Improve capacity to model math
-
-Students have written then corrected and improved each other's code.  Now they'll write something (simple) and new to optimize wins/minimize cost/achieve specific goal in response to specific weights on traveling schedule.
+See code [here](https://gist.github.com/c6324b6bdd9b5352e641)
