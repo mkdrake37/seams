@@ -20,6 +20,7 @@ This is the overarching question to what problems can be solved quickly: P probl
 
 Another example: Sorting, improvement from O(n^2) to O(n log n). But different sorting techniques are useful in different contexts. i.e. Mergesort when memory is not an issue and can parallelize, quicksort when do not care about stability.
 
+More specifically, we will consider instances when one problem reduces to another, how this gives upper/lower bounds on each problem, how that helps our designing of algorithms, and generally how we classify problems.
 
 
 # Data structures: 
