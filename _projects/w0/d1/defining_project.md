@@ -18,4 +18,4 @@ Newer students will develop their research proposals in increasing depth (modele
    * Collect ideas on how to gather data
    * Investigate methods of data analysis
 
-*No coding.* Initial work should be paper, then typed up (plaintext) as (at most) a draft outline for some sort of publication.  Students will present their research proposals at the end of the day.
+*No coding.* Initial work should be handwritten, then typed up (plaintext) as (at most) a draft outline for some sort of publication.  Students will present their research proposals at the end of the day.
