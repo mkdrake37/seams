@@ -34,7 +34,7 @@ Do not feel limited to the following examples. If your personal research has led
 
 1. Dijkstra: Takes in a file with number of vertices, and weights of any existing edges between them. Efficiently outputs shortest distance from first vertex to the rest of the vertices. (*)
 2. Primality Testing: Input an int, outputs a Boolean of whether the int is prime or not. Should be correct an overwhelming majority of the time. (*)
-3. A*: Takes in a file with points on a plane (as pairs of a doubles). Outputs shortest path between first vertex and last vertex. (*)
+3. A *: Takes in a file with points on a plane (as pairs of a doubles). Outputs shortest path between first vertex and last vertex. (*)
 4. Knuth-Morris-Pratt: Given two strings, efficiently outputs indices for the second string being a substring of the first. (**)
 5. Newton's Method (**)
 6. Needleman–Wunsch algorithm: Given two strings, efficiently outputs the two strings with spaces added such that the difference between the two (where 2 spaces marks a difference) is minimized. Key for protein sequencing. (***)
