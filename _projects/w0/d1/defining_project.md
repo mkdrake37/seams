@@ -2,8 +2,6 @@
 title: How to Define a Programming Project in Research
 ---
 
-*No coding*
-
 Form groups with only one student with a "well-curated project."  This student should guide and mentor the others, but also should be honest about how he would do the project differently after completing his research.  He is expected to create a new proposal based on his research.  He should also be open to feedback and constructive criticism.
 
 Newer students will develop their research proposals in increasing depth (modeled after required reading).
@@ -20,4 +18,4 @@ Newer students will develop their research proposals in increasing depth (modele
    * Collect ideas on how to gather data
    * Investigate methods of data analysis
 
-Initial work should be paper, then typed up (plaintext) as (at most) a draft outline for some sort of publication.  Students will present their research proposals at the end of the day.
+*No coding.* Initial work should be paper, then typed up (plaintext) as (at most) a draft outline for some sort of publication.  Students will present their research proposals at the end of the day.
