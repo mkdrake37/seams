@@ -1,6 +1,6 @@
 absoluteurl: http://AIMS-Ghana.github.io
-baseurl: '/seams'
-repourl: 'https://raw.githubusercontent.com/AIMS-Ghana/seam/gh-pages/_includes/'
+baseurl: '/cams'
+repourl: 'https://raw.githubusercontent.com/AIMS-Ghana/cams/gh-pages/_includes/'
 markdown: kramdown
 encoding: utf-8
 css:
