@@ -1,1 +1,1 @@
-[{{ site.topics[include.which].title }}]({{ site.absoluteurl }}{{ site.baseurl }}{{ site.topics[include.which].url }}){:.{{ site.topics[include.which].instructor}} }
+[{{ site.topics[include.which].title }}]({% include url.lq %}{{ site.topics[include.which].url }}){:.{{ site.topics[include.which].instructor}} }

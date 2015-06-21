@@ -1,6 +1,6 @@
 ---
-title: Organizing Your Workspace
-instructor: cabp
+title: Organize Your Workspace
+instructor: carl
 ---
 
 You have a [rough](defining-project/) [project](defining-project/session/) [definition](defining-project/project/).  Now what?
@@ -25,6 +25,20 @@ Science is typically about *exploration*.  How you choose to organize your works
 
 What follows are discussions about how to strike that balance.
 
+## Collaboration & Configuration
+
+You and your collaborators (and more generally, any researchers engaging with your work) are going to be using different computers.  How are you going to share work effectively?
+
+One problem is just making sure the team is all working with a shared perspective.  The are several approaches to data sharing.  When it comes to analytical code, version control is the preferred way to manage that.
+
+But beyond these basic concerns, the team members will likely have different setups on their computers.  This is fine - different people have different resources, tasks, preferences, *etc*.
+
+Many times these differences are trivial - for example, if you're all working on machines in a lab with the same computers and OS, doing research that doesn't require any particular libraries.  However, you and your collaborators may be using different operating systems, on a project that relies on a variety of different tools.
+
+In that situation, you'll need to think ahead a bit.  What sort of problems does this create?  How can you address those challenges?
+
+Search for `python dependency management` or `r dependency management`.  What do you find?
+
 ## What to Do About Data?
 
  - [Data Management Discussion](http://mariovalle.name/sdm/scientific-data-management.html)
@@ -41,31 +55,24 @@ What follows are discussions about how to strike that balance.
  - [ArXiV description](http://arxiv.org/pdf/1210.0530.pdf)
  - [PLoS Computational Biology](http://dx.doi.org/10.1371/journal.pcbi.1003285)
  - [Assorted Reddit Discussions](http://www.reddit.com/r/programming/search?q=why+version+control&restrict_sr=on)
+ - Git Tutorials:
+   * [with GitHub](https://try.github.com/)
+   * [visualization](http://pcottle.github.io/learnGitBranching/)
+   * [undoing](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)
+   * [daunting book](https://progit.org/)
 
-## Editors
-
- - [Overview of Text Editors](http://en.wikipedia.org/wiki/Comparison_of_text_editors) - what comes across as important?
- - Instructor Preferences:
-  * Carl: [atom](http://atom.io/), then GUI IDEs: PyCharm, RStudio, Eclipse
-  * Ethan:
-  * Marjie:
-  * Nicky:
-  * Tom: vim
+Another thing to keep in mind: what goes in the repository vs. what stays on your local machine.
 
 ## System Tools
 
-Unix-like systems provide various command line tools:
+Unix-like systems provide a variety of command line tools to accomplish tasks in the file system.  In some settings
+(*e.g.*, typical supercomputers) these tools are it, so they are important to
+understand.  However, even where you can use fancier tools, [these may do parts of the job better](http://superuser.com/questions/414965/when-to-use-bash-and-when-to-use-perl-python-ruby).
 
- - searching tools: `grep`, `ls` and regular expressions
- - transforming tools: `sed`, `awk`
- - writing with `>`, `>>`
- - directing data into other commands: `|`, `<<`
- - manipulating files: `rm`, `cp`, `mv`
- - environment variables
- - command line scripts (*e.g.*, `bash`)
- - scripts for other tools (*e.g.*, pbs)
+Some command line cheat sheets:
 
-In some settings (*e.g.*, typical supercomputers) these tools are it, so they are important to understand.  However, even where you can use fancier tools, [these may do parts of the job better](http://superuser.com/questions/414965/when-to-use-bash-and-when-to-use-perl-python-ruby).
+ - [one](http://cli.learncodethehardway.org/bash_cheat_sheet.pdf)
+ - [another](http://www.git-tower.com/blog/command-line-cheat-sheet/)
 
 ## Basic Layout
 
@@ -80,20 +87,9 @@ In some settings (*e.g.*, typical supercomputers) these tools are it, so they ar
  - [RStudio IDE Project](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects)
  - [PyCharm IDE Project](https://www.jetbrains.com/pycharm/help/project.html)
 
-## Collaboration & Configuration
-
-You and your collaborators (and more generally, any researchers engaging with your work) are going to be using different computers.  Sometimes those differences are trivial - for example, if you're all working on machines in a lab with the same computers and OS, doing research that doesn't require any particular libraries.  However, you and your collaborators may be using different operating systems, on a project that relies on a variety of different tools.
-
-What sort of problems does this create?  How can you address those challenges?  What are themes in:
-
- - packrat / drat for R
- - python module dependency versioning
- - make
- - python environment control thing (systemenv?  don't recall otomh)
-
 ## Publish!
 
-The goal of our work as scientists is to create useful knowledge (*useful* may be defined on a very long time scale).  Knowledge doesn't exist if people don't have access to it, and it's not useful if they can't engage with it.
+The our goal as scientists is to create useful knowledge (*useful* may be defined on a very long time scale).  Knowledge doesn't exist if people don't have access to it, and it's not useful if they can't engage with it.
 
 There are a variety of tools that support co-mingling your code with the scientific report it supports:
 
@@ -101,26 +97,16 @@ There are a variety of tools that support co-mingling your code with the scienti
  - rweave
  - jupyter
 
+## Finally: Think in Terms of the **Product**
 
-How to organize various parts of a project.
-
-Separating data / configuration elements into their own area.
-
-Organizing code by scripts, analysis source, visualization source, etc.
-
-Pipelining in publication (e.g., Rweave).
-
-tools: version control + IDEs + data viewers.
-
-## Think in Terms of the **Product**
-
-motivate remaining points in terms of what a scientist wants, namely "software"
-(*e.g.*, the combination of scripts, analysis code, data management, reference management, external tools devoted to addressing a particular research question / area) that is:
+We want "software" (*e.g.*, the combination of scripts, analysis code, data
+management, reference management, external tools devoted to addressing a
+particular research question / area) that is:
 
  - easy to use correctly
- - easy to validate (*i.e.*, does what intends) and verify (*i.e.*, produces something
-   can be compared to empirical measurements)
- - easy to know when using incorrectly + what to do differently
+ - easy to verify (*i.e.*, does what intends) and validate (*i.e.*, produces something
+   that can be compared to empirical measurements)
+ - easy to know when using incorrectly, and what to change to use correctly
  - easy to understand, both as a whole and individual parts
  - plausible to deploy in other settings (*e.g.*, distributed computation, GUI tool for non-technical users)
  - generalizable (*e.g.*, different dataset / context)
@@ -135,7 +121,3 @@ support:
  - portability
  - publication (results *as well as recipe*)
  - subsequent extension
-
-## Filesystem + Version Control
-
-The overall concern here is distinguishing between what you do and don't want or need to share, and how best to manage those needs and wants.
