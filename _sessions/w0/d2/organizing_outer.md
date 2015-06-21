@@ -1,6 +1,6 @@
 ---
-title: Organizing Your (Code) Laboratory
-instructor: cabp
+title: Organize Your (Code) Laboratory
+instructor: carl
 ---
 
 ## Opening Discussion
