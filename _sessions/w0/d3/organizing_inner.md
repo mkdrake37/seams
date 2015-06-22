@@ -8,18 +8,26 @@ based on at least three sources.  For each best practice, note whether it is
 something you should always, sometimes, or never do.  If sometimes, why only
 sometimes?  If never--and there are some old best practices that are now
 widely regarded as bad practices--try to understand why in some context they
-made sense.
+made sense.  What kinds of factors determine what "best practices" means?
 
 ## User interface and object design
 Draw and label the parts of two electric fans (the kind you cool yourself
 with).  For the first one, include the minimum number of functional parts--
-the simplest possible fan, if you were to put one together from scrap parts.
-For the second one, include things that would make it user-friendly.
+the simplest possible powered fan, if you were to put one together from minimal
+parts. For the second one, include things that would make it user-friendly,
+something that might be sold in a store.
 
 ## Design a class structure
 Write down a class hierarchy that reflects the functional and user-friendly
 fan parts that you identified in the last part.  What is part of the public
-interface for each class?
+interface for each class?  If you need help getting started, a sensible option
+would be to start with a Fan class and create functions the correspond to how
+the user would interact with it.  What subclasses to you need to define that
+can be put together to make up a Fan object?  Note that you DO NOT need to
+write any algorithms or mathematical equations.  For example, you don't need
+to figure out how pushing a button (or turning a dial or pulling a chain)
+changes the motor speed, but your interface should indicate that that
+functionality exists.
 
 
 

@@ -20,6 +20,15 @@ title: IO - Why, What, When, Where, and sometimes How
  - database
  - specialized file formats (e.g., tiff, hdf5, docx)
 
+ Spend 10 minutes researching one of the following topics (to be assigned):
+ 1) What are standard out and standard error?  What's the difference, and how 
+ do you write to them on the command line and in [your language here].
+ 2) What is a markup language, and what are some examples?  What advantages
+ and disadvantages do markup languages have over simple text?
+ 3) In your own words, what is database normalization?  What's the point?
+ 4) Choose a specialized file format, explain when it should be used,
+ and what advantage it has over plain text.  
+
 ## Parsers
  - existing, established
  - making your own (use the standard, write tests, be fastidious)
