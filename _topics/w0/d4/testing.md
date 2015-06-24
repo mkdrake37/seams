@@ -2,6 +2,48 @@
 layout: section
 title: How to Verify and Validate Research Code as You Work
 ---
+##References on software testing:
+
+##An introduction to software testing:
+
+http://agile.csc.ncsu.edu/SEMaterials/BlackBox.pdf
+
+##A general guide to testing in Python:
+
+http://docs.python-guide.org/en/latest/writing/tests/
+
+##A guide to PyUnit:
+
+http://www.drdobbs.com/testing/unit-testing-with-python/240165163
+
+##A guide to pycharm:
+
+https://www.jetbrains.com/pycharm/quickstart/
+
+##Debugging in Pycharm
+
+https://www.jetbrains.com/pycharm/help/running-and-debugging.html
+
+https://www.jetbrains.com/pycharm/help/python-debugger.html
+
+https://www.jetbrains.com/pycharm/help/using-debug-console.html
+
+https://www.jetbrains.com/pycharm/help/stepping-through-the-program.html
+
+##A guide to debugging in Rstudio:
+
+ https://support.rstudio.com/hc/en-us/articles/205612627-Debugging-with-RStudio
+
+##Thoughts on input validation:
+
+http://www.ibm.com/developerworks/library/l-sp2/
+
+##Some tests for randomness:
+
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.156.7149&rep=rep1&type=pdf
+
+
+
 
 
 ##Warmup discussion:
