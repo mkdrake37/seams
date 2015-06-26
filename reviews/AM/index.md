@@ -2,6 +2,32 @@
 title: Language Review I
 ---
 
+## Keywords, Reserved Words and Tokens, and Operators
+
+> ### Quiz
+>
+>  0. List five reserved words in R.
+>  1. List five reserved words in Python.
+>  2. List five reserved words in Octave.
+
+In all programming languages, there are certain characters, words, and symbols
+that have a fixed meaning and must be used in certain ways.  This is the same as
+notation conventions in various mathematical fields.  When we talk about
+arithmetic, `+` and `=` have fixed definitions.  If instead we are talking about
+algebra, operators can take on different meaning, but groups (and fields, rings,
+*etc*.) have a fixed definition.
+
+In the programming context, these *syntactical* elements are referred to by many
+different labels (keywords, reserved words, operators, *etc*.).  While there can
+be nuanced distinctions between these concepts, the practical definition is
+quite simple: these are the (sequences of) characters that have a fixed meaning
+in your code.  *I.e.*, you cannot redefine their meaning.
+
+Keep these in mind as we move through the following sections - they show up in
+almost all of them.
+
+> ### Re-Quiz
+
 ## Variable Declaration
 
 > ### Quiz: Variable Declaration
@@ -44,6 +70,8 @@ small exercise
 Like in mathematics, a *function* is a special kind of variable in programming.
 Functions represent a transformation from inputs to outputs.
 
+There are some functions that are *built-in* - these can behave differently from functions you define in your code.
+
 re-quiz
 
 ## Scope
@@ -63,6 +91,16 @@ re-quiz
 
 ## Logical Operators & Conditionals
 
+> ### Quiz: Logical Operators & Conditionals
+>
+>  0. What are the operators, keywords, or built-in functions for *and*, *or*, *not*, and *xor*?
+>  1. In the following Python code, what is print out?
+>    ...TODO some blocks with conditional forking and print statements
+>  2. In the following R code, what is print out?
+>  3. In the following Octave code, what is print out?
+
+
+
 quiz - check knowledge of operators, check knowledge of branching (which statement prints?)
 
 and, or, not, xor
@@ -72,7 +110,5 @@ if, else, else if, unless
 elvis?
 
 ifelse
-
-conditional slices in R
 
 re-quiz
