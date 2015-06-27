@@ -8,10 +8,10 @@ However, before you can write something interesting, you must know how to write 
 
 Throughout the reviews, we have several "quizzes".  You should complete them first on paper, but after that you may check with the appropriate coding tool.  We will discuss the quizzes in class.  We will **not** be grading you: you should score the quizzes for **yourself** so that **you** can know what you **do** and **do not** know.  This is a powerful learning technique: **TAKE ADVANTAGE OF IT**.
 
-[Language Review, Part I](AM/)
-: xyz
-
-[Language Review, Part II](PM/)
-: thing
-
-[Language Review, Indepth Exercise](exercise/)
+ - [Language Review, Part I](AM/)
+ - [Language Review, Part II](PM/)
+ - [Language Review, Indepth Exercise](exercise/)
+ - Assorted Reference Links:
+    * [Official R Language Spec](http://cran.r-project.org/doc/manuals/R-lang.pdf)
+    * [Python Keywords](http://stackoverflow.com/questions/9642087/is-it-possible-to-get-a-list-of-keywords-in-python)
+    * [Octave Keywords](https://www.gnu.org/software/octave/doc/interpreter/Keywords.html)

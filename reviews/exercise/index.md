@@ -2,7 +2,7 @@
 title: Language In-depth Exercise
 ---
 
-Using the syntax and concepts we reviewed this morning, you will write code to accomplish a series of tasks.  You should complete the tasks in the order provided, in whichever language you prefer.  You may use any library to assist you.  For the tasks there is at least one piece of missing information about what to do; you will need to decide for yourself what to do.
+Using the syntax and concepts we reviewed this morning, you will write code to accomplish a series of tasks.  You should complete the tasks in the order provided, in whichever language you prefer.  You may use any library to assist you.  For some of the tasks there is missing information about what to do; you will need to decide for yourself what to do, but make sure that decision is consistent and clear.
 
 The tasks are:
 
@@ -18,6 +18,8 @@ The tasks are:
 {% highlight bash %}
 location uname$ ./MYCOMMAND SOMEINPUT.csv SOMEOUTPUT.png
 {% endhighlight %}
+
+* * *
 
 The shapes will be specified by strings:
  - square = "SQUARE"
@@ -35,4 +37,4 @@ The input files will be `csv`s, formatted like:
 10.0, "RECTANGLE", "yellow", -5.0, 5.0
 ```
 
-which corresponds to a request for three shapes, with a red square first, drawn at the normal origin, and so on for the remaining rows.
+which corresponds to a request for three shapes, with a red square first, side length 4.0, drawn at the normal origin, and so on for the remaining rows.
