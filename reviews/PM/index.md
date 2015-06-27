@@ -4,13 +4,17 @@ title: Language Review II
 
 ## Loop Constructs
 
-quiz - which i's does some for loop see?  how many passes through the body of a while loop?  for some comprehension, what is the resulting list?
+for (i in 1..10) {
+  j
+}
 
-for-while
+quiz - which `i`'s does some `for` loop see?  how many passes through the body of a `while` loop?  for some comprehension, what is the resulting list?
+
+for-while - when to use which?
 
 comprehensions
 
-map-reduce
+map-reduce-filter
 
 re-quiz
 
@@ -28,9 +32,11 @@ re-quiz
 
 classes python focused; discuss using `list(...)` as a data object in R
 
-## IO
+## IO and Visualization
 
-using interpreters in REPL mode
+? using console / REPL mode
+
+invoke interpreters + script from OS commandline
 
 reading structured files (csv, json)
 
@@ -38,4 +44,10 @@ arbitrary, sequential line reading
 
 writing structured files
 
-writing images
+plotting / writing images
+
+
+a = 10
+
+def somefunction(a):
+  a = 5

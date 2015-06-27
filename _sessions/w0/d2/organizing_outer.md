@@ -48,7 +48,7 @@ Why organize?  What's the benefit?  What's the cost?  How do you organize?
 >
 > With a partner (that you have *NOT* worked with on the previous two exercises), take a look at the [New England Journal of Medicine](http://www.nejm.org/page/author-center/manuscript-submission) manuscript requirements.
 >
-> What do they actually require?  In two minutes: write down 2 distinct requirements.
+> What do they actually require?  In 2 minutes: write down 2 distinct requirements.
 >
 > How does it relate to how you organize your project?  Write something (possibly "It doesn't not") for each of the requirements you identified previously.
 >
@@ -62,14 +62,18 @@ First a quiz on `git` commands.
 
 > ### Exercise: `git` practice.
 >
-> 
+>
 >
 > have people swap workstations, draw task from a hat, switch computers, perform task, switch back and figure out what other person's task was
  - requiz on `git` commands
 
-> mostly about how organization enables collaboration by providing rules
-
 ## Tools For Organization: Templating
+
+> ### Exercise: Template a library
+>
+> We are now going to build the skeleton of a project that we could distribute for others to use.  Depending on which language you prefer, see either:
+>
+>  - [Python Modern](https://pypi.python.org/pypi/modern-package-template)
 
  - exercise: set up RStudio project + package layout
  - alt: set up PyCharm project + module layout
