@@ -57,3 +57,4 @@ exclude:
  - Gemfile
  - README.md
  - LICENSE
+ - head.scss
