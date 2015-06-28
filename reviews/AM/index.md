@@ -2,6 +2,8 @@
 title: Language Review I
 ---
 
+FOR ALL QUIZZES: WRITE ALL ANSWERS ON PAPER FIRST.  WHEN WE RE-QUIZ, TYPE ANSWERS TO CODE QUESTIONS INTO THE APPROPRIATE CONSOLE.
+
 ## Keywords, Reserved Words and Tokens, and Operators
 
 > ### Quiz
@@ -35,7 +37,8 @@ almost all of them.
 >  0. Declare an integer in R, Python, and Octave
 >  1. Declare a sequential data structure (*i.e.*, a collection with items in ordinal positions) in R, Python, and Octave
 >  2. Declare a key-value data structure (*i.e.*, a collection with keys mapping to values) in R, Python, and Octave
->  3. Contrast immutable and mutable variables and collections.
+>  3. Declare a variable derived from other variables.
+>  4. Contrast immutable and mutable variables and collections.
 {:.quiz}
 
 "Variable" has a similar (*but not identical!*) meaning in programming and mathematics.
@@ -52,9 +55,7 @@ vector, matrix, *etc*).  The same is true in programming, and these domains are
 called *types*.  When a variable is actually several items of some type gathered
 together, this is generally called a *collection*, with specific names for
 different types of collections that either have items in particular ordinal
-positions (*e.g.*, array) or associated with particular keys (*e.g.*, `dict`s).
-
-small exercise
+positions (*e.g.*, `array(...)` in *R*) or associated with particular keys (*e.g.*, `dict`s in *Python*).
 
 > ### Re-Quiz: Variable Declaration
 {:.re.quiz}
@@ -66,45 +67,131 @@ small exercise
 >  0. Declare a function in R, Python, and Octave
 >  1. What does "signature" mean relative to functions?
 >  2. Write a function in R, Python, and Octave that returns multiple values.
+>  3. Write a function in R, Python, and Octave that has no inputs or outputs, but has a side-effect.
+{:.quiz}
 
 Like in mathematics, a *function* is a special kind of variable in programming.
-In mathematics, functions represent a transformation from inputs to outputs; the same is true in programming, though functions (or approximate synonyms like *methods*, *definitions*, *procedures*) can often also produce side-effects.
+In mathematics, functions represent a transformation from domain to range; the same is true in programming, though functions (or approximate synonyms like *methods*, *definitions*, *procedures*) can often also produce side-effects (*e.g.*, writing a file or drawing a plot), and we call the domain *arguments* and range *returns*.
+
+In programming, we typically use functions as a way to organize a related series of instructions to the computer.  This is similar to how we use functions to represent mechanisms in applied mathematics (modeling).
+
+Like other variables, functions have a *type* defined by the type of the arguments it accepts and the type of its returns.  This type is sometimes called the *signature*.
 
 There are some functions that are *built-in* - these can behave differently from functions you define in your code.
 
-re-quiz
+Like other variables, functions may be arguments to other functions.  In
+mathematics, this notion appears in composition and with operators (*e.g.*,
+operators in physics, summation or product operators).  In programming, this is
+often called a *functional* approach, and functions which are supplied as
+arguments are often called *lambda* functions.
+
+> ### Re-Quiz: Function Declaration
+{:.re.quiz}
+
 
 ## Scope
 
 > ### Quiz: Scope
 >
-> Running the following blocks of Python, what is print out?
->  ...TODO some blocks with variables in different scopes
+> 0. Running the following Python, what is print out?
 >
-> Running the following blocks of R, what is print out?
+{% highlight python %}
+a = 4
+
+def afun(a):
+  print(a)
+
+afun(a)
+afun(2)
+{% endhighlight %}
 >
-> Running the following blocks of Octave, what is print out?
+> 1. Running the following blocks of R, what is print out?
+>
+{% highlight r %}
+a <- 4
 
-quiz - check knowledge of global vs local scope
+afun <- function(a) {
+  print(a)
+  a <- 7
+}
 
-re-quiz
+afun(a)
+afun(2)
+{% endhighlight %}
+>
+> 2. Running the following blocks of Octave, what is print out?
+>
+{% highlight octave %}
+global a = 4
+
+function afun (a)
+  printf ("%d\n", a)
+  global a;
+  a = 5;
+endfunction
+
+afun (2)
+afun (a)
+{% endhighlight %}
+>
+{:.quiz}
+
+In programming, *scope* is how the computer determines the value of a variable.  If we only ever use unique variable names, then scope is simply a question of how does the computer *find* the variable.  Is it a function argument?  Defined within the function?  Defined outside the function at the same level?  Globally defined?  Your code will need to ensure that the computer can find the appropriate variable.  This happens differently in different languages, so you will need to understand at the general way it happens in one you choose.
+
+This is akin to understanding the definition of variables in applied mathematics problems based on the *context* of the problem.  Are we talking about physics?  Then *c* probably refers to the speed of light, and we can use the mass-energy equivalence in whatever specific problem we are addressing.  Are we solving quadratics?  Then *c* is probably the constant coefficient of a quadratic polynomial, and we can use the quadratic formula.
+
+The overlap in names in that mathematics example (*i.e.*, *c* is both the speed of light and a particular coefficient in a quadratic) highlights another important aspect of scope: when your code re-uses names, how does the computer know which *c* to use?  Like finding the variables, different languages resolve these questions differently, so make sure you know what's happening with yours.
+
+> ### Re-Quiz
+{:.re.quiz}
 
 ## Logical Operators & Conditionals
 
 > ### Quiz: Logical Operators & Conditionals
 >
 >  0. What are the operators, keywords, or built-in functions for *and*, *or*, *not*, and *xor* in R, Python, and Octave?
->  1. In the following Python code, what is print out?
->    ...TODO some blocks with conditional forking and print statements
->  2. In the following R code, what is print out?
->  3. In the following Octave code, what is print out?
+>  1. In the following code blocks, what is print out?
+>
+{% highlight python %}
+def testfun(a):
+  if (a == 5):
+    print("five alive!")
+  elif ((a % 2 != 0) & (a % 3 == 0)):
+    print("that's triply odd!")
+  else:
+    print("even odds are boring!")
 
-quiz - check knowledge of operators, check knowledge of branching (which statement prints?)
+testfun(5)
+testfun(15)
+testfun(2)
+{% endhighlight %}
+>
+{% highlight r %}
+a <- 1:10
+ifelse(a < 5, "need at least 5", "woohoo!")
+{% endhighlight %}
+>
+{% highlight octave %}
+a = 4
 
-and, or, not, xor
+if (mod(a,2) != 0)
+  printf("that's odd\n")
+elseif (length(unique(factor(a))) != 1)
+  printf("it has multiple prime factors\n")
+else
+  printf("boring power!\n")
+endif
+{% endhighlight %}
+>
+{:.quiz}
 
-if, else, else if, unless
+Programming and mathematical logic share a very deep connection.  At a fundamental level, computers are constructed of components called *logic gates* and programming languages ultimately translate to manipulation of the arrangements of these gates.
 
-truth tables
+Beyond all the logical operations under the hood, however, logical operations are a common part of a programmer's toolkit.  Often we want to take different actions depending on how one value compares to another (*e.g.*, is `a < 5`?), and often we want to combine multiple comparisons (*e.g.*, is `a > 0` **and** `a < 5`).
 
-re-quiz
+Once we have evaluated a condition as `true` or `false`, we can direct the flow of the program through different branches of action via `if` and `else` keywords.  The details of how to do so varies by language, so make sure you understand how these work for your language of choice.
+
+A final note, though not specific to actual code syntax: a useful way to think about how to direct flow with conditionals is to use *truth tables*.  Truth tables are an enumeration of the possible condition combinations and what you want to happen in response to them.  They also have a side benefit: if your conditionals are too complex, then you will have trouble writing out the tables and know you need to consider a different approach.
+
+> ### Re-Quiz
+{:.re.quiz}

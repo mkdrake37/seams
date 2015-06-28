@@ -19,9 +19,11 @@ The tasks are:
 location uname$ ./MYCOMMAND SOMEINPUT.csv SOMEOUTPUT.png
 {% endhighlight %}
 
-* * *
+
+## Input File Definition
 
 The shapes will be specified by strings:
+
  - square = "SQUARE"
  - equilateral triangle = "TRIANGLE"
  - circle = "CIRCLE"
@@ -31,10 +33,10 @@ The colors will also be specified by strings, with the following set of colors: 
 
 The input files will be `csv`s, formatted like:
 
-```
+~~~
 16.0, "SQUARE", "red", 0.0, 0.0
 5.0, "CIRCLE", "blue", 10.0, 10.0
 10.0, "RECTANGLE", "yellow", -5.0, 5.0
-```
+~~~
 
 which corresponds to a request for three shapes, with a red square first, side length 4.0, drawn at the normal origin, and so on for the remaining rows.
