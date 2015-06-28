@@ -122,13 +122,16 @@ afun(2)
 > 2. Running the following blocks of Octave, what is print out?
 >
 {% highlight octave %}
-a = 4
+global a = 4
 
-def afun(a):
-  print(a)
+function afun (a)
+  printf ("%d\n", a)
+  global a;
+  a = 5;
+endfunction
 
-afun(a)
-afun(2)
+afun (2)
+afun (a)
 {% endhighlight %}
 >
 {:.quiz}
@@ -171,10 +174,10 @@ ifelse(a < 5, "need at least 5", "woohoo!")
 {% highlight octave %}
 a = 4
 
-if (a % 2 != 0)
-  printf("that's odd...\n")
-elsif (length(unique(factor(a))) != 1)
-  printf("it has multiple prime factors...\n")
+if (mod(a,2) != 0)
+  printf("that's odd\n")
+elseif (length(unique(factor(a))) != 1)
+  printf("it has multiple prime factors\n")
 else
   printf("boring power!\n")
 endif
