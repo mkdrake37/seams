@@ -1,4 +1,4 @@
-[actual site](http://aims-ghana.github.io/seams/)
+[actual site](http://aims-ghana.github.io/cams/)
 
 HOWTO CAMS
 ==========
