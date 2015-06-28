@@ -53,7 +53,7 @@ defaults:
     values:
       area: "practice"
 exclude:
- - run.sh
+ - '*.sh'
  - Gemfile
  - README.md
  - LICENSE
