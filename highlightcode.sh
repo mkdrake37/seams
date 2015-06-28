@@ -1,4 +1,4 @@
 #!/bin/bash
-pygmentize -S monokai -f html > css/syntax.scss
-echo "---
----" | cat - css/syntax.scss > css/tmp && mv css/tmp css/syntax.scss
+pygmentize -S monokai -f html > css/tmp
+cat css/head.scss css/tmp > css/syntax.scss
+rm css/tmp
