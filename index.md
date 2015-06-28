@@ -20,7 +20,7 @@ world.
 
 | Day |             Morning Warmup             |         Morning Discussion         |        Afternoon Practical         |         Afternoon Project Work         |
 |----:|:--------------------------------------:|:----------------------------------:|:----------------------------------:|:--------------------------------------:|
-| Mon |   [Icebreakers](warmup/icebreakers/)   |  [Language Review I](reviews/AM/)  | [Language Review II](reviews/PM/)  | [Language Exercise](reviews/exercise/) |
+| Mon |     [Icebreakers](warmup/opening/)     |  [Language Review I](reviews/AM/)  | [Language Review II](reviews/PM/)  | [Language Exercise](reviews/exercise/) |
 | Tue | [Workshop Overview](warmpup/overview/) | {% include sess_link.md which=0 %} | {% include prac_link.md which=0 %} |   {% include proj_link.md which=0 %}   |
 | Wed |               Git Bingo                | {% include sess_link.md which=1 %} | {% include prac_link.md which=1 %} |   {% include proj_link.md which=1 %}   |
 | Thu |                Puzzlers                | {% include sess_link.md which=2 %} | {% include prac_link.md which=2 %} |   {% include proj_link.md which=2 %}   |
