@@ -1,5 +1,5 @@
 
-{% capture ref %}{{ site.absoluteurl }}{{ site.baseurl }}{{ page.url | remove:'/project/' | remove:'/session/' | remove:'/practice/' }}{% endcapture %}
+{% capture ref %}{% include url.lq %}{{ page.url | remove:'/project/' | remove:'/session/' | remove:'/practice/' }}{% endcapture %}
 {% capture items %}
 {% if page.collection == 'topics' %}
 TOPIC DISCUSSION - <a href="{{ ref }}session/">SESSION MATERIAL</a> - <a href="{{ ref }}practice/">IN-DEPTH EXERCISE</a> - <a href="{{ ref }}project/">GUIDED PROJECT WORK</a>
