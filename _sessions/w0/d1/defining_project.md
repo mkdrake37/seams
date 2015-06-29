@@ -4,17 +4,17 @@ title: How to Define a Programming Project in Research
 
 ##Part 1: Research and the Research Problem
 
-What is *research*?  
+What is **research**?  
 
 What is research in software engineering?
 
-What is the *scientific method*?  
+What is the **scientific method**?  
 
 Where does software engineering play a role in the scientific method?
 
-What makes a good *research problem*?
+What makes a good **research problem**?
 
-How do you break down a research problem into subproblems? (**Part:Whole, History, Use**)
+How do you break down a research problem into subproblems? (*Part:Whole, History, Use*)
 
 ####Develop a Research Problem
 
