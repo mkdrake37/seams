@@ -18,9 +18,9 @@ world.
 
 ## Schedule
 
-| Day |             Morning Warmup             |         Morning Discussion         |        Afternoon Practical         |         Afternoon Project Work         |
+| Day |       Morning Warmup (0800-1030)       |   Morning Discussion (1100-1300)   |  Afternoon Practical (1400-1600)   |   Afternoon Project Work (1600-1800)   |
 |----:|:--------------------------------------:|:----------------------------------:|:----------------------------------:|:--------------------------------------:|
-| Mon |     [Icebreakers](warmup/opening/)     |  [Language Review I](reviews/AM/)  | [Language Review II](reviews/PM/)  | [Language Exercise](reviews/exercise/) |
+| Mon |       [Welcome](warmup/opening/)       |  [Language Review I](reviews/AM/)  | [Language Review II](reviews/PM/)  | [Language Exercise](reviews/exercise/) |
 | Tue | [Workshop Overview](warmpup/overview/) | {% include sess_link.md which=0 %} | {% include prac_link.md which=0 %} |   {% include proj_link.md which=0 %}   |
 | Wed |               Git Bingo                | {% include sess_link.md which=1 %} | {% include prac_link.md which=1 %} |   {% include proj_link.md which=1 %}   |
 | Thu |                Puzzlers                | {% include sess_link.md which=2 %} | {% include prac_link.md which=2 %} |   {% include proj_link.md which=2 %}   |
