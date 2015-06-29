@@ -255,3 +255,16 @@ body {
 blockquote > p {
   font-style: italic;
 }
+
+.schedule {
+  background-color: #303030;
+  border-collapse: collapse;
+  th, td {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border: 1px solid grey;
+  }
+  tr td:first-child {
+    font-weight: bold;
+  }
+}
