@@ -1,4 +1,4 @@
-
+---
 title: Language Review II
 ---
 
@@ -7,38 +7,45 @@ title: Language Review II
 > ### Quiz
 >
 >  0. For the following `for` loops, which values does `i` take on inside the loop?
->    0. for i in range(2,5): print i
->    1. for (i in 1:4) {print(i)}
->    2. for i = [1,3;2,4] i endfor
+>     0. `for i in range(2,5): print i`{:.language-python}
+>     1. `for (i in 1:4) print(i)`
+>     2. `for i = [1,3;2,4] i endfor`
+>
 >  1. How many times is the code inside these while loop executed? In each case, what is the final value of j?
->    0. i = -1; j = 7;
->       while (j+i < 100):
->           j += j + (-1)**j -1
->           print j
->    1. i = 4; j = 1;
->       while(i>1) { 
->           j = j*i; i = i-1;
->       }
->    2. fib = [1 1 1 1 1];
->       i = 3;
->       while (i <= 6)
->         fib (i) = fib (i-1) + fib (i-2);
->         i++;
->       endwhile
+{% highlight python %}
+i = -1; j = 7;
+while (j+i < 100):
+  j += j + (-1)**j -1
+  print j
+{% endhighlight %}
+{% highlight r %}
+i = 4; j = 1;
+while(i>1) {
+  j = j*i; i = i-1;
+}
+{% endhighlight %}
+{% highlight octave %}
+fib = [1 1 1 1 1];
+i = 3;
+while (i <= 6)
+  fib (i) = fib (i-1) + fib (i-2);
+  i++;
+endwhile
+{% endhighlight %}
 >  2. What list results from each of the expressions below?
->    0. [i*i for i in range(5) if i%2==1]
->    1. sapply(2:5, factorial)
->    2. x=1:10; (x.^2)(mod(x,2)==0)
-opening about why looping useful
+>    0. `[i*i for i in range(5) if i%2==1]`
+>    1. `sapply(2:5, factorial)`
+>    2. `x=1:10; (x.^2)(mod(x,2)==0)`
 
-## `for` and `while` loops
-In a sense, for loops are while loops with explicit constraits about some list you are iterating through.
-Why bother with for loops at all?
 
-In many cases, sensible constraints result in safer code.  In this case, bugs in while loops are more common
-than bugs in for loops.  While loops must be initialized and incremented correctly, and must have a properly
+One of the fundamental tasks we wish to simplify with programs is repeating tasks.  Loop constructs allow us to do that.
+
+### `for` and `while` loops
+In a sense, `for` loops are `while` loops with explicit constraints on the iteration - *i.e.*, particular start, end, and steps.  That can be accomplished in `while` loops as well, so why bother with `for` loops at all?
+
+In many cases, sensible constraints result in safer code, so we should expect more errors in `while` loops: they must be initialized and incremented correctly, and must have a properly
 specified condition for exit.  These three parts are generally specified on three separate lines of code, which
-can be accidentally deleted or modified, thereby corrupting the loop.  For loops can also fail to start or exit,
+can be accidentally deleted or modified, thereby corrupting the loop.  Similar challenges apply to `for` loops,
 but this is much less common because it is usually obvious if you are trying to iterate through an empty list,
 or if you are modifiying the container you are iterating through in the loop.  (Hint: NEVER do that.)
 incremented correctly, they may never exit
@@ -63,60 +70,76 @@ map-reduce-filter
 re-quiz
 
 ## Using Other Code
-### Quiz
-    0. Python: What is the syntax to load a library?
-    1. Python: What do you do if you want to load a library you wrote?
-    2. R: What is the syntax to load a library?
-    3. R: What is the syntax to run a separate R script at a particular point in your script.
-    4. Octave: What is the syntax to load a library?
+
+> ### Quiz
+>
+>    0. Python: What is the syntax to load a library?
+>    1. Python: What do you do if you want to load a library you wrote?
+>    2. R: What is the syntax to load a library?
+>    3. R: What is the syntax to run a separate R script at a particular point in your script.
+>    4. Octave: What is the syntax to load a library?
 
 In most languages it is possible--and sometimes problematic--to have variables and/or functions that share the same
 name in two different places.  Names sometimes get reused, particularly simple ones like `i` and `max`.  A simple
 example is nested loops.  We so often use `i` as a loop iterator, that it can be easy to write code like this:
 
+{% highlight python %}
 for i in [1,2,3]:
     for i in [10,20,30]:
         ...
+{% endhighlight %}
 
 Although code like this will run in some languages, it is a bad practice because the intent may be misinterpreted by
-readers.  Choose a different name for interator in nested loops.
+readers.  Choose a different name for iterator in nested loops.
 
-Loading packages may also result in name collisions, and those can be harder to avoid.  In R, for example, a library
-called `plotter` might implement a `plot()` function.  Since `plot` is also the name of a base function, what happens 
-when `plot()` is called changes when plotter is loaded.  If we still want to call the base package verison of `plot()`,
-we need to prepend the function call with a namespace, e.g. `base::plot()`.  In order to avoid ambiguity for readers,
-it might also be a good idea to call the other function explicitly as `plotter::plot()`.
+Loading packages may also result in name collisions, and those can be harder to
+avoid.  In *R*, for example, a library called `plotter` might implement a
+`plot(...)` function.  Since `plot` is also the name of a base function, loading
+`plotter` changes what happens when you invoke `plot(...)`.  If we still want to
+call the base package verison of `plot()`, we need to prepend the function call
+with a namespace, *i.e.* `base::plot()`.  In order to avoid ambiguity for
+readers, it might also be a good idea to call the other function explicitly as
+`plotter::plot()`.
 
-Python handles namespaces somewhat more carefully.  The simplest way of loading a library ("module" in Python parlance),
-`import plotter`, preserves your namespace.  To access the new plot function here, we would call `plotter.plot()`.  If
-you are not concerned with namespace collisions, you can instead use `from plotter import *`, which will import all of
-plotter's members, overwriting previously defined variables and functions.  There is no way to access the old
-definitions in Python.
+Python handles namespaces more carefully.  The simplest way of loading a library
+(*module* in Python parlance), `import plotter`, preserves your namespace.  To
+access the new plot function here, we would call `plotter.plot()`.  If you are
+not concerned with namespace collisions, you can instead use `from plotter
+import *`, which will import all of plotter's members, overwriting previously
+defined variables and functions.  There is no way to access the old definitions
+in Python.
 
-In very short programs, it may not be necessary to bother with explicit namespaces.  As software becomes more
-complicated, however, it becomes increasingly likely that names will be reused.  In order to maintain readability, and
-avoid bugs, as your project grows, consider creating your own libraries (== modules == packages) so that
-conceptually-related code is bundled together in its own namespace.
+In very short programs, it may not be necessary to bother with explicit
+namespaces.  As software becomes more complicated, however, it becomes
+increasingly likely that names will be reused.  In order to maintain
+readability, and avoid bugs, as your project grows, consider creating your own
+libraries (== modules == packages) so that conceptually-related code is bundled
+together in its own namespace.
 
-
-finding packages, finding documentation on packages
-
-re-quiz
+> ### Re-Quiz
 
 ## Classes
-How we interact with an object, in real life and programming, depends on what type thing that object is.  It does not make
-sense to divide words or to spell-check numbers, for example.  In programming, we define how a variable can be interacted
-with and what attributes it has by defining a *class*.  In some languages, including Python, everything is an object,
-which is the same as saying that everything is an instance of some class.  Classes are a useful way to get away from the
-1's and 0's that computers work with because they allow us to work with arbitrarily sophisticated abstractions: a variable
-can represent a traffic collision, a connection to a server, or a person.  A class can also be an extension of another. An
-athlete object, for example, could have all of the attributes of a person, but also have a team affiliation and performance
+
+How we interact with an object, in real life and programming, depends on what
+type thing that object is.  It does not make sense to divide words or to
+spell-check numbers, for example.  In programming, we define how a variable can
+be interacted with and what attributes it has by defining a *class*.  In some
+languages, including Python, everything is an object, which is the same as
+saying that everything is an instance of some class.  Classes are a useful way
+to get away from the 1's and 0's that computers work with because they allow us
+to work with arbitrarily sophisticated abstractions: a variable can represent a
+traffic collision, a connection to a server, or a person.  A class can also be
+an extension of another. An athlete object, for example, could have all of the
+attributes of a person, but also have a team affiliation and performance
 statistics.
 
-Classes are also useful because they allow encapsulation.  Within a class, attributes and functions can be either public or
-private.  Private things can only be directly accessed or modified within the class, whereas public things are available
-anywhere.  To illustrate this, let's consider a polygon class in Python:
+Classes are also useful because they allow encapsulation.  Within a class,
+attributes and functions can be either public or private.  Private things can
+only be directly accessed or modified within the class, whereas public things
+are available anywhere.  To illustrate this, let's consider a polygon class in
+Python:
 
+{% highlight python %}
 class Polygon:
     'Base class for regular polygons'
 
@@ -141,21 +164,30 @@ class Polygon:
 
     def get_perimeter():
         return perimeter
+{% endhighlight %}
 
-
-
-discuss using `list(...)` as a data object in R
+*R* also supports defining classes.  However, *R* emphasizes numerics and functional programming much more than general purpose programming, and as such its class syntax is clunkier.
 
 ## IO and Visualization
 
-? using console / REPL mode
+> ### Quiz: IO and Visualization
+>
+>  0.  What are the OS terminal commands for R, Python, and Octave?
+>  1.  When R, Python, and Octave scripts are invoked from the command line, how are the arguments available within the scripts?
+>  2.  What are the standard libraries / commands to read `csv` and `json` files in R, Python, and Octave?
+>  3.  Given a ordered series of (*x*, *y*), write the code to plot them as points in R, Python, Octave.
+>  4.  Repeat previous as lines.
 
-invoke interpreters + script from OS commandline
+As researchers, we should hope to test our work against empirical data, meaning we need to know how to get this data into and out of our programs for use.  This data may be stored in many formats, but some of the simplest are `csv` and `json`.
 
-reading structured files (csv, json)
+TODO: libs
 
-arbitrary, sequential line reading
+When working with large amounts of data, we often cannot use GUI tools (like Rstudio or PyCharm) because these tools are focused on interaction, rather than data processing, which means they have too much overhead.  They are also not supported for use on supercomputers.  In these cases, we can create and test our scripts in those tools, but to actually use them on our data, we must do so from a command line interface.
 
-writing structured files
+There are a few ways to do that, but during the workshop we will encourage you to write your scripts so they may be run directly, which means you need to put the appropriate bash directive at the front of the script and make them executable.
 
-plotting / writing images
+Finally, when applying our ideas, we will often need to visualize results to understand our systems, and ultimately we should plan to provide visualizations to communicate our results.  This is typically accomplished with plots.
+
+TODO: libs
+
+> ### Re-Quiz
