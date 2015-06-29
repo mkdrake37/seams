@@ -66,19 +66,42 @@ resort to a while loop.
 
 ### Map-Filter-Reduce Paradigm: Comprehensions and `apply` family functions
 
-Often in `for` loops, what we do is for each element in a series of things:
+Often in `for` loops, what we do is for each element is one or more of the following:
 
-  - check if they meet some criteria
-  - calculate a transformation
-  - combine the elements into some aggregate result
+  - check if the element meets some criteria (e.g., is it greater than 0?)
+  - transform the element into a new value (e.g., convert temperature from Fahrenheit to Celsius)
+  - combine the elements into some aggregate result (e.g., find maximum value)
 
-These tasks are part of Map-Filter-Reduce paradigm: we *map* the elements to new ones, we *filter* (either before or after mapping) to get the subset we care about, and we *reduce* the remaining transformed elements from many into a single result by combining them.
+These tasks are part of Map-Filter-Reduce paradigm: we *map* the elements to new ones, we *filter* 
+(either before or after mapping) to get the subset we care about, and we *reduce* the remaining 
+transformed elements from many into a single result by combining them.
 
-TODO: name those paradigms for Python, R, Octave
+In python there are functions called `map`, `filter`, and `reduce` that do these things, although 
+mapping and filtering can also be done with comprehensions like the one in the quiz.  
 
 Comprehensions (and their equivalent in non-Python languages) are concise ways of expressing how to convert
 one list of things into another.  Very often, that's all we're doing with a loop, but loops tend to take up
-more space and may be slower because the interpreter can sometimes be more clever about comprehensions.
+more space and may be slower because the interpreter can sometimes be more clever about comprehensions. In
+general, if you are applying an already-defined function to each element, you might prefer `map`, but if 
+you are instead doing some operation or lookup in another data structure, a comprehension may be 
+more concise. Some common reduce operations like `max` and `sum` are provided as built-in
+functions, but `reduce` will apply an arbitrary function.
+
+R and Octave will often do element-wise operations when you apply a function or an operation to
+a list-like variable. This is a kind of built-in map behavior.
+
+In R:
+> c(1,2,3,4)*2
+[1] 2 4 6 8
+
+In Octave:
+octave:35> cos([1 2 3 4])
+ans =
+
+   0.54030  -0.41615  -0.98999  -0.65364
+
+More generally in R, the `apply` family of functions (apply, mapply, tapply, sapply) allow you to
+apply functions to a variety of data structures.
 
 > ### Re-Quiz
 
@@ -103,7 +126,7 @@ for i in [1,2,3]:
 {% endhighlight %}
 
 Although code like this will run in some languages, it is a bad practice because the intent may be misinterpreted by
-readers.  Choose a different name for iterator in nested loops.
+readers.  Choose a different name for iterators in nested loops.
 
 Loading packages may also result in name collisions, and those can be harder to
 avoid.  In *R*, for example, a library called `plotter` might implement a
@@ -179,7 +202,8 @@ class Polygon:
         return perimeter
 {% endhighlight %}
 
-*R* also supports defining classes.  However, *R* emphasizes numerics and functional programming much more than general purpose programming, and as such its class syntax is clunkier.
+*R* also supports defining classes.  However, *R* emphasizes numerics and functional programming much 
+more than general purpose programming, and as such its class syntax is clunkier.
 
 ## IO and Visualization
 
@@ -188,19 +212,32 @@ class Polygon:
 >  0.  What are the OS terminal commands for R, Python, and Octave?
 >  1.  When R, Python, and Octave scripts are invoked from the command line, how are the arguments available within the scripts?
 >  2.  What are the standard libraries / commands to read `csv` and `json` files in R, Python, and Octave?
->  3.  Given a ordered series of (*x*, *y*), write the code to plot them as points in R, Python, Octave.
+>  3.  Given an ordered series of (*x*, *y*), write the code to plot them as points in R, Python, Octave.
 >  4.  Repeat previous as lines.
 
-As researchers, we should hope to test our work against empirical data, meaning we need to know how to get this data into and out of our programs for use.  This data may be stored in many formats, but some of the simplest are `csv` and `json`.
+As researchers, we should hope to test our work against empirical data, meaning we need to know how to
+get this data into and out of our programs for use.  This data may be stored in many formats, but some 
+of the simplest are `csv` and `json`.
 
-TODO: libs
+In Python: csv, json modules
+In R     : read.csv(), rjson package
+in Octave: csvread(), JSONlab
 
-When working with large amounts of data, we often cannot use GUI tools (like Rstudio or PyCharm) because these tools are focused on interaction, rather than data processing, which means they have too much overhead.  They are also not supported for use on supercomputers.  In these cases, we can create and test our scripts in those tools, but to actually use them on our data, we must do so from a command line interface.
+When working with large amounts of data, we often cannot use GUI tools (like Rstudio or PyCharm) because 
+these tools are focused on interaction, rather than data processing, which means they have too much 
+overhead.  They are also not supported for use on supercomputers.  In these cases, we can create and test 
+our scripts in those tools, but to actually use them on our data, we must do so from a command line interface.
 
-There are a few ways to do that, but during the workshop we will encourage you to write your scripts so they may be run directly, which means you need to put the appropriate bash directive at the front of the script and make them executable.
+There are a few ways to do that, but during the workshop we will encourage you to write your scripts so 
+they may be run directly, which means you need to put the appropriate bash directive at the front of the 
+script and make them executable.
 
-Finally, when applying our ideas, we will often need to visualize results to understand our systems, and ultimately we should plan to provide visualizations to communicate our results.  This is typically accomplished with plots.
+Finally, when applying our ideas, we will often need to visualize results to understand our systems, and 
+ultimately we should plan to provide visualizations to communicate our results.  This is typically 
+accomplished with plots.
 
-TODO: libs
+In Python: matplotlib, plotly, ggplot, bokeh
+In R     : plot() and built-in ploting functions, ggplot2, other specialized libraries
+in Octave: plot() and associated functions
 
 > ### Re-Quiz
