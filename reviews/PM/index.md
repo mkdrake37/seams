@@ -72,18 +72,18 @@ Often in `for` loops, what we do is for each element is one or more of the follo
   - transform the element into a new value (e.g., convert temperature from Fahrenheit to Celsius)
   - combine the elements into some aggregate result (e.g., find maximum value)
 
-These tasks are part of Map-Filter-Reduce paradigm: we *map* the elements to new ones, we *filter* 
-(either before or after mapping) to get the subset we care about, and we *reduce* the remaining 
+These tasks are part of Map-Filter-Reduce paradigm: we *map* the elements to new ones, we *filter*
+(either before or after mapping) to get the subset we care about, and we *reduce* the remaining
 transformed elements from many into a single result by combining them.
 
-In python there are functions called `map`, `filter`, and `reduce` that do these things, although 
+In python there are functions called `map`, `filter`, and `reduce` that do these things, although
 mapping and filtering can also be done with comprehensions like the one in the quiz.  
 
 Comprehensions (and their equivalent in non-Python languages) are concise ways of expressing how to convert
 one list of things into another.  Very often, that's all we're doing with a loop, but loops tend to take up
 more space and may be slower because the interpreter can sometimes be more clever about comprehensions. In
-general, if you are applying an already-defined function to each element, you might prefer `map`, but if 
-you are instead doing some operation or lookup in another data structure, a comprehension may be 
+general, if you are applying an already-defined function to each element, you might prefer `map`, but if
+you are instead doing some operation or lookup in another data structure, a comprehension may be
 more concise. Some common reduce operations like `max` and `sum` are provided as built-in
 functions, but `reduce` will apply an arbitrary function.
 
@@ -91,16 +91,20 @@ R and Octave will often do element-wise operations when you apply a function or 
 a list-like variable. This is a kind of built-in map behavior.
 
 In R:
+{% highlight r %}
 > c(1,2,3,4)*2
 [1] 2 4 6 8
+{% endhighlight %}
 
 In Octave:
+{% highlight octave %}
 octave:35> cos([1 2 3 4])
 ans =
 
    0.54030  -0.41615  -0.98999  -0.65364
+{% endhighlight %}
 
-More generally in R, the `apply` family of functions (apply, mapply, tapply, sapply) allow you to
+More generally in R, the `apply` family of functions (`apply`, `mapply`, `tapply`, `sapply`) allow you to
 apply functions to a variety of data structures.
 
 > ### Re-Quiz
@@ -202,7 +206,7 @@ class Polygon:
         return perimeter
 {% endhighlight %}
 
-*R* also supports defining classes.  However, *R* emphasizes numerics and functional programming much 
+*R* also supports defining classes.  However, *R* emphasizes numerics and functional programming much
 more than general purpose programming, and as such its class syntax is clunkier.
 
 ## IO and Visualization
@@ -216,28 +220,28 @@ more than general purpose programming, and as such its class syntax is clunkier.
 >  4.  Repeat previous as lines.
 
 As researchers, we should hope to test our work against empirical data, meaning we need to know how to
-get this data into and out of our programs for use.  This data may be stored in many formats, but some 
+get this data into and out of our programs for use.  This data may be stored in many formats, but some
 of the simplest are `csv` and `json`.
 
-In Python: csv, json modules
-In R     : read.csv(), rjson package
-in Octave: csvread(), JSONlab
+In Python: `csv`, `json` modules
+In R     : `read.csv()`, `rjson` package
+in Octave: `csvread()`, `JSONlab`
 
-When working with large amounts of data, we often cannot use GUI tools (like Rstudio or PyCharm) because 
-these tools are focused on interaction, rather than data processing, which means they have too much 
-overhead.  They are also not supported for use on supercomputers.  In these cases, we can create and test 
+When working with large amounts of data, we often cannot use GUI tools (like Rstudio or PyCharm) because
+these tools are focused on interaction, rather than data processing, which means they have too much
+overhead.  They are also not supported for use on supercomputers.  In these cases, we can create and test
 our scripts in those tools, but to actually use them on our data, we must do so from a command line interface.
 
-There are a few ways to do that, but during the workshop we will encourage you to write your scripts so 
-they may be run directly, which means you need to put the appropriate bash directive at the front of the 
+There are a few ways to do that, but during the workshop we will encourage you to write your scripts so
+they may be run directly, which means you need to put the appropriate bash directive at the front of the
 script and make them executable.
 
-Finally, when applying our ideas, we will often need to visualize results to understand our systems, and 
-ultimately we should plan to provide visualizations to communicate our results.  This is typically 
+Finally, when applying our ideas, we will often need to visualize results to understand our systems, and
+ultimately we should plan to provide visualizations to communicate our results.  This is typically
 accomplished with plots.
 
-In Python: matplotlib, plotly, ggplot, bokeh
-In R     : plot() and built-in ploting functions, ggplot2, other specialized libraries
-in Octave: plot() and associated functions
+In Python: `matplotlib`, `plotly`, `ggplot`, `bokeh`
+In R     : `plot()` and built-in ploting functions, `ggplot2`, other specialized libraries
+in Octave: `plot()` and associated functions
 
 > ### Re-Quiz
