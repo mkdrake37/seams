@@ -33,6 +33,10 @@ https://www.jetbrains.com/pycharm/help/stepping-through-the-program.html
 
  https://support.rstudio.com/hc/en-us/articles/205612627-Debugging-with-RStudio
 
+##A guide to using testthat to debug in R:
+
+http://journal.r-project.org/archive/2011-1/RJournal_2011-1_Wickham.pdf
+
 ##Thoughts on input validation:
 
 http://www.ibm.com/developerworks/library/l-sp2/
