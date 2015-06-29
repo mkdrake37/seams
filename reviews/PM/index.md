@@ -58,14 +58,21 @@ to find out how many lines are in the file and then iterate through it using a f
 more efficient and less complicated to use a while loop.  In this particular case, Python provides a useful
 idiom `for line in file('filename')`, so we do not have to resort to a while loop.
 
-## comprehensions
+### Comprehensions, Map-Filter-Reduce Paradigm
+
+Often in `for` loops, what we do is for each element in a series of things:
+
+  - check if they meet some criteria
+  - calculate a transformation
+  - combine the elements into some aggregate result
+
+These tasks are part of Map-Filter-Reduce paradigm: we *map* the elements to new ones, we *filter* (either before or after mapping) to get the subset we care about, and we *reduce* the remaining transformed elements from many into a single result by combining them.
+
+
+
 Comprehensions (and their equivalent in non-Python languages) are concise ways of expressing how to convert
 one list of things into another.  Very often, that's all we're doing with a loop, but loops tend to take up
 more space and may be slower because the interpreter can sometimes be more clever about comprehensions.
-
-Something about functional programming?
-
-map-reduce-filter
 
 re-quiz
 
