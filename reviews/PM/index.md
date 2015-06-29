@@ -43,22 +43,28 @@ One of the fundamental tasks we wish to simplify with programs is repeating task
 ### `for` and `while` loops
 In a sense, `for` loops are `while` loops with explicit constraints on the iteration - *i.e.*, particular start, end, and steps.  That can be accomplished in `while` loops as well, so why bother with `for` loops at all?
 
-In many cases, sensible constraints result in safer code, so we should expect more errors in `while` loops: they must be initialized and incremented correctly, and must have a properly
-specified condition for exit.  These three parts are generally specified on three separate lines of code, which
-can be accidentally deleted or modified, thereby corrupting the loop.  Similar challenges apply to `for` loops,
-but this is much less common because it is usually obvious if you are trying to iterate through an empty list,
-or if you are modifiying the container you are iterating through in the loop.  (Hint: NEVER do that.)
-incremented correctly, they may never exit
+In many cases, sensible constraints result in safer code, so we should expect
+more errors in `while` loops: they must be initialized and incremented
+correctly, and must have a properly specified condition for exit.  These three
+parts are generally specified on three separate lines of code, which can be
+accidentally deleted or modified, thereby corrupting the loop.  Similar
+challenges apply to `for` loops, but this is much less common because it is
+usually obvious if you are trying to iterate through an empty list, or if you
+are modifying the container you are iterating through in the loop.  (Hint:
+NEVER do that.) incremented correctly, they may never exit
 
-In general, prefer for loops unless it is impractical to use one.  Generally, it is appropriate to use a while
-loop when the number of times you need to repeat a block of code is not known to the program.  Occasionally,
-while loops may make code clearer than using clever tricks (programmatic or mathematical) to figure out how
-many times a loop needs to execute.  An example is reading in a file, line by line.  You could query the OS
-to find out how many lines are in the file and then iterate through it using a for loop, but it is usually
-more efficient and less complicated to use a while loop.  In this particular case, Python provides a useful
-idiom `for line in file('filename')`, so we do not have to resort to a while loop.
+In general, prefer for loops unless it is impractical to use one.  Generally, it
+is appropriate to use a while loop when the number of times you need to repeat a
+block of code is not known to the program.  Occasionally, while loops may make
+code clearer than using clever tricks (programmatic or mathematical) to figure
+out how many times a loop needs to execute.  An example is reading in a file,
+line by line.  You could query the OS to find out how many lines are in the file
+and then iterate through it using a for loop, but it is usually more efficient
+and less complicated to use a while loop.  In this particular case, Python
+provides a useful idiom `for line in file('filename')`, so we do not have to
+resort to a while loop.
 
-### Comprehensions, Map-Filter-Reduce Paradigm
+### Map-Filter-Reduce Paradigm: Comprehensions and `apply` family functions
 
 Often in `for` loops, what we do is for each element in a series of things:
 
@@ -68,13 +74,13 @@ Often in `for` loops, what we do is for each element in a series of things:
 
 These tasks are part of Map-Filter-Reduce paradigm: we *map* the elements to new ones, we *filter* (either before or after mapping) to get the subset we care about, and we *reduce* the remaining transformed elements from many into a single result by combining them.
 
-
+TODO: name those paradigms for Python, R, Octave
 
 Comprehensions (and their equivalent in non-Python languages) are concise ways of expressing how to convert
 one list of things into another.  Very often, that's all we're doing with a loop, but loops tend to take up
 more space and may be slower because the interpreter can sometimes be more clever about comprehensions.
 
-re-quiz
+> ### Re-Quiz
 
 ## Using Other Code
 
