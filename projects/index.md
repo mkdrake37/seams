@@ -62,9 +62,9 @@ For 2015, the projects are:
 
     Workshop project work entails starting re-implementation this model in the Rshiny framework, an interactive GUI framework for R, to enable future extension, improve verifiability of the model, and to end dependence on obsolete Excel versions.  Longer term work would fall into those veins.
 
- - Maryam: **Data Mining for Pharmaceutical Discovery** (MKD)
- - Buri: **De-noising High-Throughput Sequencing Data** (EL|NR)
- - Michael: **Bayesian Analysis of Haemaglutenation-Inhibition Results** (EL)
- - Sofiat: **Bi-partite Graph Analysis** (NR|EL)
- - Esther: **Zero-inflated Poisson Model** (EL)
- - Belfird: **Geospatial Visualization of Hydrological Analyses** (TJH|CABP)
+ - Maryam, **Data Mining for Pharmaceutical Discovery** (MKD)
+ - Buri, **De-noising High-Throughput Sequencing Data** (EL or NR)
+ - Michael, **Bayesian Analysis of Haemaglutenation-Inhibition Results** (EL)
+ - Sofiat, **Bi-partite Graph Analysis** (NR or EL)
+ - Mark, **HPV Within Host Model** (EL)
+ - Belfird, **Geospatial Visualization of Hydrological Analyses** (TJH or CABP)
