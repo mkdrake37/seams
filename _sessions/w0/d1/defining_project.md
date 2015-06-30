@@ -4,21 +4,37 @@ title: How to Define a Programming Project in Research
 
 ##Part 1: Research and the Research Problem
 
-Students have reviewed [this link will be replaced by the file I emailed Carl](https://www.nyu.edu/classes/bkg/methods/010072.pdf) from *Your Research Project: Designing and Planning Your Work* by Nicholas Walliman. 
+What is **research**?  
 
-####Ex 1.3 (adapted): Is this a research problem?  If not, can you turn it into a research problem?  What sort of data would you expect to use?  What subproblems might arise?  How could you appropriately limit the scope of the problem?
+What is research in software engineering?
+
+What is the **scientific method**?  
+
+Where does software engineering play a role in the scientific method?
+
+What makes a good **research problem**?
+
+How do you break down a research problem into subproblems? (*Part:Whole, History, Use*)
+
+####Develop a Research Problem
+
+As a group, answer the following questions, and present a research problem based on your topic.
+
+* Is this a research problem?  If not, can you turn it into a research problem?  
+* What sort of data do you expect to use?  How do you expect the quality of data to vary?  How do you expect to use code in your research?
+* What subproblems might arise?  How could you appropriately limit the scope of the problem?
 
 1. A study to compare the results in school history exams for 16-year-olds throughout Europe between 1970 and 1980.
-2. The effects of parent unemployment on their children’s attitude to schoolwork.
+2. The impact of local tax and exaction policies on the Maghreb commercial office sector.
 3. The relationship between temperature, humidity and air movement in the cooling effect of sweating on the human skin.
 4. The effects of using glass of different thickness and qualities in single, double and triple glazing.
 5. What factors must be evaluated and what is their relative importance in constructing a formula for allotting grants to university students in Egypt.
 6. Whether the advantages of foreign borrowing by Third World countries outweigh the disadvantages.
-7. An enquiry to identify and evaluate the causes of ‘sick building syndrome’ in order to indicate possible methods of avoiding the occurrence of this ‘syndrome’ in new buildings.
-8. The impact of local tax and exaction policies on the Maghreb commercial office sector.
-9. Economic implications of the program of rental increases and housing sales in Kenya.
 
-####Ex. 1.4 Evaluating a research proposal.  (Complete exercise in text)
+####Evaluating a research proposal.  
+
+[Read pg 24-25 here, then answer questions 1-7](https://www.nyu.edu/classes/bkg/methods/010072.pdf)
+
 
 ##Part 2: Problems from Past Theses
 

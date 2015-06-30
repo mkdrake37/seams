@@ -11,9 +11,11 @@ http://agile.csc.ncsu.edu/SEMaterials/BlackBox.pdf
 
 http://docs.python-guide.org/en/latest/writing/tests/
 
-##A guide to PyUnit:
+##A guide to unittest (PyUnit):
 
 http://www.drdobbs.com/testing/unit-testing-with-python/240165163
+
+http://pythontesting.net/framework/unittest/unittest-introduction/
 
 ##A guide to pycharm:
 
