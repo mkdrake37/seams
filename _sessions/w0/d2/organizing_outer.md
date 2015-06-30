@@ -69,7 +69,7 @@ First a quiz on `git` commands:
 >
 > We have a hat filled with things to do with `git`.  Everyone will get something to do, and a partner.
 >
-> First, both partners should clone this repository to the own computers: TODO
+> First, both partners should clone (this repository to the own computers)[https://github.com/AIMS-Ghana/gitdemo].
 >
 > Then, both partners should perform the task on their pieces of paper.
 >
@@ -85,3 +85,5 @@ Re-quiz!
 >
 >  - [Python Modern](https://pypi.python.org/pypi/modern-package-template)
 >  - [R Devtools](http://r-pkgs.had.co.nz/intro.html)
+>
+> Using those template tools, create a module or package that provides a single function `hw` that, when invoked, causes "Helloworld" to printed to the screen.
