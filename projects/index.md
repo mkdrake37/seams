@@ -13,7 +13,7 @@ For 2015, the projects are:
 
     Workshop project work entails creating a flexible network-based transmission model that includes such carriers.  Longer term work could extend to fitting that model to data or testing intervention schemes to attempt to identify these asymptomatic carriers.
 
- - **Automated Bayesian Computation (ABC) via Partial Least Squares (PLS)** (NR, EL, MKD):
+ - **Approximate Bayesian Computation (ABC) via Partial Least Squares (PLS)** (NR, EL, MKD):
  ABC-SMC is a parameter estimation and sensitivity analysis library written in C++.  It can be run on a personal computer or distributed across thousands of processors on a supercomputer.
 
    Option 1: Although ABC-SMC is implemented in C++, it does not require any knowledge of C++ to use.  We would like to make it easier for people to use the library by writing wrappers in one or more other languages.  This will allow people with stochastic simulations written in other languages to use the library to fit their models.
