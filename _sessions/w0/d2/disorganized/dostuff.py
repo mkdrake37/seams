@@ -34,20 +34,26 @@ def shape_list():
 
 import random
 
-colors = color_list()
-shapes = shape_list()
-
-for s in seeds():
-    random.seed(s)
-    print("seed", s, sep=" ")
-    with open("cuts"+str(s)+".out", mode="w") as tarfile:
-        writer = csv.writer(tarfile)
-        res = {}
-        for x in range(0, 30):
-            c = random.choice(colors)
-            s = random.choice(shapes)
-            writer.writerow([c, s])
-            m = res.get(c, {})
-            m[s] = m.get(s, 0) + 1
-            res[c] = m
-        print(res)
+if __name__ == "__main__":
+    colors = color_list()
+    shapes = shape_list()
+    tot_res = {}
+    for s in seeds():
+        random.seed(s)
+        print("seed", s, sep=" ")
+        with open("cuts"+str(s)+".out", mode="w") as tarfile:
+            writer = csv.writer(tarfile)
+            res = {}
+            for x in range(0, 40):
+                c = random.choice(colors)
+                s = random.choice(shapes)
+                writer.writerow([c, s])
+                m = res.get(c, {})
+                m[s] = m.get(s, 0) + 1
+                res[c] = m
+                m = tot_res.get(c, {})
+                m[s] = m.get(s, 0) + 1
+                tot_res[c] = m
+            print(res)
+    print("totals:")
+    print(tot_res)

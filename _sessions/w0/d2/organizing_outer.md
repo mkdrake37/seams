@@ -34,7 +34,7 @@ Why organize?  What's the benefit?  What's the cost?  How do you organize?
 > This collection of files is a mess.  It was used to generate the assignment of shapes
 > in the previous exercise.
 >
-> With a partner, re-organize the files.  Spend 5 minutes.  Don't worry about making the code work (though feel free to do so if you have time).
+> With a partner, re-organize the files.  Spend 5 minutes.  Don't worry about making the code work after your changes (though feel free to do so if you have time).
 >
 > What do you change?  Why?  Write it down.
 >
@@ -58,27 +58,30 @@ Why organize?  What's the benefit?  What's the cost?  How do you organize?
 
 ## Tools For Organization: Version Control
 
-First a quiz on `git` commands.
+First a quiz on `git` commands:
+
+ - how do you clone a repository?
+ - once you have a copy, and make changes to a file and then save them, are those changes in the repository?
+ - when you have changes in your local copy, how do you get them back into the original repository?
+ - how can you see what changes are in the repository?
 
 > ### Exercise: `git` practice.
 >
+> We have a hat filled with things to do with `git`.  Everyone will get something to do, and a partner.
 >
+> First, both partners should clone this repository to the own computers: TODO
 >
-> have people swap workstations, draw task from a hat, switch computers, perform task, switch back and figure out what other person's task was
- - requiz on `git` commands
+> Then, both partners should perform the task on their pieces of paper.
+>
+> Now, keeping their tasks concealed from each other, the partners should switch computers, and figure out what the other person did and then UNDO that action.
+
+Re-quiz!
 
 ## Tools For Organization: Templating
 
-> ### Exercise: Template a library
+> ### Exercise: Template a Helloworld
 >
 > We are now going to build the skeleton of a project that we could distribute for others to use.  Depending on which language you prefer, see either:
 >
 >  - [Python Modern](https://pypi.python.org/pypi/modern-package-template)
-
- - exercise: set up RStudio project + package layout
- - alt: set up PyCharm project + module layout
- - have other people find something in project
-
-> again, providing rules to the rescue: many different options, all roughly equal.
-> pre-establised rules mean you (and your collaborators) don't have to figure out
-> which option you want
+>  - [R Devtools](http://r-pkgs.had.co.nz/intro.html)

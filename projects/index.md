@@ -8,29 +8,17 @@ accessible tool, *etc*.
 
 For 2015, the projects are:
 
- - **Agent-Based Model of Clinically Immune Malaria Carriers** (TJH):
- People exposed multiple times to the malaria parasite can develop *clinical immunity*, where they no longer exhibit symptoms but can still transmit the pathogen to mosquitos.  This complicates malaria control, since part of the control relies on treatment to clear infectious people, and clinically immune individuals do not seek treatment.
-
-    Workshop project work entails creating a flexible network-based transmission model that includes such carriers.  Longer term work could extend to fitting that model to data or testing intervention schemes to attempt to identify these asymptomatic carriers.
-
- - **Approximate Bayesian Computation (ABC) via Partial Least Squares (PLS)** (NR, EL, MKD):
+ - **Approximate Bayesian Computation (ABC) via Partial Least Squares (PLS)**:
  ABC-SMC is a parameter estimation and sensitivity analysis library written in C++.  It can be run on a personal computer or distributed across thousands of processors on a supercomputer.
 
-   Option 1: Although ABC-SMC is implemented in C++, it does not require any knowledge of C++ to use.  We would like to make it easier for people to use the library by writing wrappers in one or more other languages.  This will allow people with stochastic simulations written in other languages to use the library to fit their models.
+   Option 1 (NR): Although ABC-SMC is implemented in C++, it does not require any knowledge of C++ to use.  We would like to make it easier for people to use the library by writing wrappers in one or more other languages.  This will allow people with stochastic simulations written in other languages to use the library to fit their models.
 
-   Option 2: In order to determine whether a particular parameter combination is "good," we compare the model outcomes (called metrics) to empirical data, but this comparison cannot be made directly.  Model parameters and metrics may be redundant or correlated, and metrics can also vary in magnitude in ways that do not reflect their importance.  We use partial least squares to find a set of orthogonal, latent factors, but some of the factors tend to just describe noise in the data.  Eliminating these is important in estimating the explained variance in the data, and can be done in a number of ways.  This project is to investigate what the best approach is in choosing the number of factors to use.
-
-   Option 3: ABC-SMC is an iterative fitting procedure where you run a simulation N times, update priors for the parameters, run it N more times, update the priors, and so on, until it converges.  How big should N be, and how should convergence be assessed?
+   Option 2 (MKD): In order to determine whether a particular parameter combination is "good," we compare the model outcomes (called metrics) to empirical data, but this comparison cannot be made directly.  Model parameters and metrics may be redundant or correlated, and metrics can also vary in magnitude in ways that do not reflect their importance.  We use partial least squares to find a set of orthogonal, latent factors, but some of the factors tend to just describe noise in the data.  Eliminating these is important in estimating the explained variance in the data, and can be done in a number of ways.  This project is to investigate what the best approach is in choosing the number of factors to use.
 
  - **Analysis of Non-Linear Plant Parasite Development Under Oscillating Environmental Conditions** (MKD):
  Microbial plant parasites are critical to understand if we wish to maximize agricultural production.  Based on constant environment experiments, these parasites have non-linear growth responses to temperature and humidity.  However, real production entails daily environmental oscillations, and current forecasting work for the spread of these parasites typically makes linearizing assumptions.
 
     Workshop project work entails preparing an analytical pipeline to characterize parasite growth data with non-constant experimental conditions, and to estimate forecast errors for different scenarios.  Longer term work would include applying this framework to particular datasets, and could also include additional growth curve models.
-
- - **Geospatial, Temporal Visualization of Infectious Disease Data** (NR):
- We have a Dengue visualization website for a [region in Mexico](tjhladish.github.io/d3_dengue_map/mex.html).
-
-    Workshop project work would be to translate this visualization site to show disease incidence time series data for Ghana or another West African country.  Ideally, this would be done for multiple diseases, and users could explore correlations in dynamics.  The existing site is open-source, and may be used for the basis of your work.
 
  - **Infectious Disease Transmission Visualization with EpiFire** (TJH):
  EpiFire is a C++/Qt software package for simulating the spread of infectious diseases on finite contact networks (*i.e.*, graphs).  Currently it can display how individual disease states evolve, but the particular contact (edge) along which transmission occurred is not shown.
@@ -52,19 +40,33 @@ For 2015, the projects are:
 
    Workshop project work would be to modify the model as necessary to apply it to a region in Thailand, where Dengue is an even larger problem.  Longer term work could include more refactoring to generalize the model to many other regions, including particularly African settings.
 
- - **Teaching Tutorials for Meaningful Modeling of Epidemiological Data** (CABP):
+ - Maryam, **Data Mining for Pharmaceutical Discovery** (MKD)
+ - Buri, **De-noising High-Throughput Sequencing Data** (NR)
+ - Michael, **Bayesian Analysis of Haemaglutenation-Inhibition Results** (EL)
+ - Sofiat, **Bi-partite Graph Analysis** (EL)
+ - Mark, **HPV Within Host Model** (CABP)
+ - Belfrid, **Geospatial Visualization of Hydrological Analyses** (TJH)
+
+Other project candidates included:
+
+ - **Agent-Based Model of Clinically Immune Malaria Carriers**:
+People exposed multiple times to the malaria parasite can develop *clinical immunity*, where they no longer exhibit symptoms but can still transmit the pathogen to mosquitos.  This complicates malaria control, since part of the control relies on treatment to clear infectious people, and clinically immune individuals do not seek treatment.
+
+   Workshop project work entails creating a flexible network-based transmission model that includes such carriers.  Longer term work could extend to fitting that model to data or testing intervention schemes to attempt to identify these asymptomatic carriers.
+
+ - Option 3 for ABC: ABC-SMC is an iterative fitting procedure where you run a simulation N times, update priors for the parameters, run it N more times, update the priors, and so on, until it converges.  How big should N be, and how should convergence be assessed?
+
+ - **Geospatial, Temporal Visualization of Infectious Disease Data**:
+ We have a Dengue visualization website for a [region in Mexico](tjhladish.github.io/d3_dengue_map/mex.html).
+
+    Workshop project work would be to translate this visualization site to show disease incidence time series data for Ghana or another West African country.  Ideally, this would be done for multiple diseases, and users could explore correlations in dynamics.  The existing site is open-source, and may be used for the basis of your work.
+
+ - **Teaching Tutorials for Meaningful Modeling of Epidemiological Data**:
  AIMS South Africa regularly hosts a workshop on modeling epidemiological data.  The group that runs that workshop has prepared a variety of tutorials and demonstrations in R.  However, that work has haphazardly accumulated over the many years of their workshop.
 
-     Workshop project work entails organizing these disparate scripts into an R package, as well as preparing tests for the assorted simulations and refining their implementation.  Longer term work could include continued polishing, and extension of the package to include additional pedagogical tutorials.
+        Workshop project work entails organizing these disparate scripts into an R package, as well as preparing tests for the assorted simulations and refining their implementation.  Longer term work could include continued polishing, and extension of the package to include additional pedagogical tutorials.
 
- - **Visualization of Simple HIV Transmission + Models** (CABP):
+ - **Visualization of Simple HIV Transmission + Models**:
  HIV is a global scourge, with a particularly heavy burden in African nations.  The UNAIDS program currently uses an Excel spreadsheet model for assorted analyses, but this model is difficult to verify and extend.
 
     Workshop project work entails starting re-implementation this model in the Rshiny framework, an interactive GUI framework for R, to enable future extension, improve verifiability of the model, and to end dependence on obsolete Excel versions.  Longer term work would fall into those veins.
-
- - Maryam, **Data Mining for Pharmaceutical Discovery** (MKD)
- - Buri, **De-noising High-Throughput Sequencing Data** (EL or NR)
- - Michael, **Bayesian Analysis of Haemaglutenation-Inhibition Results** (EL)
- - Sofiat, **Bi-partite Graph Analysis** (NR or EL)
- - Mark, **HPV Within Host Model** (EL)
- - Belfird, **Geospatial Visualization of Hydrological Analyses** (TJH or CABP)
