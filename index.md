@@ -18,7 +18,7 @@ world.
 
 ## Schedule
 
-| Day |       Morning Warmup (0800-1030)       |   Morning Discussion (1100-1300)   |  Afternoon Practical (1400-1600)   |   Afternoon Project Work (1600-1800)   |
+| Day |       Morning Warmup (0900-1030)       |   Morning Discussion (1100-1200)   |  Afternoon Practical (1345-1545)   |   Afternoon Project Work (1600-1800)   |
 |----:|:--------------------------------------:|:----------------------------------:|:----------------------------------:|:--------------------------------------:|
 | Mon |       [Welcome](warmup/opening/)       |  [Language Review I](reviews/AM/)  | [Language Review II](reviews/PM/)  | [Language Exercise](reviews/exercise/) |
 | Tue | [Workshop Overview](warmpup/overview/) | {% include sess_link.md which=0 %} | {% include prac_link.md which=0 %} |   {% include proj_link.md which=0 %}   |
@@ -32,8 +32,8 @@ world.
 | Fri |               Demo Prep                |             Demo Prep              |           Demonstrations           |             Demonstrations             |
 {:.schedule}
 
-We will take meals and coffee as a group at regular intervals.  Evenings will be
-free, though we will have optional mentored lab sessions every evenings, as well
+We will take meals and coffee as a group at regular intervals.  The morning coffee break is 1030-1100, afternoon from 1545-1600.  Evenings will be
+free, though we will have optional mentored lab sessions every evening, as well
 as some short talks and social events.
 
 Saturday, Sunday
