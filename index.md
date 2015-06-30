@@ -39,3 +39,16 @@ as some short talks and social events.
 Saturday, Sunday
 : Continue Test Case Development
 : Workshop Trip
+
+## Feedback
+
+As we complete this topic days, please take 10 minutes each to fill out these surveys.  This will help us understand what you have and have not learned, as well as benefiting future participants:
+
+ - [Defining a Project](http://goo.gl/forms/soGX6msoEn)
+ - [Organizing Your Workspace](http://goo.gl/forms/l4wmH31gjp)
+ - [Organizing Your Code](http://goo.gl/forms/HIXnY5pk3w)
+ - [Testing & Validation](http://goo.gl/forms/aCjKVd0qFo)
+ - [IO](http://goo.gl/forms/loh8cwbS1R)
+ - [Modeling in Code](http://goo.gl/forms/dgWur0Zkyx)
+ - [Performance, Theory](http://goo.gl/forms/85JZ7uvWI5)
+ - [Performance, Practice](http://goo.gl/forms/7xybVljsRy)
