@@ -29,7 +29,7 @@ Why organize?  What's the benefit?  What's the cost?  How do you organize?
 
 > ### Exercise: Computational Organization
 >
-> Download and unpack [this file]({{ page.thing }}disorganized.tgz).
+> Download and unpack [this file]({% include url.lq %}/disorganized.zip).
 >
 > This collection of files is a mess.  It was used to generate the assignment of shapes
 > in the previous exercise.
