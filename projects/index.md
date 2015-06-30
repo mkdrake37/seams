@@ -13,7 +13,7 @@ For 2015, the projects are:
 
     Workshop project work entails creating a flexible network-based transmission model that includes such carriers.  Longer term work could extend to fitting that model to data or testing intervention schemes to attempt to identify these asymptomatic carriers.
 
- - **Automated Bayesian Computation via Partial Least Squares** (NR, EL, MKD):
+ - **Automated Bayesian Computation (ABC) via Partial Least Squares (PLS)** (NR, EL, MKD):
  ABC-SMC is a parameter estimation and sensitivity analysis library written in C++.  It can be run on a personal computer or distributed across thousands of processors on a supercomputer.
 
    Option 1: Although ABC-SMC is implemented in C++, it does not require any knowledge of C++ to use.  We would like to make it easier for people to use the library by writing wrappers in one or more other languages.  This will allow people with stochastic simulations written in other languages to use the library to fit their models.
@@ -28,10 +28,14 @@ For 2015, the projects are:
     Workshop project work entails preparing an analytical pipeline to characterize parasite growth data with non-constant experimental conditions, and to estimate forecast errors for different scenarios.  Longer term work would include applying this framework to particular datasets, and could also include additional growth curve models.
 
  - **Geospatial, Temporal Visualization of Infectious Disease Data** (NR):
- We have a dengue visualization website for a region in Mexico.  Gather disease incidence time series data for Ghana or another West African country, and create a visualization tool.  Ideally, this would be done for multiple diseases, and users could explore correlations in dynamics.  You are welcome to use our dengue website as a starting point.
+ We have a Dengue visualization website for a [region in Mexico](tjhladish.github.io/d3_dengue_map/mex.html).
+
+    Workshop project work would be to translate this visualization site to show disease incidence time series data for Ghana or another West African country.  Ideally, this would be done for multiple diseases, and users could explore correlations in dynamics.  The existing site is open-source, and may be used for the basis of your work.
 
  - **Infectious Disease Transmission Visualization with EpiFire** (TJH):
- EpiFire is a C++/Qt software package for simulating the spread of infectious diseases on finite contact networks (== graphs).  Currently it has the ability to visualize how individuals change in state over time, but the particular contact (edge) along which transmission occurred is not shown.  Extend the current functionality of EpiFire so that transmission routes are shown in the visualization.
+ EpiFire is a C++/Qt software package for simulating the spread of infectious diseases on finite contact networks (*i.e.*, graphs).  Currently it can display how individual disease states evolve, but the particular contact (edge) along which transmission occurred is not shown.
+
+    Workshop project work would extend EpiFire so that transmission routes are shown in the visualization.  Time permitting, there are several other potential modifications to the visualization.  Longer term, work could include working with the EpiFire internals to add new analyses.
 
  - **ODE Model Library of Ebola Transmission** (CABP):
  The West African Ebola Outbreak surprised, and nearly overwhelmed the public health systems in those areas and the international communities capacity to provide aid.  The differences in transmission that lead to a major outbreak in West Africa, while areas like Congo continue to see mild case counts, are not known and would benefit from modeling work.
@@ -44,7 +48,9 @@ For 2015, the projects are:
     Workshop project work entails preparing a library of ODE models for transmission as an R package.  Longer term work would involve deploying these models in fitting and model comparison analyses, on data from various African countries, particularly Swaziland.
 
  - **Dengue Vaccination Campaign Modeling for Thailand** (TJH):
- We have an agent-based dengue model which we have been using to study disease dynamics in Mexico.  This project is to modify the model as necessary to apply it to a region in Thailand, where dengue is an even larger problem.
+ Dengue is a mosquito transmitted disease with increasing prevalence world-wide.  There are several vaccines in development, and it is critical to assess these vaccines carefully so they provide the maximum benefit.  We have an agent-based dengue model which we have been using to study Dengue dynamics in Mexico.
+
+   Workshop project work would be to modify the model as necessary to apply it to a region in Thailand, where Dengue is an even larger problem.  Longer term work could include more refactoring to generalize the model to many other regions, including particularly African settings.
 
  - **Teaching Tutorials for Meaningful Modeling of Epidemiological Data** (CABP):
  AIMS South Africa regularly hosts a workshop on modeling epidemiological data.  The group that runs that workshop has prepared a variety of tutorials and demonstrations in R.  However, that work has haphazardly accumulated over the many years of their workshop.
@@ -56,8 +62,9 @@ For 2015, the projects are:
 
     Workshop project work entails starting re-implementation this model in the Rshiny framework, an interactive GUI framework for R, to enable future extension, improve verifiability of the model, and to end dependence on obsolete Excel versions.  Longer term work would fall into those veins.
 
- - **Data Mining for Pharmaceutical Discovery**: MKD
- - **De-noising High-Throughput Sequencing Data**: Maybe EL, Maybe NR
- - **Bayesian Analysis of Haemaglutenation-Inhibition Results**: EL
- - Sofiat's Graph Theory One: NR, EL
- - **Zero-inflated Poisson Model**: No NR, Maybe EL
+ - Maryam: **Data Mining for Pharmaceutical Discovery** (MKD)
+ - Buri: **De-noising High-Throughput Sequencing Data** (EL|NR)
+ - Michael: **Bayesian Analysis of Haemaglutenation-Inhibition Results** (EL)
+ - Sofiat: **Bi-partite Graph Analysis** (NR|EL)
+ - Esther: **Zero-inflated Poisson Model** (EL)
+ - Belfird: **Geospatial Visualization of Hydrological Analyses** (TJH|CABP)
