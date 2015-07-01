@@ -3,7 +3,7 @@ title: Building a Stadium for Football Exercises
 instructor: carl
 ---
 
-In this practical, we will apply ideas from the morning discussing.  Particularly, we will create workspaces for the rest of the afternoon practicals ([see the full list here]({% include url.lq %}practice/)) by:
+In this practical, we will apply ideas from the morning discussing.  Particularly, we will create workspaces for the rest of the afternoon practicals ([see the full list here]({% include url.lq %}/practice/)) by:
 
  0. reviewing the projects,
  1. creating places for them in the filesystem,
