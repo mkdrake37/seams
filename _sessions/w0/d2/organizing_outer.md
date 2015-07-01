@@ -69,7 +69,7 @@ First a quiz on `git` commands:
 >
 > We have a hat filled with things to do with `git`.  Everyone will get something to do, and a partner.
 >
-> First, both partners should clone (this repository to the own computers)[https://github.com/AIMS-Ghana/gitdemo].
+> First, both partners should clone [this repository to the own computers](https://github.com/AIMS-Ghana/gitdemo).
 >
 > Then, both partners should perform the task on their pieces of paper.
 >
