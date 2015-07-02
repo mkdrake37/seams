@@ -2,13 +2,15 @@
 title: Organizing inside Your Source - Best Practices, Separation of Concerns
 ---
 
-## Instructions from aggregate_rural_and_urban.py:
+{% assign pp = page.path | split: "_practice" | last | split:"/" | pop:1 | join:"/" | prepend:"practice" %}
 
-This script takes an input file ("all_cases.csv") that contains location-stratified
+## Instructions from [aggregate_rural_and_urban.py]({% include url.lq %}/{{ pp }}/aggregate_rural_and_urban.py):
+
+This script takes an input file ([all_cases.csv]({% include url.lq %}/{{ pp }}/all_cases.csv)) that contains location-stratified
 disease time series data, and aggregates the disease incidence based on whether the
 location was rural or urban.
 
-You will be making multiple changes to the code below.  Each time you make a 
+You will be making multiple changes to the code below.  Each time you make a
 substantial change, verify that you have not changed the output from the program.
 
 The Exercise:
