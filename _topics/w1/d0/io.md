@@ -1,5 +1,5 @@
 ---
-title: IO - Why, What, When, Where, and sometimes How
+title: IO
 ---
 
 ## Parse, search and manipulated formatted text like HTML and XML
