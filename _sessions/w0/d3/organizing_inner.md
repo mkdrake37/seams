@@ -2,6 +2,8 @@
 title: Organizing inside Your Source - Best Practices, Separation of Concerns
 ---
 
+## What & Why?
+
 ## Best practices
 Work with one other person to write a list of at least 10 "best practices,"
 based on at least three sources.  For each best practice, note whether it is
@@ -29,7 +31,7 @@ to figure out how pushing a button (or turning a dial or pulling a chain)
 changes the motor speed, but your interface should indicate that that
 functionality exists.
 
-
+{% comment %}
 
 ## older content
 ## What are coding conventions or best practices?
@@ -85,3 +87,5 @@ Using functions to make work intellectually bite-sized.  Approaching organizatio
 in a way that minimizes how much you have to worry about at once.
 
 Regular refactoring: not just for optimization, but for organization.
+
+{% endcomment %}
