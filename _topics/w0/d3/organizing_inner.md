@@ -1,5 +1,5 @@
 ---
-title: Organizing inside Your Source - Best Practices, Separation of Concerns
+title: Organize Your Code
 ---
 
 Some useful links about organization within your code:
