@@ -1,25 +1,84 @@
 ---
-title: Modeling in Code
+title: Modeling in Code: Agent Based Models
 ---
 
-##Choosing the Right Model - General Questions
+##Warm-Up
+
+* Read about [Agent Based Models](http://www.palgrave-journals.com/jos/journal/v4/n3/full/jos20103a.html).
+
+* [This](https://www.binpress.com/tutorial/introduction-to-agentbased-models-an-implementation-of-schelling-model-in-python/144) explains the Python code for an Agent Based Model of racial segregation in New York City.  Read it carefully, and try to understand what each line of code is doing.  (You may need to learn about the matplotlib.pyplot, itertools, random, and copy libraries in Python).  To guide your understanding, answer these questions about the model:
+
+1.	What specific problem is solved by the model? What specific questions does the model answer? What value does agent-based modeling bring to the problem that other modeling approaches cannot bring?
+2.	What are the agents in the model? Who are the decision makers in the system? What are the entities that have behaviors? What data on agents are simply descriptive (static attributes)? What agent attributes would be calculated endogenously by the model and updated in the agents (dynamic attributes)?
+3.	What is the agents’ environment? How do the agents interact with the environment? Is an agent's mobility through space an important consideration?
+4.	What agent behaviors are of interest? What decisions do the agents make? What behaviors are being acted upon? What actions are being taken by the agents?
+5.	How do the agents interact with each other? With the environment? How expansive or focused are agent interactions?
+6.	Where might the data come from, especially on agent behaviors, for such a model?
+7.	How might you validate the model, especially the agent behaviors?
+
+* Implement the model in Python.
+
+##Morning Session
+
+###Choosing the Right Model - General Questions
 1.	What specific problem should be solved by the model?
 2.	What specific questions should the model answer?  (How do we want to visualize the results?)
 3.	What data set(s) will be used by the model?
 
-- Characteristics of the Model
+ * Characteristics of the Model
 4.	Is it linear?
 5.	Static or dynamic?
 6.	Discrete or continuous?
 7.	Deterministic or stochastic?
 
-- Evaluation of the Model
+ * Evaluation of the Model
 8.	How stable is the model? (Is the result reproducible)
 9.	How does uncertainty in input affect the output?  
 10.	How do we validate the model?
 11.	Is the mathematics used to model clear, concise, and understandable?
 
-##Part A – Review the 4 simple problems below, and use the questions we discussed to recommend a mathematical model. (for similary examples, see mathmodels.org)
+ * Agent Based Models (ABM's)
+12.  What is an ABM?
+13.  What does it model well?  What does it model poorly?
+14.  What would you use an ABM for?
+
+### [Agent Based Model of Racial Segregation in NYC](https://www.binpress.com/tutorial/introduction-to-agentbased-models-an-implementation-of-schelling-model-in-python/144)
+
+### Agent Based Model of Electricity Consumption
+ * Two companies provided electricity to consumers and businesses until 1997 when lawmakers de-regulated the electricity market, breaking up the monopolies and opening the market to many independent suppliers.  One such supplier asks you to model the change with an Agent Based Model in order to develop a strategy to optimize his company’s profits.  
+
+ * Answer these questions:
+
+1.	What specific problem is solved by the model? What specific questions does the model answer? What value does agent-based modeling bring to the problem that other modeling approaches cannot bring?
+2.	What are the agents in the model? Who are the decision makers in the system? What are the entities that have behaviors? What data on agents are simply descriptive (static attributes)? What agent attributes would be calculated endogenously by the model and updated in the agents (dynamic attributes)?
+3.	What is the agents’ environment? How do the agents interact with the environment? Is an agent's mobility through space an important consideration?
+4.	What agent behaviors are of interest? What decisions do the agents make? What behaviors are being acted upon? What actions are being taken by the agents?
+5.	How do the agents interact with each other? With the environment? How expansive or focused are agent interactions?
+6.	Where might the data come from, especially on agent behaviors, for such a model?
+7.	How might you validate the model, especially the agent behaviors?
+
+* Use your answers to modify your Python code for the NYC problem, to solve this problem.
+
+
+#### OLD
+
+#####Part C: More Problems
+
+(a) Consider the effects on land from the melting of the north polar ice cap due to the predicted increase in global temperatures. How would you model the effects on the coast of Ghana every ten years for the next 50 years due to the melting?
+
+(b) What model(s) would you consider to study each of the following?  What data would you require?  Several require more than one mathematical model.  How would you integrate more than one such model?
+
+1. transmission, spread and control of infection
+2. epidemiological networks
+3. spatial (geographic) epidemiology
+4. persistence of pathogens within hosts
+5. virulence
+6. Strain (biology) structure and interactions
+7. antigenic shift (different strains/viruses combine)
+8. evolution and spread of resistance
+9. role of host genetic factors
+
+#####Part A – Review the 4 simple problems below, and use the questions we discussed to recommend a mathematical model. (for similary examples, see mathmodels.org)
 
 - Problem 1:
 
@@ -52,41 +111,7 @@ The solid lines of the (included) map represent paved two-lane county roads in a
 
 Assume that the trucks neither break down nor get stuck and that the road intersections require no special spraying techniques. Can you generalize this to any map?
 
-##Part B: Important Examples
-
-(a) Agent Based Models
-
-(Required reading in advance: (http://www.palgrave-journals.com/jos/journal/v4/n3/full/jos20103a.html))
-
-Go through example of ABM here: (https://www.binpress.com/tutorial/introduction-to-agentbased-models-an-implementation-of-schelling-model-in-python/144)
-
-
-- Problem
-
-Two companies provided electricity to consumers and businesses until 1997 when lawmakers de-regulated the electricity market, breaking up the monopolies and opening the market to many independent suppliers.  One such supplier asks you to model the change with an Agent Based Model in order to develop a strategy to optimize his company’s profits.  Answer these questions about your model from the reading. (From: https://www.iaee.org/documents/washington/Gale_Boyd.pdf)
-
-
-1.	What specific problem should be solved by the model? What specific questions should the model answer? What value-added would agent-based modeling bring to the problem that other modeling approaches cannot bring?
-2.	What should the agents be in the model? Who are the decision makers in the system? What are the entities that have behaviors? What data on agents are simply descriptive (static attributes)? What agent attributes would be calculated endogenously by the model and updated in the agents (dynamic attributes)?
-3.	What is the agents’ environment? How do the agents interact with the environment? Is an agent's mobility through space an important consideration?
-4.	What agent behaviors are of interest? What decisions do the agents make? What behaviors are being acted upon? What actions are being taken by the agents?
-5.	How do the agents interact with each other? With the environment? How expansive or focused are agent interactions?
-6.	Where might the data come from, especially on agent behaviors, for such a model?
-7.	How might you validate the model, especially the agent behaviors?
 Review: What software/programming language is best for Agent Based Models?  What are the advantages/disadvantages of your choice?
 
-##Part C: More Problems
 
-(a) Consider the effects on land from the melting of the north polar ice cap due to the predicted increase in global temperatures. How would you model the effects on the coast of Ghana every ten years for the next 50 years due to the melting?
-
-(b) What model(s) would you consider to study each of the following?  What data would you require?  Several require more than one mathematical model.  How would you integrate more than one such model?
-1. transmission, spread and control of infection
-2. epidemiological networks
-3. spatial (geographic) epidemiology
-4. persistence of pathogens within hosts
-5. virulence
-6. Strain (biology) structure and interactions
-7. antigenic shift (different strains/viruses combine)
-8. evolution and spread of resistance
-9. role of host genetic factors
-10. role and identification of infection reservoirs
+[Another](https://www.iaee.org/documents/washington/Gale_Boyd.pdf)
