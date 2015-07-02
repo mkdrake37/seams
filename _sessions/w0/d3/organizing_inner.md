@@ -4,6 +4,10 @@ title: Organizing inside Your Source - Best Practices, Separation of Concerns
 
 ## What & Why?
 
+Some examples to look at:
+[bad_code.py]({% include linkmunge.lq %}/bad_code.py)
+[less_bad_code.py]({% include linkmunge.lq %}/less_bad_code.py)
+
 ## Best practices
 Work with one other person to write a list of at least 10 "best practices,"
 based on at least three sources.  For each best practice, note whether it is
@@ -34,6 +38,8 @@ write any algorithms or mathematical equations.  For example, you don't need
 to figure out how pushing a button (or turning a dial or pulling a chain)
 changes the motor speed, but your interface should indicate that that
 functionality exists.
+
+[Example of a class diagram](http://web.gccaz.edu/~pbrown2/cis_225/projects/225P_Project_04_Class_Diagram_Auto_Shop.html)
 
 {% comment %}
 
