@@ -24,9 +24,9 @@ layout: compress
     </script>
 </head>
 <body>
-{% capture nav %}{% include nav.md %}{% endcapture %}{{ nav | markdownify }}
-<div class="content">
-  {% if page.collection %}
+{% capture nav %}{% include nav.md %}{% endcapture %}{{ nav | markdownify }}{% assign hasnav = page.collection and page.collection != "warmups" %}
+<div class="content{% if hasnav %} hasnav{% endif %}">
+  {% if hasnav %}
   {% capture topnav %}{% include topnav.liquid %}{% endcapture %}{{ topnav | markdownify }}
   {% endif %}
 {{ content }}

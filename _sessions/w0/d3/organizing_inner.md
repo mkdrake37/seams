@@ -2,6 +2,12 @@
 title: Organizing inside Your Source - Best Practices, Separation of Concerns
 ---
 
+## What & Why?
+
+Some examples to look at:
+[bad_code.py]({% include linkmunge.lq %}/bad_code.py)
+[less_bad_code.py]({% include linkmunge.lq %}/less_bad_code.py)
+
 ## Best practices
 Work with one other person to write a list of at least 10 "best practices,"
 based on at least three sources.  For each best practice, note whether it is
@@ -12,9 +18,13 @@ made sense.  What kinds of factors determine what "best practices" means?
 
 ## User interface and object design
 Draw and label the parts of two electric fans (the kind you cool yourself
-with).  For the first one, include the minimum number of functional parts--
+with).  
+
+For the first one, include the minimum number of functional parts--
 the simplest possible powered fan, if you were to put one together from minimal
-parts. For the second one, include things that would make it user-friendly,
+parts. 
+
+For the second one, include things that would make it user-friendly,
 something that might be sold in a store.
 
 ## Design a class structure
@@ -29,7 +39,9 @@ to figure out how pushing a button (or turning a dial or pulling a chain)
 changes the motor speed, but your interface should indicate that that
 functionality exists.
 
+[Example of a class diagram](http://web.gccaz.edu/~pbrown2/cis_225/projects/225P_Project_04_Class_Diagram_Auto_Shop.html)
 
+{% comment %}
 
 ## older content
 ## What are coding conventions or best practices?
@@ -85,3 +97,5 @@ Using functions to make work intellectually bite-sized.  Approaching organizatio
 in a way that minimizes how much you have to worry about at once.
 
 Regular refactoring: not just for optimization, but for organization.
+
+{% endcomment %}
