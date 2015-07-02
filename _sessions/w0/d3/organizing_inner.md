@@ -14,9 +14,13 @@ made sense.  What kinds of factors determine what "best practices" means?
 
 ## User interface and object design
 Draw and label the parts of two electric fans (the kind you cool yourself
-with).  For the first one, include the minimum number of functional parts--
+with).  
+
+For the first one, include the minimum number of functional parts--
 the simplest possible powered fan, if you were to put one together from minimal
-parts. For the second one, include things that would make it user-friendly,
+parts. 
+
+For the second one, include things that would make it user-friendly,
 something that might be sold in a store.
 
 ## Design a class structure
