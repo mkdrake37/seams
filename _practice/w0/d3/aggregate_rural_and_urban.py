@@ -4,7 +4,7 @@
 # disease time series data, and aggregates the disease incidence based on whether the
 # location was rural or urban.
 #
-# You will be making multiple changes to the code below.  Each time you make a 
+# You will be making multiple changes to the code below.  Each time you make a
 # substantial change, verify that you have not changed the output from the program.
 #
 # The Exercise:
@@ -17,7 +17,7 @@
 # of "magical" numbers.
 #
 # 3) Break the code up into functional units, and then turn those units into functions.
-# 
+#
 # 4) Write a class that can represent the input data in a useful way.  Create a parser
 # function in the class that takes a line of text from the file and returns structured
 # data that is useful and easy to understand.
