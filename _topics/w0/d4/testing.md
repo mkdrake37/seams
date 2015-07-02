@@ -1,54 +1,22 @@
 ---
-title: How to Verify and Validate Research Code as You Work
+title: Testing & Validation
 ---
-##References on software testing:
 
-##An introduction to software testing:
+Some references on software testing:
 
-http://agile.csc.ncsu.edu/SEMaterials/BlackBox.pdf
-
-##A general guide to testing in Python:
-
-http://docs.python-guide.org/en/latest/writing/tests/
-
-##A guide to unittest (PyUnit):
-
-http://www.drdobbs.com/testing/unit-testing-with-python/240165163
-
-http://pythontesting.net/framework/unittest/unittest-introduction/
-
-##A guide to pycharm:
-
-https://www.jetbrains.com/pycharm/quickstart/
-
-##Debugging in Pycharm
-
-https://www.jetbrains.com/pycharm/help/running-and-debugging.html
-
-https://www.jetbrains.com/pycharm/help/python-debugger.html
-
-https://www.jetbrains.com/pycharm/help/using-debug-console.html
-
-https://www.jetbrains.com/pycharm/help/stepping-through-the-program.html
-
-##A guide to debugging in Rstudio:
-
- https://support.rstudio.com/hc/en-us/articles/205612627-Debugging-with-RStudio
-
-##A guide to using testthat to debug in R:
-
-http://journal.r-project.org/archive/2011-1/RJournal_2011-1_Wickham.pdf
-
-##Thoughts on input validation:
-
-http://www.ibm.com/developerworks/library/l-sp2/
-
-##Some tests for randomness:
-
-http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.156.7149&rep=rep1&type=pdf
-
-
-
+ - [An introduction to software testing](http://agile.csc.ncsu.edu/SEMaterials/BlackBox.pdf)
+ - [A general guide to testing in Python](http://docs.python-guide.org/en/latest/writing/tests/)
+ - [A guide to `unittest` (PyUnit)](http://www.drdobbs.com/testing/unit-testing-with-python/240165163)
+ - [...and another](http://pythontesting.net/framework/unittest/unittest-introduction/)
+ - Some tricks with PyCharm:
+   * [running and debugging](https://www.jetbrains.com/pycharm/help/running-and-debugging.html)
+   * [python debugger](https://www.jetbrains.com/pycharm/help/python-debugger.html)
+   * [pycharm debug console](https://www.jetbrains.com/pycharm/help/using-debug-console.html)
+   * [stepping through program](https://www.jetbrains.com/pycharm/help/stepping-through-the-program.html)
+ - [Some tricks with Rstudio](https://support.rstudio.com/hc/en-us/articles/205612627-Debugging-with-RStudio)
+ - [using R package testthat](http://journal.r-project.org/archive/2011-1/RJournal_2011-1_Wickham.pdf)
+ - [thoughts on input validation](http://www.ibm.com/developerworks/library/l-sp2/)
+ - [Tests for randomness](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.156.7149&rep=rep1&type=pdf)
 
 ##Warmup discussion:
 
