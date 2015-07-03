@@ -18,3 +18,13 @@ consult your project advisor for assistance.
 
 Once you have a your simplest test down, try to satisfy it by writing project
 code.
+
+Then: Repeat!
+
+As always, you should keep track of your progress with version control.  Your basic cycle should be:
+
+ 1. write a test that *fails*
+ 2. `git add` + `git commit` + `git push` test
+ 3. write code that satisfies test
+ 4. `git add` + `git commit` + `git push` code
+ 5. return to start
