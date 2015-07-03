@@ -14,4 +14,4 @@ Read about [Agent Based Models](http://www.palgrave-journals.com/jos/journal/v4/
  6.	Where might the data come from, especially on agent behaviors, for such a model?
  7.	How might you validate the model, especially the agent behaviors?
 
-As part of answering these questions, see if you can get the code running.
+As part of answering these questions, see if you can get the code running.  Name your file SchellingModel.py. If you don't understand what a line of code does, use google or encode a test to figure it out.  Then comment the code with what you've learned.
