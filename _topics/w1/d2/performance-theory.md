@@ -1,8 +1,8 @@
 ---
-title: Performance, in Theory
+title: "Performance: Theory"
 ---
 
-# Overall question: 
+# Overall question:
 Which problems are difficult to solve and which are easy.
 This concept is above hardware: Moore’s law does not make difficult problems easy. Rather, some problems are intrinsically more difficult (probably).
 
@@ -16,14 +16,14 @@ Example:  Does a set of numbers have a subset which sums to zero? For the set {-
 
 Important, difficult problems: Are all NP problems actually in P?
 
-This is the overarching question to what problems can be solved quickly: P problems are often considered ‘doable problems,’ but improvements of a problem within P are very important. Poster child example: Fast Fourier Transform, used to quickly multiply polynomials, improves O(n^2) to O(n log n). 
+This is the overarching question to what problems can be solved quickly: P problems are often considered ‘doable problems,’ but improvements of a problem within P are very important. Poster child example: Fast Fourier Transform, used to quickly multiply polynomials, improves O(n^2) to O(n log n).
 
 Another example: Sorting, improvement from O(n^2) to O(n log n). But different sorting techniques are useful in different contexts. i.e. Mergesort when memory is not an issue and can parallelize, quicksort when do not care about stability.
 
 More specifically, we will consider instances when one problem reduces to another, how this gives upper/lower bounds on each problem, how that helps our designing of algorithms, and generally how we classify problems.
 
 
-# Data structures: 
+# Data structures:
 Picking the right data structure to suit purposes. During the day, we will focus on example problems and consider what would be the good solutions given the data structures. Some will be using the data structures (ex. how do you find if a linked list has a loop?) to what would be a good data structure for our problem (ex. given a set of fixed points in the plane, which point is closest to a given moveable point?) This section will go by fast if you are not well acquianted with the data structures beforehand. It would be good to know the operations, the speed for some implementations, and an understanding of how it is implemented for the following:
 
 1. Array
@@ -65,10 +65,10 @@ Resources: https://www.cs.cmu.edu/~adamchik/15-121/lectures/Sorting%20Algorithms
 
 http://www.sorting-algorithms.com/
 
-# Graph Problems: 
+# Graph Problems:
 Many problems show up as graph problems. Finding minimum spanning trees, max flow / min cut, shortest paths. Some important algorithms, some of which we will go over: Depth first and breadth first search, Prim, Dijkstra, Kruskal, Bellman-Ford. During the day we will go through some interesting problems with graph representations and use some of the above algorithms to solve them. Some examples might be: Seam Carving pictures for photo editing, finding the your way out of a maze, etc.
 
-# RegExp: 
+# RegExp:
 Important for webcrawling and searching through text is regular expressions: What type of strings can and cant be found by regular expressions / nondeterministic finite automaton. We will go over some uses.
 
 You should have some fimiliarity with RE first, before thinking about them theoretically: http://www.python-course.eu/re.php
@@ -76,7 +76,7 @@ You should have some fimiliarity with RE first, before thinking about them theor
 # Parallelizing
 Some problems can take advantage of multiple processors. Although distinct from the idea of P vs NP, this concept can quickly make a problem more manageable. Throughout we will keep an eye on when parallelization is possible, and bring up some very important instances.
 
-# Random algorithms: 
+# Random algorithms:
 We will go over some probabilistic methods. Monte Carlo, IsPrime, Quick sort, verifying some output by random selection.
 
 

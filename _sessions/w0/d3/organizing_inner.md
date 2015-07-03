@@ -5,8 +5,8 @@ title: Organizing inside Your Source - Best Practices, Separation of Concerns
 ## What & Why?
 
 Some examples to look at:
-[bad_code.py]({% include linkmunge.lq %}/bad_code.py)
-[less_bad_code.py]({% include linkmunge.lq %}/less_bad_code.py)
+ - [bad_code.py]({% include linkmunge.lq %}/bad_code.py)
+ - [less_bad_code.py]({% include linkmunge.lq %}/less_bad_code.py)
 
 ## Best practices
 Work with one other person to write a list of at least 10 "best practices,"
@@ -15,6 +15,33 @@ something you should always, sometimes, or never do.  If sometimes, why only
 sometimes?  If never--and there are some old best practices that are now
 widely regarded as bad practices--try to understand why in some context they
 made sense.  What kinds of factors determine what "best practices" means?
+
+## Our list of best practices
+
+ - Choose resourceful data types to minimize memory use
+ - Consistent naming scheme
+ - Comment your code
+ - Consistent indentation
+ - Avoid hard-coding system values
+ - Keep it simple
+ - Make and use tests
+ - Provide working examples
+ - Refactor your code as necessary
+ - Avoid deep-nesting
+ - Avoid copypasta--write functions!
+ - Functions should have a single, coherent purpose
+ - Functions should fit on the screen
+ - Avoid really long lines of code
+ - Use syntax highlighting
+ - Adopt and use standards, especially in a team
+
+## Separations of concerns
+ - whitespace
+ - functions
+ - classes
+ - files
+ - directories
+ - projects
 
 ## User interface and object design
 Draw and label the parts of two electric fans (the kind you cool yourself
