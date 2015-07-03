@@ -30,7 +30,7 @@ title: Modeling in Code
  13. What does it model well?  What does it model poorly?
  14. What would you use an ABM for?
 
-### Slightly longer Exercise:
+### Exercise:
 
 Recall the [Agent Based Model of Racial Segregation in NYC](https://www.binpress.com/tutorial/introduction-to-agentbased-models-an-implementation-of-schelling-model-in-python/144)
 
