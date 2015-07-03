@@ -24,7 +24,7 @@ world.
 | Tue | [Workshop Overview](warmup/overview/) | {% include sess_link.md which=0 %} | {% include prac_link.md which=0 %} |   {% include proj_link.md which=0 %}   |
 | Wed |      [Git Tutorial](warmup/git/)      | {% include sess_link.md which=1 %} | {% include prac_link.md which=1 %} |   {% include proj_link.md which=1 %}   |
 | Thu |     [Puzzling](warmup/puzzling/)      | {% include sess_link.md which=2 %} | {% include prac_link.md which=2 %} |   {% include proj_link.md which=2 %}   |
-| Fri |                                       | {% include sess_link.md which=3 %} | {% include prac_link.md which=3 %} |   {% include proj_link.md which=3 %}   |
+| Fri |  [Test an Instructor](warmup/test/)   | {% include sess_link.md which=3 %} | {% include prac_link.md which=3 %} |   {% include proj_link.md which=3 %}   |
 | Mon |                  SQL                  | {% include sess_link.md which=4 %} | {% include prac_link.md which=4 %} |   {% include proj_link.md which=4 %}   |
 | Tue |     [Agents in NYC](warmup/abm/)      | {% include sess_link.md which=5 %} | {% include prac_link.md which=5 %} |   {% include proj_link.md which=5 %}   |
 | Wed |             O(n) analysis             | {% include sess_link.md which=6 %} | {% include prac_link.md which=6 %} |   {% include proj_link.md which=6 %}   |
