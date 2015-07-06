@@ -1,5 +1,5 @@
 ---
-title: How to Verify and Validate Research Code as You Work
+title: TDD Your Project
 ---
 During this time, we will identify capabilities you will need to provide in your
 project and write tests for your *future* code.
