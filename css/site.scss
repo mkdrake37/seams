@@ -175,7 +175,7 @@ $logowid: 143px + $bodybdwid;
   &.hasnav {
     padding-top:1em;
   }
-  
+
   > * {
     margin-left: 1%;
   }
@@ -256,7 +256,7 @@ blockquote > p {
   font-style: italic;
 }
 
-.schedule {
+.schedule, .shootout {
   background-color: #303030;
   border-collapse: collapse;
   th, td {
