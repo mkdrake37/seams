@@ -1,5 +1,5 @@
 ---
-title: IO - Why, What, When, Where, and sometimes How
+title: IO - Building a football database
 ---
 
 The goal:
@@ -11,7 +11,8 @@ know how to do it, or you will need to use a search engine extensively!
 
 Rough outline:
 This website has links to team pages with match outcomes:
-http://www.whatsthescore.com/football/ghana/ghana-premier-league/teams.html
+[http://www.whatsthescore.com/football/ghana/ghana-premier-league/teams.html]
+(http://www.whatsthescore.com/football/ghana/ghana-premier-league/teams.html)
 
 Write a program that fetches the content from that page and extracts the links
 to the team pages.
