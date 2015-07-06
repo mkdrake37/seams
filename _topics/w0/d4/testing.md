@@ -17,3 +17,4 @@ Some references on software testing:
  - [using R package testthat](http://journal.r-project.org/archive/2011-1/RJournal_2011-1_Wickham.pdf)
  - [thoughts on input validation](http://www.ibm.com/developerworks/library/l-sp2/)
  - [Tests for randomness](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.156.7149&rep=rep1&type=pdf)
+ - [Thinking a bit about what testing means.](http://www.nytimes.com/interactive/2015/07/03/upshot/a-quick-puzzle-to-test-your-problem-solving.html)
